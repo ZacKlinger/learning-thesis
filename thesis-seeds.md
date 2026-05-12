@@ -17,6 +17,9 @@ Schools settled into their current shape out of historical constraint, not becau
 ### 3. Augmentation, not efficiency
 The framing battle. "Efficiency" in education usually means doing the existing thing faster, which entrenches it. "Augmentation" means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line.
 
+### 4. History rhymes — what would have to be true for this wave to be different?
+Every prior wave of technology in education (cinema, radio, television, programmed-instruction machines, classroom computers, MOOCs) was introduced with very similar optimistic rhetoric, and most failed to change what actually happens in schools. Cuban's historical record is the steelman the optimistic case has to clear: if the pattern is "hype, modest adoption, absorption into the existing grammar of schooling, disappointment," then the burden is on showing what is structurally different this time. Not whether AI is different in capability — *every* prior wave was different in capability — but whether the *adoption pathway* into ambitious learning is different. This thread holds the others honest.
+
 ## What I don't yet know
 
 - How these threads connect into one argument vs. three.

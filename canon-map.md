@@ -245,6 +245,82 @@ The living map of monumental works across three layers. Each entry should link t
 
 ---
 
+## Tech cycles in education (cross-cutting)
+
+A fourth thematic layer added 2026-05-12, supporting thesis-seed #4. Entries here are mostly historical or media-ecological — they document the pattern that every prior wave of educational technology followed. They are the load-bearing steelman against "this time is different" claims, including ones the thesis seeds make implicitly. Several entries cross-list (Tyack & Cuban 1995 is already in the visionary/historical canon; Cuban appears in practitioner-historian mode here).
+
+### [Cuban 1986] Teachers and Machines: The Classroom Use of Technology Since 1920
+- Layer: historical / empirical (practitioner-historian)
+- Why monumental: The foundational historical text on the hype-adoption-disappointment cycle. Documents cinema, radio, television, and computers — each introduced with comparable optimistic rhetoric, each largely absorbed or rejected. The base rate any optimistic AI-in-education thesis has to argue *against*.
+- Read status: queued
+- Source note: —
+- Relates to: Cuban (2001); Tyack & Cuban (1995); Watters (2021).
+
+### [Cuban 2001] Oversold and Underused: Computers in the Classroom
+- Layer: historical / empirical
+- Why monumental: The post-PC-era follow-up to *Teachers and Machines*. Documents the gap between technology access and instructional change: high investment, real availability, modest impact on what teachers actually do.
+- Read status: queued
+- Source note: —
+
+### [Watters 2021] Teaching Machines: The History of Personalized Learning
+- Layer: historical
+- Why monumental: The most recent canonical history of "personalized learning" — tracing the lineage from Pressey's testing machine (1920s) through Skinner's teaching machines (1950s–60s) through the computer-assisted instruction movement to today's adaptive-learning platforms. The pattern is the point.
+- Read status: queued
+- Source note: —
+
+### [Reiser 2001] A History of Instructional Design and Technology: Part I: A History of Instructional Media
+- Layer: historical (field survey)
+- Why monumental: The standard field-survey paper covering the historical waves. Useful as a map; lighter on critique than Cuban or Watters.
+- Read status: queued
+- Source note: —
+
+### [Saettler 1990] The Evolution of American Educational Technology
+- Layer: historical (reference)
+- Why monumental: Dense, comprehensive reference history through the late 20th century. Useful for primary-source citation chains, less for synthesis.
+- Read status: queued
+- Source note: —
+
+### [Postman 1992] Technopoly: The Surrender of Culture to Technology
+- Layer: visionary / media-ecology critique
+- Why monumental: The strongest articulation of the media-ecology argument that each new dominant medium reorganizes thought, often invisibly and at cost. Direct challenge to "augmentation" framings that treat tools as neutral.
+- Read status: queued
+- Source note: —
+- Relates to: Postman (1985) *Amusing Ourselves to Death*; Selwyn (2016).
+
+### [Skinner 1958] Teaching Machines
+- Layer: visionary / primary document
+- Why monumental: The original empirical-and-philosophical case for programmed instruction by machine. A primary document of one of the past waves. Read against contemporary AI-tutoring claims, the structural similarity is the point.
+- Read status: queued
+- Source note: —
+
+### [Edison 1922] Public statements on cinema as educational medium
+- Layer: primary document / hype anchor
+- Why monumental: Edison's "I believe that the motion picture is destined to revolutionize our educational system and that in a few years it will supplant largely, if not entirely, the use of textbooks" is the most-quoted historical example of the hype-then-disappointment pattern. Need the actual sourced quote, not the floating-around-the-internet version.
+- Read status: queued
+- Source note: —
+
+### [Pappano 2012] "The Year of the MOOC"
+- Layer: primary document / contemporary hype
+- Why monumental: The *New York Times* article that crystallized MOOC hype. Read paired with the academic literature on actual MOOC completion rates and the platform pivots that followed.
+- Read status: queued
+- Source note: —
+
+### [Selwyn 2016] Is Technology Good for Education?
+- Layer: critical / contemporary
+- Why monumental: The most prominent contemporary critical-edtech scholar's compact statement of the case. Useful counter-voice in the present.
+- Read status: queued
+- Source note: —
+
+### [Christensen, Horn & Johnson 2008] Disrupting Class
+- Layer: practitioner / theoretical
+- Why monumental: The disruption-theory case applied to schooling — the framework many AI-in-education optimists implicitly use. Worth reading because the theory has aged unevenly; its predictions about K-12 are mostly testable now and many have not borne out.
+- Read status: queued
+- Source note: —
+
+(Cross-listed: Tyack & Cuban (1995) *Tinkering Toward Utopia* — already in the visionary section — is core for this thread too.)
+
+---
+
 ## Notes for Zack
 
 - This is a v1 proposal, not a settled list. Add, cut, or reorder.
