@@ -131,12 +131,18 @@ Each Saturday run does these things in order:
 
 ### Working around the outbound-network restriction
 
-The autonomous agent's container blocks outbound HTTP to most primary-source hosts (Wikipedia, archive.org, papert.org, monoskop.org, university PDF mirrors). github.com is reachable. The agreed workaround:
+The autonomous agent's container blocks outbound HTTP to most primary-source hosts (Wikipedia, archive.org, papert.org, monoskop.org, university PDF mirrors). github.com is reachable. The pipeline that gets primary sources into the agent's hands:
 
-- **`sources-raw/`** is the contract directory. Zack commits primary-source files there (PDF, text, HTML). Anything committed to the repo is readable by the agent.
-- On each Saturday run, the agent inventories `sources-raw/` (via the SessionStart hook), reads any new files, and produces verified `sources/AUTHOR-YEAR-shortname.md` notes with verbatim quotes. The `claim-evidence/` threads get seeded from those quotes.
-- If the file cannot be parsed (scanned image with no OCR layer, corrupted, unsupported encoding), the agent records that as a blocker rather than guessing. Provide OCR'd / text-extracted versions where possible.
-- See `sources-raw/README.md` for the full contract, including filename conventions and the priority of which works to drop in first.
+1. **`sources-wishlist.txt`** at the repo root lists what to fetch. Each line: `<filename> <url>`. The agent appends to this file when it needs a new source; Zack can also add lines manually.
+2. **`.github/workflows/fetch-sources.yml`** is a GitHub Actions workflow that runs on every push touching the wishlist (and weekly on Friday as a safety net). It fetches each URL from github.com infrastructure (which has unrestricted internet), writes the bytes to `sources-raw/<filename>`, commits, and pushes back to `main`. Failures are logged in the Actions run but never block the workflow. **One-time install required** (the autonomous PAT lacks `workflow` scope): see `bootstrap/README.md` — a single `git mv` + push from Zack's machine installs it.
+3. **`sources-raw/`** holds the fetched files. The agent reads from this directory and produces verified `sources/AUTHOR-YEAR-shortname.md` notes with verbatim quotes. The `claim-evidence/` threads get seeded from those quotes.
+
+The agent's job per Saturday: read what's in `sources-raw/`, add new wishlist entries for sources it needs next, commit + push. The fetcher workflow handles the rest before the next session.
+
+Constraints to respect:
+- If a fetched file cannot be parsed (scanned image with no OCR layer, corrupted, unsupported encoding), the agent records that as a blocker, demotes the source to `leads/`, and finds an alternate mirror to add to the wishlist.
+- If a wishlist URL persistently fails (logged in the Actions run as `! <filename> FAILED`), the agent demotes it to `leads/` and replaces the wishlist line with a working mirror.
+- See `sources-raw/README.md` for filename conventions and the parsing rules.
 
 ### Harness signing workaround
 

@@ -1,0 +1,22 @@
+# sources-wishlist.txt
+#
+# Driver for the fetch-sources GitHub Actions workflow.
+# Each non-blank, non-comment line: <filename> <url>
+# The workflow downloads <url> to sources-raw/<filename> if missing, commits
+# the result, and pushes. The agent then reads sources-raw/ on the next run.
+#
+# Format rules:
+#   - Filename must not contain a slash (sandboxed to sources-raw/).
+#   - Suggested filename convention: AUTHOR-YEAR-shortname.ext
+#   - Prefer URLs that return the raw bytes (PDF, plain text, HTML), not pages
+#     that require JavaScript to render content.
+#   - URLs that have rotted will be logged in the Actions run; the agent
+#     should demote them to a leads/ note and find an alternate mirror.
+#
+# Priority sources (per queue.md):
+
+Kirschner-Sweller-Clark-2006-minimal-guidance.pdf https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/KirschnerSweller2006.pdf
+Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.pdf https://www.tandfonline.com/doi/pdf/10.1080/00461520701263368
+Dewey-1897-pedagogic-creed.pdf https://ia801308.us.archive.org/23/items/MyPedagogicCreed/JohnDeweyMyPedagogicCreed1897.pdf
+Papert-1980-gears-of-my-childhood.html http://www.papert.org/articles/GearsOfMyChildhood.html
+Illich-1971-deschooling-society.pdf https://monoskop.org/images/1/17/Illich_Ivan_Deschooling_Society.pdf
