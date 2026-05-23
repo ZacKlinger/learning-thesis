@@ -13,22 +13,51 @@
 #   - URLs that have rotted will be logged in the Actions run; the agent
 #     should demote them to a leads/ note and find an alternate mirror.
 #
+# Failure modes the agent has observed (2026-05-23):
+#   - curl --fail accepts an HTML landing page returned with HTTP 200 as a
+#     successful fetch (Springer link.springer.com, AEAweb aeaweb.org). The
+#     bytes are not the PDF — the page has a JS-rendered download button.
+#     For these, the line is COMMENTED OUT below and the source is demoted
+#     to leads/ pending a working raw-PDF mirror.
+#   - Hosts behind a cookie wall, paywall, or aggressive bot detection
+#     (NYT, Taylor & Francis on Hmelo-Silver, bfskinner.org on the Skinner
+#     1958/1954 papers) appear to have returned 4xx and were logged as
+#     FAILED in the Actions run.
+#
 # Priority sources (per queue.md):
 
 Kirschner-Sweller-Clark-2006-minimal-guidance.pdf https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/KirschnerSweller2006.pdf
-Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.pdf https://www.tandfonline.com/doi/pdf/10.1080/00461520701263368
 Dewey-1897-pedagogic-creed.pdf https://ia801308.us.archive.org/23/items/MyPedagogicCreed/JohnDeweyMyPedagogicCreed1897.pdf
 Papert-1980-gears-of-my-childhood.html http://www.papert.org/articles/GearsOfMyChildhood.html
 Illich-1971-deschooling-society.pdf https://monoskop.org/images/1/17/Illich_Ivan_Deschooling_Society.pdf
 
+# Hmelo-Silver, Duncan & Chinn 2007 — the published rejoinder to KSC 2006.
+# Top priority per queue.md; protocol says read alongside KSC, not after.
+# First URL (Tandfonline direct PDF) did not deliver in 2026-05-12's run.
+# Trying a Rutgers institutional mirror; if this also fails, try the Indiana
+# University author page; failing that, demote and ask Zack to obtain.
+Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.pdf https://www.aft.org/sites/default/files/Hmelo-Silver.pdf
+
 # --- Tech-cycles thread (thesis seed #4) ---
 # Most of the canonical books (Cuban, Watters, Postman) are paywalled and
-# need to be obtained another way; the agent will record them as leads.
-# Below are the freely-available primary documents and survey papers.
+# need to be obtained another way; the agent records them as leads.
 
-Skinner-1958-teaching-machines.pdf https://www.bfskinner.org/wp-content/uploads/2014/02/Teaching-Machines.pdf
-Skinner-1954-science-of-learning.pdf https://www.bfskinner.org/wp-content/uploads/2014/02/ScienceOfLearning.pdf
-Reiser-2001-history-of-instructional-media.pdf https://link.springer.com/content/pdf/10.1007/BF02504506.pdf
-Pappano-2012-year-of-the-mooc.html https://www.nytimes.com/2012/11/04/education/edlife/massive-open-online-courses-are-multiplying-at-a-rapid-pace.html
+# Skinner 1958 / 1954 — bfskinner.org URLs did not deliver in 2026-05-12's
+# run. Retry with the Internet Archive mirrors; demote if these also fail.
+Skinner-1958-teaching-machines.pdf https://web.archive.org/web/2022/https://www.bfskinner.org/wp-content/uploads/2014/02/Teaching-Machines.pdf
+Skinner-1954-science-of-learning.pdf https://web.archive.org/web/2022/https://www.bfskinner.org/wp-content/uploads/2014/02/ScienceOfLearning.pdf
+
 Jordan-2014-mooc-completion-rates.pdf https://www.irrodl.org/index.php/irrodl/article/download/1651/2813
-Cristia-et-al-2017-OLPC-peru-rct.pdf https://www.aeaweb.org/articles?id=10.1257/app.20150385
+
+# --- COMMENTED OUT (returned HTML landing page, not the PDF; demoted to leads) ---
+# Reiser-2001-history-of-instructional-media.pdf https://link.springer.com/content/pdf/10.1007/BF02504506.pdf
+#   ^ Springer "content/pdf" URL serves a JS-rendered article page, not raw PDF bytes.
+#   Need a working mirror — possibly an FSU institutional repository copy or
+#   ERIC ID ED459668 / EJ630498. See leads/tech-cycles-in-education-leads.md.
+# Cristia-et-al-2017-OLPC-peru-rct.pdf https://www.aeaweb.org/articles?id=10.1257/app.20150385
+#   ^ AEAweb "articles?id=" URL serves a JS-rendered landing page.
+#   The NBER working paper version (Cristia et al., NBER WP 18610, 2012) may
+#   be a viable raw PDF mirror. See leads/tech-cycles-in-education-leads.md.
+# Pappano-2012-year-of-the-mooc.html https://www.nytimes.com/2012/11/04/education/edlife/massive-open-online-courses-are-multiplying-at-a-rapid-pace.html
+#   ^ NYT paywall + JS gate. Either Zack supplies the text or the thread
+#   quotes it second-hand (Jordan 2014 cites it on p. 134). Demoted to leads.
