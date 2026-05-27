@@ -2,15 +2,20 @@
 
 Prioritized list of next work. The Saturday routine works from the top.
 
-## Next up
+## Done in 2026-05-12 working session
+- KSC 2006, Papert 1980 (foreword), Dewey 1897, Illich 1971 — read, source notes written, claim-evidence threads seeded.
+- Reiser 2001, Cristia 2017 — demoted to leads; wishlist URLs returned publisher landing pages, not the article PDFs.
 
-1. **Read Kirschner, Sweller & Clark (2006).** Steelman first. Produce `sources/Kirschner-Sweller-Clark-2006-minimal-guidance.md` with verbatim quotes. Seed counter-evidence in `claim-evidence/augmentation-not-efficiency.md` before any supporting evidence enters.
-2. **Read Hmelo-Silver, Duncan & Chinn (2007).** The published rejoinder to KSC. Read alongside, not after.
-3. **Read Skinner (1958) "Teaching Machines"** as the first text in the tech-cycles thread. A primary document of the past wave that most resembles current AI-tutoring rhetoric. Seed `claim-evidence/tech-cycles-in-education.md` with the structural-similarity argument and the counter-argument.
-4. **Read Reiser (2001) "A History of Instructional Design and Technology: Part I."** Cheaper, lighter survey paper to anchor the historical map before tackling Cuban or Watters.
-5. **Read Dewey (1897) "My Pedagogic Creed" and Papert (1980) "The Gears of My Childhood."** Shortest, most-quoted texts in the visionary layer. Establish the verification ritual on small documents before scaling up.
-6. **Read Pappano (2012) "Year of the MOOC" + Jordan (2014) MOOC completion rates as a paired hype/result reading.** Anchors the most recent prior wave's evidence base.
-7. **Open `sources/` notes for each of the above.** Verbatim quotes only.
+## Next up (top priority)
+
+1. **Read Hmelo-Silver, Duncan & Chinn (2007)** — the published rejoinder to KSC. Already fetched in `sources-raw/`. Produce source note, then add to the augmentation thread as a partial defense against KSC's lumping. **This is the highest-priority next read** because the augmentation thread currently has KSC as the only empirical voice, and KSC without HSDC is the same one-sided reading the field has been accused of.
+2. **Find working mirrors for Reiser 2001 and Cristia 2017.** Replace the `<NEEDS-WORKING-MIRROR>` markers in `sources-wishlist.txt`. Candidate sources: Reiser → FSU faculty page or ResearchGate; Cristia → IDB Working Paper Series for the working-paper version. Zack may have institutional access that would solve this in one step.
+3. **Read Skinner (1958) "Teaching Machines"** + Skinner (1954) "The Science of Learning and the Art of Teaching" — both fetched. The two primary documents of the 1950s teaching-machine wave. Most relevant to the tech-cycles thread, especially the question of whether contemporary AI-tutoring rhetoric repeats Skinner's framing.
+4. **Read Pappano (2012) + Jordan (2014)** — paired hype/result reading on MOOCs, the most recent prior wave. Both fetched.
+5. **Add Lemov (2010) *Teach Like a Champion* to the wishlist** — the strongest practitioner counter to the teacher-agency thread's seed claim. Currently the thread's counter-evidence section is empty.
+6. **Add Hirsch (1987) *Cultural Literacy* and Tyack & Cuban (1995) *Tinkering Toward Utopia* to the wishlist** — the two pending counter-anchors for the ambition-over-complacency thread.
+
+## Backlog
 
 ## Standing items (every Saturday)
 

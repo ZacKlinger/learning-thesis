@@ -11,8 +11,8 @@ The living map of monumental works across three layers. Each entry should link t
 ### [Kirschner, Sweller & Clark 2006] Why Minimal Guidance During Instruction Does Not Work
 - Layer: empirical
 - Why monumental: The canonical critique of constructivist / discovery / problem-based / inquiry teaching. Anchors the cognitive-load-theory counter-argument that any "ambitious learning" thesis must steelman.
-- Read status: queued
-- Source note: —
+- Read status: **read** (2026-05-12)
+- Source note: [Kirschner-Sweller-Clark-2006-minimal-guidance](sources/Kirschner-Sweller-Clark-2006-minimal-guidance.md)
 - Relates to: Papert (1980); Bransford et al. (2000); Sweller (1988); Hmelo-Silver, Duncan & Chinn (2007) — the published rejoinder.
 
 ### [Bransford, Brown & Cocking, eds. 2000] How People Learn: Brain, Mind, Experience, and School (NRC)
@@ -96,8 +96,8 @@ The living map of monumental works across three layers. Each entry should link t
 ### [Dewey 1897] My Pedagogic Creed
 - Layer: visionary
 - Why monumental: The shortest distillation of Dewey's view of school as social institution and the teacher as a member of a community. Foundational for any "teacher agency" thread.
-- Read status: queued
-- Source note: —
+- Read status: **read** (2026-05-12)
+- Source note: [Dewey-1897-pedagogic-creed](sources/Dewey-1897-pedagogic-creed.md)
 - Relates to: Dewey (1916); Dewey (1938).
 
 ### [Dewey 1916] Democracy and Education
@@ -139,9 +139,10 @@ The living map of monumental works across three layers. Each entry should link t
 ### [Papert 1980] Mindstorms: Children, Computers, and Powerful Ideas
 - Layer: visionary
 - Why monumental: The most ambitious argument that computers enable kinds of learning previously impossible — the original positive vision for tech in education that Zack's thesis stands in lineage with. Also the canonical foil for the cognitive-load critique.
-- Read status: queued
-- Source note: —
+- Read status: **excerpted** (2026-05-12; foreword only — "The Gears of My Childhood")
+- Source note: [Papert-1980-gears-of-my-childhood](sources/Papert-1980-gears-of-my-childhood.md)
 - Relates to: Kirschner, Sweller & Clark (2006); Papert (1993).
+- Note: only the foreword is in `sources-raw/`. The body of *Mindstorms* (Logo evaluations, transitional-object theory, programming as expressive medium) is still unread.
 
 ### [Papert 1993] The Children's Machine: Rethinking School in the Age of the Computer
 - Layer: visionary
@@ -151,9 +152,9 @@ The living map of monumental works across three layers. Each entry should link t
 
 ### [Illich 1971] Deschooling Society
 - Layer: visionary
-- Why monumental: The strongest case that institutional schooling itself is the problem — conflates teaching with learning, credentialing with competence. Steelman threat to any "improve school with AI" framing.
-- Read status: queued
-- Source note: —
+- Why monumental: The strongest case that institutional schooling itself is the problem — conflates teaching with learning, credentialing with competence. Steelman threat to any "improve school with AI" framing. *Also* — and this is the surprising find — the closest visionary precursor to the optimistic-AI argument: Ch. 6's "learning webs" describe peer-matching, skill exchanges, and educational entitlements decades before the network technology existed to build them.
+- Read status: **read** (2026-05-12; full text, all 7 chapters)
+- Source note: [Illich-1971-deschooling-society](sources/Illich-1971-deschooling-society.md)
 
 ### [Freire 1970] Pedagogy of the Oppressed
 - Layer: visionary
@@ -271,7 +272,7 @@ A fourth thematic layer added 2026-05-12, supporting thesis-seed #4. Entries her
 ### [Reiser 2001] A History of Instructional Design and Technology: Part I: A History of Instructional Media
 - Layer: historical (field survey)
 - Why monumental: The standard field-survey paper covering the historical waves. Useful as a map; lighter on critique than Cuban or Watters.
-- Read status: queued
+- Read status: **demoted to lead** (2026-05-12) — wishlist URL returned a Springer Nature landing page, not the article PDF. See `leads/tech-cycles-in-education-leads.md`. Needs a working mirror.
 - Source note: —
 
 ### [Saettler 1990] The Evolution of American Educational Technology
