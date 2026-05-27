@@ -33,10 +33,11 @@ Illich-1971-deschooling-society.pdf https://monoskop.org/images/1/17/Illich_Ivan
 
 # Hmelo-Silver, Duncan & Chinn 2007 — the published rejoinder to KSC 2006.
 # Top priority per queue.md; protocol says read alongside KSC, not after.
-# First URL (Tandfonline direct PDF) did not deliver in 2026-05-12's run.
-# Trying a Rutgers institutional mirror; if this also fails, try the Indiana
-# University author page; failing that, demote and ask Zack to obtain.
-Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.pdf https://www.aft.org/sites/default/files/Hmelo-Silver.pdf
+# Tandfonline direct PDF (2026-05-12) and AFT mirror (2026-05-23 retry) both
+# failed. The SFU course mirror below was HEAD-verified on 2026-05-27:
+# Content-Type: application/pdf, 98194 bytes, Last-Modified 2009. It is the
+# same J.C. Nesbit course directory that already served the KSC PDF.
+Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.pdf https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/HmeloSilverDuncan2007.pdf
 
 # --- Tech-cycles thread (thesis seed #4) ---
 # Most of the canonical books (Cuban, Watters, Postman) are paywalled and
