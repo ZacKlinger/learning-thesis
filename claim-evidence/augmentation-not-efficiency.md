@@ -2,7 +2,7 @@
 
 Thesis-seed v1: *"'Efficiency' in education usually means doing the existing thing faster, which entrenches it. 'Augmentation' means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line."*
 
-**Status (2026-05-12):** Empty. Opened during the first Saturday run. No claims have entered this thread because the agent's environment cannot retrieve the primary sources required for verbatim quotation. See `digests/2026-05-12.md` for the access blocker. Candidate supporting and counter-positions are tracked in `leads/augmentation-not-efficiency-leads.md` until a source can be read and quoted.
+**Status (2026-05-12, second pass):** First verified claims entered. KSC 2006 is now in as the counter-anchor (the steelman against the augmentation frame). Papert 1980 is in as the visionary supporting position. Hmelo-Silver et al. 2007 (the rejoinder to KSC) and the Bloom 2-sigma / VanLehn 2011 literature are still pending — both queued for next session.
 
 This is the thread most exposed to steelman risk. Two strong counter-positions need to be engaged early, not late:
 
@@ -13,13 +13,22 @@ The thread should not advance until both are read and represented.
 
 ---
 
-## Claim: <pending — to be written when first verified source is read>
+## Claim: For novice learners, direct guided instruction is empirically superior to discovery/inquiry/PBL/constructivist approaches.
+
+This is the KSC 2006 thesis. It is the load-bearing counter-claim the "augmentation" frame has to engage. Entered first per protocol — counter-anchor before any supporting claim.
 
 ### Supporting evidence
-- *(none yet — claims require a verbatim quote, source URL, and access date per protocol)*
+- *(none yet for this claim — it is itself the counter-anchor)*
 
-### Counter-evidence
-- *(none yet — but Kirschner/Sweller/Clark 2006 and the Bloom 2-sigma literature are the two counter-anchors that must be filled in first)*
+### Counter-evidence (i.e., evidence *for* the augmentation frame, against KSC)
+- "What the gears cannot do the computer might. The computer is the Proteus of machines. Its essence is its universality, its power to simulate." — [Papert 1980](../sources/Papert-1980-gears-of-my-childhood.md) — layer: visionary. (Papert's argument is that the computer enables a *kind* of learning — falling in love with a transitional object that connects sensorimotor and abstract knowledge — that no curriculum-delivery model captures. KSC dismiss Papert by lumping him into "inquiry learning," p. 75. The dismissal flattens the actual claim.)
+- "If any 'scientific' educational psychologist had tried to 'measure' the effects of this encounter [with gears], he would probably have failed. It had profound consequences but, I conjecture, only very many years later. A 'pre- and post-' test at age two would have missed them." — [Papert 1980](../sources/Papert-1980-gears-of-my-childhood.md) — layer: visionary. (Papert's challenge to the KSC empirical frame: the outcomes that matter for the augmentation case are not the ones short-horizon experiments measure.)
+
+### Supporting evidence (for KSC 2006 — the counter-anchor)
+- "Although unguided or minimally guided instructional approaches are very popular and intuitively appealing, the point is made that these approaches ignore both the structures that constitute human cognitive architecture and evidence from empirical studies over the past half-century that consistently indicate that minimally guided instruction is less effective and less efficient than instructional approaches that place a strong emphasis on guidance of the student learning process." — [Kirschner, Sweller & Clark 2006](../sources/Kirschner-Sweller-Clark-2006-minimal-guidance.md), abstract p. 75 — layer: empirical
+- "The aim of all instruction is to alter long-term memory. If nothing has changed in long-term memory, nothing has been learned." — [KSC 2006](../sources/Kirschner-Sweller-Clark-2006-minimal-guidance.md), p. 77 — layer: empirical. (Definitional claim. The augmentation thread either accepts this and lives in the gap KSC concede about expertise reversal, or rejects it and must offer an alternative definition of learning that defends transfer/agency/motivation as comparable evidence.)
+- "For novices, studying worked examples seems invariably superior to discovering or constructing a solution to a problem." — [KSC 2006](../sources/Kirschner-Sweller-Clark-2006-minimal-guidance.md), p. 80 — layer: empirical
+- "The advantage of guidance begins to recede only when learners have sufficiently high prior knowledge to provide 'internal' guidance." — [KSC 2006](../sources/Kirschner-Sweller-Clark-2006-minimal-guidance.md), abstract p. 75 — layer: empirical. (**Important:** This concession is where the optimistic-AI case may live. AI tutoring that builds the prior-knowledge floor cheaply opens the room for the kinds of inquiry/project work KSC's evidence rules out for novices.)
 
 ### Open questions
 - What is the cleanest operational definition of "previously impossible learning"? Without one, the augmentation/efficiency distinction collapses into rhetoric.
