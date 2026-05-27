@@ -55,37 +55,81 @@ SEED_TITLES = {
 }
 
 
-def build_seed_nodes() -> list[dict]:
-    return [
-        {
-            "id": f"seed:{slug_id}",
-            "label": title,
-            "type": "seed",
-            "layer": "thesis",
-            "path": "thesis-seeds.md",
-        }
-        for slug_id, title in SEED_TITLES.items()
-    ]
+# --- Thesis-seed framings (collapsed into their thread nodes; no separate seed node)
+
+SEED_TITLES = {
+    "teacher-agency": "Teacher agency",
+    "ambition-over-complacency": "Ambition over complacency",
+    "augmentation-not-efficiency": "Augmentation, not efficiency",
+    "tech-cycles-in-education": "Tech cycles in education",
+}
 
 
-# --- Threads ----------------------------------------------------------------
+def extract_seed_framings() -> dict[str, str]:
+    """Pull each strand's framing paragraph(s) from thesis-seeds.md, keyed by
+    slug. Returns {slug: framing_text}. The framing is the body under
+    `### N. <Title>` until the next heading. Used to attach the seed's
+    conviction text directly to the thread node — one node per strand.
+    """
+    seeds = ROOT / "thesis-seeds.md"
+    if not seeds.exists():
+        return {}
+    text = read(seeds)
+    out: dict[str, str] = {}
+    # The seed-section heading pattern in thesis-seeds.md is "### N. Title"
+    # Map each title to a slug; capture the body until the next heading.
+    title_to_slug = {
+        "Teacher agency is being stripped": "teacher-agency",
+        "Ambition over complacency": "ambition-over-complacency",
+        "Augmentation, not efficiency": "augmentation-not-efficiency",
+        "History rhymes": "tech-cycles-in-education",
+    }
+    pattern = re.compile(r"^###\s+\d+\.\s+(.+?)\s*$", re.M)
+    matches = list(pattern.finditer(text))
+    for i, m in enumerate(matches):
+        heading_title = m.group(1).strip()
+        slug = None
+        for needle, s in title_to_slug.items():
+            if heading_title.startswith(needle.split(" — ")[0]):
+                slug = s
+                break
+        if slug is None:
+            continue
+        start = m.end()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+        # Trim trailing "## " sections (e.g. "## What I don't yet know")
+        next_h2 = re.search(r"^##\s", text[start:end], re.M)
+        if next_h2:
+            end = start + next_h2.start()
+        body = text[start:end].strip()
+        # Truncate for sanity
+        if len(body) > 800:
+            body = body[:800].rsplit(" ", 1)[0] + "…"
+        out[slug] = body
+    return out
+
+
+# --- Threads (now the strand nodes; absorb seed framings) -------------------
 
 
 def build_thread_nodes() -> list[dict]:
+    framings = extract_seed_framings()
     nodes = []
     for f in sorted((ROOT / "claim-evidence").glob("*.md")):
         if f.name == "README.md":
             continue
         text = read(f)
         n_claims = sum(1 for line in text.splitlines() if line.startswith("## Claim"))
+        slug = f.stem
         nodes.append(
             {
-                "id": f"thread:{f.stem}",
-                "label": f.stem.replace("-", " "),
+                "id": f"thread:{slug}",
+                "label": SEED_TITLES.get(slug, slug.replace("-", " ")),
                 "type": "thread",
                 "layer": "thread",
                 "claims": n_claims,
                 "path": str(f.relative_to(ROOT)),
+                "seed_framing": framings.get(slug, ""),
             }
         )
     return nodes
@@ -216,21 +260,10 @@ def build_raw_nodes(source_index: dict[str, str]) -> list[dict]:
 
 
 # --- Edges ------------------------------------------------------------------
-
-SEED_TO_THREAD = {
-    "seed:teacher-agency": "thread:teacher-agency",
-    "seed:ambition-over-complacency": "thread:ambition-over-complacency",
-    "seed:augmentation-not-efficiency": "thread:augmentation-not-efficiency",
-    "seed:tech-cycles-in-education": "thread:tech-cycles-in-education",
-}
-
-
-def build_seed_thread_edges() -> list[dict]:
-    return [
-        {"source": s, "target": t, "kind": "anchors"}
-        for s, t in SEED_TO_THREAD.items()
-    ]
-
+#
+# Seed -> thread edges are no longer emitted. Seeds were collapsed into
+# their thread nodes (see build_thread_nodes), so the "anchors" edge kind
+# is retired. Keep the chart MECE: one node per strand.
 
 # Match markdown links to source files: ](../sources/<stem>.md) or (sources/<stem>.md)
 SOURCE_LINK_RE = re.compile(r"\]\(\.\.\/sources\/([^)]+)\.md\)")
@@ -373,21 +406,19 @@ def build_source_source_edges(source_index: dict[str, str]) -> list[dict]:
 def main() -> None:
     WEB.mkdir(exist_ok=True)
 
-    seed_nodes = build_seed_nodes()
     thread_nodes = build_thread_nodes()
     source_nodes, source_index = build_source_nodes()
     lead_nodes = build_lead_nodes()
     raw_nodes = build_raw_nodes(source_index)
 
     edges = (
-        build_seed_thread_edges()
-        + build_thread_source_edges(source_index)
+        build_thread_source_edges(source_index)
         + build_thread_lead_edges()
         + build_source_source_edges(source_index)
     )
 
     graph = {
-        "nodes": seed_nodes + thread_nodes + source_nodes + lead_nodes + raw_nodes,
+        "nodes": thread_nodes + source_nodes + lead_nodes + raw_nodes,
         "edges": edges,
         "generated_at": os.popen("date -u +%Y-%m-%dT%H:%M:%SZ").read().strip(),
     }

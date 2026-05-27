@@ -145,8 +145,7 @@ const LAYER_COLOR = {
 };
 
 const LAYER_LABEL = {
-  thesis:       "Thesis seed",
-  thread:       "Claim thread",
+  thread:       "Strand",
   empirical:    "Empirical",
   visionary:    "Visionary",
   practitioner: "Practitioner",
@@ -297,6 +296,11 @@ async function main() {
     const excerptBlock = d.thesis_excerpt
       ? `<div class="excerpt">${escapeHTML(d.thesis_excerpt)}</div>` : "";
 
+    const framingBlock = d.seed_framing
+      ? `<h2>Framing</h2><div class="excerpt">${escapeHTML(d.seed_framing)}</div>` : "";
+    const claimsBlock = (d.type === "thread" && typeof d.claims === "number")
+      ? `<span class="badge" title="Claim headings in this thread">${d.claims} claim${d.claims === 1 ? "" : "s"}</span>` : "";
+
     panel.innerHTML = `
       <div class="type-tag">${LAYER_LABEL[d.layer] || d.type}</div>
       <h3>${escapeHTML(d.label)}</h3>
@@ -306,7 +310,9 @@ async function main() {
         ${d.read_status ? `<span class="badge">${d.read_status}</span>` : ""}
         ${d.layer && d.layer !== d.type ? `<span class="badge layer-${d.layer}">${d.layer}</span>` : ""}
         ${d.degree ? `<span class="badge" title="Edges touching this node">${d.degree} edge${d.degree === 1 ? "" : "s"}</span>` : ""}
+        ${claimsBlock}
       </div>
+      ${framingBlock}
       ${excerptBlock}
       ${quotesBlock}
       ${githubLink}

@@ -1,64 +1,40 @@
 {
   "nodes": [
     {
-      "id": "seed:teacher-agency",
-      "label": "1. Teacher agency is being stripped",
-      "type": "seed",
-      "layer": "thesis",
-      "path": "thesis-seeds.md"
-    },
-    {
-      "id": "seed:ambition-over-complacency",
-      "label": "2. Ambition over complacency",
-      "type": "seed",
-      "layer": "thesis",
-      "path": "thesis-seeds.md"
-    },
-    {
-      "id": "seed:augmentation-not-efficiency",
-      "label": "3. Augmentation, not efficiency",
-      "type": "seed",
-      "layer": "thesis",
-      "path": "thesis-seeds.md"
-    },
-    {
-      "id": "seed:tech-cycles-in-education",
-      "label": "4. History rhymes \u2014 tech cycles",
-      "type": "seed",
-      "layer": "thesis",
-      "path": "thesis-seeds.md"
-    },
-    {
       "id": "thread:ambition-over-complacency",
-      "label": "ambition over complacency",
+      "label": "Ambition over complacency",
       "type": "thread",
       "layer": "thread",
       "claims": 1,
-      "path": "claim-evidence/ambition-over-complacency.md"
+      "path": "claim-evidence/ambition-over-complacency.md",
+      "seed_framing": "Schools settled into their current shape out of historical constraint, not because that shape is what learning needs. New technology should let us chase what was previously impossible, not optimize the compromise."
     },
     {
       "id": "thread:augmentation-not-efficiency",
-      "label": "augmentation not efficiency",
+      "label": "Augmentation, not efficiency",
       "type": "thread",
       "layer": "thread",
       "claims": 3,
-      "path": "claim-evidence/augmentation-not-efficiency.md"
+      "path": "claim-evidence/augmentation-not-efficiency.md",
+      "seed_framing": "The framing battle. \"Efficiency\" in education usually means doing the existing thing faster, which entrenches it. \"Augmentation\" means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line.\n\n**Steer (2026-05-27):** An interactive session surfaced an apparent synthesis \u2014 KSC's expertise-reversal concession plus Illich's skill-drill concession plus Papert's transitional-object case all seemed to support a two-phase framing: \"AI builds the prior-knowledge floor (efficiency win) \u2192 ambitious inquiry becomes available later (augmentation).\" **The thesis rejects this synthesis.** Reading Dewey \u00b68 (\"education is a process of living and not a preparation for future living\") as instrumental \u2014 early years are floor-building for later\u2026"
     },
     {
       "id": "thread:teacher-agency",
-      "label": "teacher agency",
+      "label": "Teacher agency",
       "type": "thread",
       "layer": "thread",
       "claims": 1,
-      "path": "claim-evidence/teacher-agency.md"
+      "path": "claim-evidence/teacher-agency.md",
+      "seed_framing": "Scripted curricula and tools-as-replacement are eroding the conditions for great teaching. Any AI-in-education vision that further reduces teacher judgment is a category error."
     },
     {
       "id": "thread:tech-cycles-in-education",
-      "label": "tech cycles in education",
+      "label": "Tech cycles in education",
       "type": "thread",
       "layer": "thread",
       "claims": 2,
-      "path": "claim-evidence/tech-cycles-in-education.md"
+      "path": "claim-evidence/tech-cycles-in-education.md",
+      "seed_framing": "Every prior wave of technology in education (cinema, radio, television, programmed-instruction machines, classroom computers, MOOCs) was introduced with very similar optimistic rhetoric, and most failed to change what actually happens in schools. Cuban's historical record is the steelman the optimistic case has to clear: if the pattern is \"hype, modest adoption, absorption into the existing grammar of schooling, disappointment,\" then the burden is on showing what is structurally different this time. Not whether AI is different in capability \u2014 *every* prior wave was different in capability \u2014 but whether the *adoption pathway* into ambitious learning is different. This thread holds the others honest."
     },
     {
       "id": "source:Dewey-1897-pedagogic-creed",
@@ -170,26 +146,6 @@
     }
   ],
   "edges": [
-    {
-      "source": "seed:teacher-agency",
-      "target": "thread:teacher-agency",
-      "kind": "anchors"
-    },
-    {
-      "source": "seed:ambition-over-complacency",
-      "target": "thread:ambition-over-complacency",
-      "kind": "anchors"
-    },
-    {
-      "source": "seed:augmentation-not-efficiency",
-      "target": "thread:augmentation-not-efficiency",
-      "kind": "anchors"
-    },
-    {
-      "source": "seed:tech-cycles-in-education",
-      "target": "thread:tech-cycles-in-education",
-      "kind": "anchors"
-    },
     {
       "source": "thread:ambition-over-complacency",
       "target": "source:Dewey-1897-pedagogic-creed",
@@ -321,5 +277,5 @@
       "kind": "relates-to"
     }
   ],
-  "generated_at": "2026-05-27T20:22:33Z"
+  "generated_at": "2026-05-27T22:23:17Z"
 }
