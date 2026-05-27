@@ -92,7 +92,8 @@ Each Saturday run does these things in order:
    - If it's a canon expansion task: propose new entries with rationale; queue them for Zack's approval.
 5. **Write the digest (~5% of run effort).** Create `digests/YYYY-MM-DD.md`. See format below.
 6. **Refine the queue.** Update `queue.md` with what's next, ordered by priority.
-7. **Commit and push.** Per-source commits, not one mega-commit. Email notification reaches Zack via the persistent draft PR (`claude/run-agent-J7oqO` → `main`); each push lands in his inbox.
+7. **Regenerate the resource-bank index.** Run `./bin/build-index.sh` to update `INDEX.md` with the current state of `sources/`, `claim-evidence/`, `leads/`, `digests/`, and `sources-raw/`. The index is the single browsable entry point to the bank.
+8. **Commit and push — one push per run.** Commits remain per-source for diff reviewability, but only one `git push` happens, at the very end of the run, after the index is built and the digest is written. Zack gets one notification email per run via the draft PR (`claude/run-agent-J7oqO` → `main`). If a run is long enough that intermediate state should be preserved against interruption, one mid-run push is acceptable; otherwise the strict rule is one push.
 
 ## Output-filtering mitigations
 
@@ -100,7 +101,7 @@ Earlier runs hit the harness content filter when emitting long source-notes (ful
 
 - **Split source-note writes.** Write the frontmatter + Thesis section first (one Write), then append the Key quoted claims section (Edit append), then the remaining sections (one more Edit). No source note as a single >150-line Write.
 - **Short quotes only.** Each verbatim quote is the load-bearing sentence(s) — 1–3 sentences. If a longer passage matters, record the page locator in `sources-raw/` and quote the operative phrase. Never paste a whole paragraph of the source.
-- **One source per commit.** Process one primary source at a time, commit, push. Don't accumulate multiple unwritten notes in a session — per-source commits also give Zack a tighter feedback loop via the draft-PR email stream.
+- **One source per commit, one push per run.** Process one primary source at a time and commit each one separately so the diff stays reviewable. Do not push after every commit; accumulate commits locally and push once at the end of the run (after the index rebuild and digest write). This gives Zack one notification email per run rather than ~10.
 - **If a write gets blocked anyway, do not retry the same content.** Split it further or shorten the quotes and try again.
 
 ## Digest format
