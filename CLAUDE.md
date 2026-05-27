@@ -92,7 +92,21 @@ Each Saturday run does these things in order:
    - If it's a canon expansion task: propose new entries with rationale; queue them for Zack's approval.
 5. **Write the digest (~5% of run effort).** Create `digests/YYYY-MM-DD.md`. See format below.
 6. **Refine the queue.** Update `queue.md` with what's next, ordered by priority.
-7. **Commit and push.** One commit, descriptive message. The push triggers GitHub's email notification to Zack.
+7. **Regenerate the resource-bank index.** Run `./bin/build-index.sh` to update `INDEX.md` with the current state of `sources/`, `claim-evidence/`, `leads/`, `digests/`, and `sources-raw/`. The index is the single browsable entry point to the bank.
+8. **Commit and push to `main` — one push per run.** Commits remain per-source for diff reviewability, but only one `git push` happens, at the very end of the run, after the index is built and the digest is written. **Push directly to `main`.** Both the autonomous Saturday agent and any interactive session work on `main` to keep state shared; otherwise the two streams diverge and end up redoing each other's work (this happened on 2026-05-27; see `digests/2026-05-27.md`). Zack does not get GitHub email notifications about pushes (GitHub doesn't email you about your own actions, and the agent is authenticated as Zack). The artifacts to read on his next session are `INDEX.md` and the latest `digests/YYYY-MM-DD.md`.
+
+## Shared-branch rule
+
+The autonomous Saturday agent and any interactive session **both work on `main`**. Do not create per-run feature branches (e.g. `claude/run-agent-*`). On 2026-05-27 an interactive session worked on a feature branch while the autonomous agent worked on main; the two independently produced overlapping source-notes for the same readings, and the branches could not be cleanly merged. The infrastructure pieces from that interactive session (`bin/`, `web/`, `.github/workflows/deploy-pages.yml`, the `INDEX.md` step, the output-filter mitigations below) were cherry-picked onto main; the duplicated research substance was discarded. Don't repeat that.
+
+## Output-filtering mitigations
+
+Earlier runs hit the harness content filter when emitting long source-notes (full frontmatter + many long verbatim quotes + framing commentary) in a single Write. To avoid losing work mid-run, follow these rules:
+
+- **Split source-note writes.** Write the frontmatter + Thesis section first (one Write), then append the Key quoted claims section (Edit append), then the remaining sections (one more Edit). No source note as a single >150-line Write.
+- **Short quotes only.** Each verbatim quote is the load-bearing sentence(s) — 1–3 sentences. If a longer passage matters, record the page locator in `sources-raw/` and quote the operative phrase. Never paste a whole paragraph of the source.
+- **One source per commit, one push per run.** Process one primary source at a time and commit each one separately so the diff stays reviewable. Do not push after every commit; accumulate commits locally and push once at the end of the run (after the index rebuild and digest write). This gives Zack one notification email per run rather than ~10.
+- **If a write gets blocked anyway, do not retry the same content.** Split it further or shorten the quotes and try again.
 
 ## Digest format
 
