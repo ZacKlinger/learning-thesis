@@ -11,7 +11,7 @@ Unverified material relevant to the tech-cycles thread. Nothing here has been re
 - **Postman, Neil (1985). *Amusing Ourselves to Death*.** Media-ecology critique of television as a learning medium. The lineage that gets applied to every subsequent screen.
 - **Postman, Neil (1992). *Technopoly*.** Broader critique.
 - **Selwyn, Neil (2016). *Is Technology Good for Education?*.** Contemporary critical-edtech scholar; compact volume.
-- **Reiser, Robert A. (2001). "A History of Instructional Design and Technology: Part I."** *ETR&D* 49(1). Survey paper.
+- **Reiser, Robert A. (2001). "A History of Instructional Design and Technology: Part I: A History of Instructional Media."** *Educational Technology Research and Development* 49(1). Survey paper. *Access blocker (2026-05-12):* the Springer Nature URL in the wishlist (`link.springer.com/content/pdf/10.1007/BF02504506.pdf`) returns a publisher landing page (HTML with `<meta name="access" content="No">`), not the article PDF. The fetched file contains the citation metadata and full reference list but no body text. Wishlist needs an alternate mirror (FSU faculty page, ResearchGate, or a green-OA copy); flagged in 2026-05-12 digest.
 - **Saettler, Paul (1990). *The Evolution of American Educational Technology*.** Dense reference history.
 - **Christensen, Clayton M., Horn, Michael B. & Johnson, Curtis W. (2008). *Disrupting Class*.** The disruption-theory case applied to K-12. The predictions are mostly testable now.
 
@@ -30,7 +30,7 @@ Unverified material relevant to the tech-cycles thread. Nothing here has been re
 
 - MOOC completion-rate analyses — Jordan (2014); HarvardX/MITx reports (Ho et al. 2014, 2015); the U Penn study that put 4–5% completion in the public eye.
 - Picciano & Seaman (multiple years), the *Online Nation* / annual reports on online learning in K-12 and higher ed.
-- One-laptop-per-child evaluations — the Cristia et al. Peru study (2017) is the cleanest large-RCT finding (basically no effect on test scores).
+- One-laptop-per-child evaluations — the Cristia et al. Peru study (2017) is the cleanest large-RCT finding (basically no effect on test scores). **Status (2026-05-12):** abstract is verified-quotable from the AEA landing page; full article body is paywalled. AEA URL in wishlist returns the abstract page, not the PDF. Headline finding per the abstract: *"This paper presents results from a large-scale randomized evaluation of the One Laptop per Child program, using data collected after 15 months of implementation in 318 primary schools in rural Peru. The program increased the ratio of computers per student from 0.12 to 1.18 in treatment schools. … No evidence is found of effects on test scores in math and language. There is some evidence, though inconclusive, about positive effects on general cognitive skills."* (Cristia, Ibarrarán, Cueto, Santiago & Severín 2017, *American Economic Journal: Applied Economics* 9(3), pp. 295–320; abstract verbatim from aeaweb.org landing page, accessed 2026-05-12.) Wishlist needs an alternate mirror for the full PDF (IDB working-paper version is the most likely free copy).
 - Interactive-whiteboard adoption studies. A particularly clean example of high-cost adoption with low practice change.
 - Educational television evaluations from the 1960s–70s — what *Sesame Street* and predecessors actually demonstrated, and what they did not.
 

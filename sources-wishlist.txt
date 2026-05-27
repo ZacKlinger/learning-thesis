@@ -28,7 +28,17 @@ Illich-1971-deschooling-society.pdf https://monoskop.org/images/1/17/Illich_Ivan
 
 Skinner-1958-teaching-machines.pdf https://www.bfskinner.org/wp-content/uploads/2014/02/Teaching-Machines.pdf
 Skinner-1954-science-of-learning.pdf https://www.bfskinner.org/wp-content/uploads/2014/02/ScienceOfLearning.pdf
-Reiser-2001-history-of-instructional-media.pdf https://link.springer.com/content/pdf/10.1007/BF02504506.pdf
+# Reiser 2001: previous URL (link.springer.com .../BF02504506.pdf) returned a
+# publisher landing page, not the PDF. Demoted to leads/. Need a working mirror
+# (FSU faculty page, ResearchGate, or green-OA copy). Replace this line with one
+# that returns the actual PDF bytes, then the fetcher will deliver it.
+# Reiser-2001-history-of-instructional-media.pdf <NEEDS-WORKING-MIRROR>
 Pappano-2012-year-of-the-mooc.html https://www.nytimes.com/2012/11/04/education/edlife/massive-open-online-courses-are-multiplying-at-a-rapid-pace.html
 Jordan-2014-mooc-completion-rates.pdf https://www.irrodl.org/index.php/irrodl/article/download/1651/2813
-Cristia-et-al-2017-OLPC-peru-rct.pdf https://www.aeaweb.org/articles?id=10.1257/app.20150385
+# Cristia et al. 2017: previous URL (aeaweb.org/articles?id=...) returned the
+# AEA landing page with the abstract, not the article PDF. Abstract has been
+# recorded in leads/tech-cycles-in-education-leads.md. Need a working mirror
+# for the full PDF — most likely the IDB working-paper version (Cristia, Ibarrarán,
+# Cueto, Santiago & Severín, IDB Working Paper Series). Replace this line with
+# one that returns the actual PDF bytes.
+# Cristia-et-al-2017-OLPC-peru-rct.pdf <NEEDS-WORKING-MIRROR>
