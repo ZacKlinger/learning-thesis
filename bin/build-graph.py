@@ -94,6 +94,53 @@ def build_thread_nodes() -> list[dict]:
 # --- Sources ----------------------------------------------------------------
 
 
+_SECTION_RE = re.compile(r"^##\s+(.+?)\s*$", re.M)
+
+
+def extract_section(text: str, heading: str, max_len: int = 600) -> str:
+    """Return the first ~max_len chars of the named section (`## Heading`)."""
+    pattern = re.compile(rf"^##\s+{re.escape(heading)}\s*$", re.M)
+    m = pattern.search(text)
+    if not m:
+        return ""
+    start = m.end()
+    next_section = _SECTION_RE.search(text, start)
+    end = next_section.start() if next_section else len(text)
+    body = text[start:end].strip()
+    if len(body) > max_len:
+        body = body[:max_len].rsplit(" ", 1)[0] + "…"
+    return body
+
+
+def extract_quotes(text: str, max_n: int = 3) -> list[str]:
+    """Pull the first N bullet items from `## Key quoted claims`."""
+    pattern = re.compile(r"^##\s+Key quoted claims\s*$", re.M)
+    m = pattern.search(text)
+    if not m:
+        return []
+    start = m.end()
+    next_section = _SECTION_RE.search(text, start)
+    end = next_section.start() if next_section else len(text)
+    body = text[start:end]
+    quotes = []
+    current: list[str] = []
+    for line in body.splitlines():
+        if line.startswith("- "):
+            if current:
+                quotes.append(" ".join(current).strip())
+                current = []
+                if len(quotes) >= max_n:
+                    break
+            current = [line[2:].strip()]
+        elif line.strip().startswith("  ") and current:
+            current.append(line.strip())
+        elif not line.strip():
+            continue
+    if current and len(quotes) < max_n:
+        quotes.append(" ".join(current).strip())
+    return quotes[:max_n]
+
+
 def build_source_nodes() -> tuple[list[dict], dict[str, str]]:
     """Return (nodes, label->id index) so other extractors can resolve names."""
     nodes = []
@@ -101,18 +148,21 @@ def build_source_nodes() -> tuple[list[dict], dict[str, str]]:
     for f in sorted((ROOT / "sources").glob("*.md")):
         if f.name == "README.md":
             continue
-        meta = parse_frontmatter(read(f))
+        text = read(f)
+        meta = parse_frontmatter(text)
         node_id = f"source:{f.stem}"
         nodes.append(
             {
                 "id": node_id,
-                "label": meta.get("authors", f.stem).split(";")[0] + " " + meta.get("year", ""),
+                "label": meta.get("authors", f.stem).split(",")[0].split(";")[0] + " " + meta.get("year", ""),
                 "title": meta.get("title", ""),
                 "type": "source",
                 "layer": meta.get("layer", "?"),
                 "year": meta.get("year", ""),
                 "read_status": meta.get("read_status", ""),
                 "path": str(f.relative_to(ROOT)),
+                "thesis_excerpt": extract_section(text, "Thesis"),
+                "quotes": extract_quotes(text),
             }
         )
         index[f.stem] = node_id

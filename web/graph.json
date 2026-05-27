@@ -68,7 +68,13 @@
       "layer": "visionary",
       "year": "1897",
       "read_status": "read",
-      "path": "sources/Dewey-1897-pedagogic-creed.md"
+      "path": "sources/Dewey-1897-pedagogic-creed.md",
+      "thesis_excerpt": "A 73-numbered-belief credo, organized in five articles (What Education Is;\nWhat the School Is; The Subject-Matter of Education; The Nature of Method;\nThe School and Social Progress). Dewey argues that education is a *social*\nprocess \u2014 not a preparation for future life but a continuous reconstruction\nof present experience \u2014 and that the teacher is a member of a community\nselecting which influences should shape the child, not a transmitter of\npredetermined content. School is \"primarily a social institution,\" and any\neducation that does not occur through \"forms of life... worth living for\u2026",
+      "quotes": [
+        "\"I believe that all education proceeds by the participation of the individual",
+        "\"I believe that the school is primarily a social institution. Education being",
+        "\"I believe that education, therefore, is a process of living and not a"
+      ]
     },
     {
       "id": "source:Illich-1971-deschooling-society",
@@ -78,7 +84,13 @@
       "layer": "visionary",
       "year": "1971",
       "read_status": "excerpted",
-      "path": "sources/Illich-1971-deschooling-society.md"
+      "path": "sources/Illich-1971-deschooling-society.md",
+      "thesis_excerpt": "Illich's argument is more radical than the standard \"schools could be better\"\ncritique: schooling itself, as an institution, manufactures the dependencies\nit claims to remedy. The \"hidden curriculum\" of school is the equation of\nprocess with substance \u2014 students are trained to confuse \"teaching with\nlearning, grade advancement with education, a diploma with competence.\"\nUniversal schooling, on this view, cannot be fixed by reform (better\nteachers, better technology, more funding); it must be replaced with\n\"educational webs which heighten the opportunity for each one to transform\neach moment\u2026",
+      "quotes": [
+        "\"Universal education through schooling is not feasible. It would be no more",
+        "\"Many students, especially those who are poor, intuitively know what the",
+        "\"We need research on the possible use of technology to create institutions"
+      ]
     },
     {
       "id": "source:Jordan-2014-mooc-completion-rates",
@@ -88,17 +100,29 @@
       "layer": "empirical",
       "year": "2014",
       "read_status": "read",
-      "path": "sources/Jordan-2014-mooc-completion-rates.md"
+      "path": "sources/Jordan-2014-mooc-completion-rates.md",
+      "thesis_excerpt": "A meta-aggregation of publicly available enrolment and completion data for\nthe early generation of MOOCs (Coursera, EdX, Udacity, courses through July\n2013; n=91 courses with enrolment data, n=39 with completion data). Jordan\nfinds that the early headline numbers (the Stanford AI course, 160,000\nenrolled / 20,000 completing) are atypical; the median MOOC enrolment is\n~43,000 and the median completion rate is 6.5% of enrollees (9.8% of \"active\"\nstudents, where active = at least one login / quiz / video). Completion rates\nare *consistent* across time, university ranking, and total enrolment,\u2026",
+      "quotes": [
+        "\"The average MOOC course is found to enroll around 43,000 students, 6.5%",
+        "\"Six-figure enrolment statistics have generated a good deal of interest in",
+        "\"Completion rates range from 0.9% to 36.1%, with a median value of 6.5%"
+      ]
     },
     {
       "id": "source:Kirschner-Sweller-Clark-2006-minimal-guidance",
-      "label": "Paul A. Kirschner, John Sweller, Richard E. Clark 2006",
+      "label": "Paul A. Kirschner 2006",
       "title": "Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching",
       "type": "source",
       "layer": "empirical",
       "year": "2006",
       "read_status": "read",
-      "path": "sources/Kirschner-Sweller-Clark-2006-minimal-guidance.md"
+      "path": "sources/Kirschner-Sweller-Clark-2006-minimal-guidance.md",
+      "thesis_excerpt": "A polemical synthesis of cognitive-load theory and a half-century of experimental\nwork, arguing that minimally guided instructional approaches (discovery,\nproblem-based, inquiry, experiential, and constructivist teaching) are\ninconsistent with what is known about human cognitive architecture \u2014 in\nparticular, the severe capacity limits of working memory when processing novel\ninformation \u2014 and that controlled studies \"almost uniformly\" favour direct\nguided instruction for novice and intermediate learners. The authors name\nBruner (1961), Papert (1980), and Steffe & Gale (1995) as exemplars of\u2026",
+      "quotes": [
+        "\"The past half-century of empirical research on this issue has provided",
+        "\"The aim of all instruction is to alter long-term memory. If nothing has",
+        "\"Any instructional theory that ignores the limits of working memory when"
+      ]
     },
     {
       "id": "source:Papert-1980-gears-of-my-childhood",
@@ -108,7 +132,13 @@
       "layer": "visionary",
       "year": "1980",
       "read_status": "read",
-      "path": "sources/Papert-1980-gears-of-my-childhood.md"
+      "path": "sources/Papert-1980-gears-of-my-childhood.md",
+      "thesis_excerpt": "Papert tells the autobiographical story of falling in love with the\ndifferential gear before age two \u2014 an object simultaneously sensorimotor\n(\"you can be the gear\") and abstract (groups, relative motion) that became\nthe model through which mathematics later \"carried\" itself into his mind.\nFrom this, the central claim: powerful learning happens when a learner finds,\nor is given, *transitional objects* that connect \"body knowledge\" to formal\nstructure, and the affective bond (\"I fell in love with the gears\") is not a\nside effect but constitutive. The book's program \u2014 and the\u2026",
+      "quotes": [
+        "\"I believe that working with differentials did more for my mathematical",
+        "\"Slowly I began to formulate what I still consider the fundamental fact",
+        "\"The understanding of learning must be genetic. It must refer to the genesis"
+      ]
     },
     {
       "id": "lead:ambition-over-complacency-leads",
@@ -291,5 +321,5 @@
       "kind": "relates-to"
     }
   ],
-  "generated_at": "2026-05-27T20:18:23Z"
+  "generated_at": "2026-05-27T20:22:33Z"
 }
