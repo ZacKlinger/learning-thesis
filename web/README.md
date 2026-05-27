@@ -1,5 +1,7 @@
 # Research web
 
+Live: **https://zacklinger.github.io/learning-thesis/**
+
 Interactive force-directed graph of the resource bank. Nodes = thesis seeds, claim-evidence threads, verified sources, leads, raw files awaiting processing. Edges = anchors, supports, counters, frames, relates-to, tracked-in.
 
 ## Local preview
