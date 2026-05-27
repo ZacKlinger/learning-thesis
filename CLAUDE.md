@@ -92,7 +92,16 @@ Each Saturday run does these things in order:
    - If it's a canon expansion task: propose new entries with rationale; queue them for Zack's approval.
 5. **Write the digest (~5% of run effort).** Create `digests/YYYY-MM-DD.md`. See format below.
 6. **Refine the queue.** Update `queue.md` with what's next, ordered by priority.
-7. **Commit and push.** One commit, descriptive message. The push triggers GitHub's email notification to Zack.
+7. **Commit and push.** Per-source commits, not one mega-commit. Email notification reaches Zack via the persistent draft PR (`claude/run-agent-J7oqO` → `main`); each push lands in his inbox.
+
+## Output-filtering mitigations
+
+Earlier runs hit the harness content filter when emitting long source-notes (full frontmatter + many long verbatim quotes + framing commentary) in a single Write. To avoid losing work mid-run, follow these rules:
+
+- **Split source-note writes.** Write the frontmatter + Thesis section first (one Write), then append the Key quoted claims section (Edit append), then the remaining sections (one more Edit). No source note as a single >150-line Write.
+- **Short quotes only.** Each verbatim quote is the load-bearing sentence(s) — 1–3 sentences. If a longer passage matters, record the page locator in `sources-raw/` and quote the operative phrase. Never paste a whole paragraph of the source.
+- **One source per commit.** Process one primary source at a time, commit, push. Don't accumulate multiple unwritten notes in a session — per-source commits also give Zack a tighter feedback loop via the draft-PR email stream.
+- **If a write gets blocked anyway, do not retry the same content.** Split it further or shorten the quotes and try again.
 
 ## Digest format
 
