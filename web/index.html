@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Learning thesis — research web</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
+<script src="https://unpkg.com/layout-base@2.0.1/layout-base.js"></script>
+<script src="https://unpkg.com/cose-base@2.2.0/cose-base.js"></script>
+<script src="https://unpkg.com/cytoscape-cose-bilkent@4.1.0/cytoscape-cose-bilkent.js"></script>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161a22;
+    --border: #242a36;
+    --text: #d8dde6;
+    --muted: #8b94a3;
+    --accent: #7aa2f7;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; background: var(--bg); color: var(--text); font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+  #app { display: grid; grid-template-columns: 220px 1fr 360px; height: 100vh; }
+  #sidebar, #panel { background: var(--panel); border-right: 1px solid var(--border); overflow: auto; padding: 16px; }
+  #panel { border-right: none; border-left: 1px solid var(--border); }
+  #cy { background: var(--bg); }
+  h1 { font-size: 14px; margin: 0 0 12px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em; }
+  h2 { font-size: 13px; margin: 18px 0 8px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+  .legend-row, .filter-row { display: flex; align-items: center; gap: 8px; margin: 4px 0; cursor: pointer; user-select: none; }
+  .swatch { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; border: 1px solid var(--border); }
+  .filter-row input { margin: 0; }
+  #stats { color: var(--muted); font-size: 12px; margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
+  #panel .empty { color: var(--muted); font-style: italic; }
+  #panel h3 { margin: 0 0 4px; font-size: 16px; }
+  #panel .meta { color: var(--muted); font-size: 12px; margin-bottom: 12px; }
+  #panel a { color: var(--accent); text-decoration: none; }
+  #panel a:hover { text-decoration: underline; }
+  #panel ul { padding-left: 18px; }
+  #panel li { margin: 4px 0; color: var(--muted); }
+  #panel li a { color: var(--text); }
+  .badge { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 11px; background: var(--border); color: var(--muted); margin-right: 4px; }
+  .badge.supports { background: #1f3a2a; color: #6ec188; }
+  .badge.counters { background: #3a1f25; color: #e57373; }
+  .badge.frames   { background: #2a2a3a; color: #a89ff0; }
+  .badge.relates-to, .badge.anchors, .badge.tracked-in { background: #1f2a3a; color: #7aa2f7; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="sidebar">
+    <h1>Research web</h1>
+
+    <h2>Node layers</h2>
+    <div id="legend"></div>
+
+    <h2>Filter by thread</h2>
+    <div id="filters"></div>
+
+    <h2>Edge kinds</h2>
+    <div id="edge-legend"></div>
+
+    <div id="stats"></div>
+  </div>
+
+  <div id="cy"></div>
+
+  <div id="panel">
+    <p class="empty">Click a node to see its details.</p>
+  </div>
+</div>
+
+<script>
+const LAYER_COLOR = {
+  thesis:      "#e0af68",
+  thread:      "#bb9af7",
+  empirical:   "#7aa2f7",
+  visionary:   "#9ece6a",
+  practitioner:"#f7768e",
+  historical:  "#7dcfff",
+  lead:        "#565f89",
+  raw:         "#414868",
+  "?":         "#565f89",
+};
+
+const EDGE_KIND_COLOR = {
+  anchors:    "#e0af68",
+  supports:   "#9ece6a",
+  counters:   "#f7768e",
+  frames:     "#bb9af7",
+  "tracked-in": "#565f89",
+  "relates-to": "#7dcfff",
+};
+
+const GITHUB_BASE = "https://github.com/ZacKlinger/learning-thesis/blob/main/";
+
+async function main() {
+  const graph = await fetch("graph.json").then(r => r.json());
+
+  const elements = [
+    ...graph.nodes.map(n => ({ data: { ...n } })),
+    ...graph.edges.map(e => ({ data: { ...e, id: `${e.source}->${e.target}:${e.kind}` } })),
+  ];
+
+  const cy = cytoscape({
+    container: document.getElementById("cy"),
+    elements,
+    style: [
+      {
+        selector: "node",
+        style: {
+          "background-color": ele => LAYER_COLOR[ele.data("layer")] || "#888",
+          label: "data(label)",
+          color: "#d8dde6",
+          "font-size": 11,
+          "text-valign": "bottom",
+          "text-margin-y": 6,
+          "text-outline-color": "#0f1115",
+          "text-outline-width": 2,
+          width: ele => ele.data("type") === "seed" ? 36 : (ele.data("type") === "thread" ? 28 : 22),
+          height: ele => ele.data("type") === "seed" ? 36 : (ele.data("type") === "thread" ? 28 : 22),
+          "border-width": 2,
+          "border-color": "#0f1115",
+        },
+      },
+      {
+        selector: "node[type='seed']",
+        style: { shape: "diamond" },
+      },
+      {
+        selector: "node[type='thread']",
+        style: { shape: "round-rectangle" },
+      },
+      {
+        selector: "node[type='lead']",
+        style: { shape: "triangle", "border-style": "dashed", "border-color": "#565f89" },
+      },
+      {
+        selector: "node[type='raw']",
+        style: { shape: "tag", opacity: 0.55 },
+      },
+      {
+        selector: "node:selected",
+        style: { "border-color": "#e0af68", "border-width": 3 },
+      },
+      {
+        selector: "edge",
+        style: {
+          width: 1.4,
+          "line-color": ele => EDGE_KIND_COLOR[ele.data("kind")] || "#444",
+          "target-arrow-color": ele => EDGE_KIND_COLOR[ele.data("kind")] || "#444",
+          "target-arrow-shape": "triangle",
+          "curve-style": "bezier",
+          opacity: 0.75,
+        },
+      },
+      {
+        selector: "edge[kind='counters']",
+        style: { "line-style": "dashed" },
+      },
+      {
+        selector: ".dimmed",
+        style: { opacity: 0.12 },
+      },
+    ],
+    layout: { name: "cose-bilkent", animate: false, nodeRepulsion: 9000, idealEdgeLength: 110, edgeElasticity: 0.45, gravity: 0.25, padding: 30 },
+    wheelSensitivity: 0.25,
+  });
+
+  // --- Side panel on click -------------------------------------------------
+  const panel = document.getElementById("panel");
+  function renderPanel(node) {
+    if (!node) {
+      panel.innerHTML = '<p class="empty">Click a node to see its details.</p>';
+      return;
+    }
+    const d = node.data();
+    const neighborhood = node.openNeighborhood();
+    const incoming = neighborhood.edges().filter(e => e.target().id() === node.id());
+    const outgoing = neighborhood.edges().filter(e => e.source().id() === node.id());
+
+    const renderList = (edges, dir) => {
+      if (edges.length === 0) return "";
+      const items = edges.map(e => {
+        const other = dir === "in" ? e.source() : e.target();
+        return `<li><span class="badge ${e.data("kind")}">${e.data("kind")}</span><a href="#" data-id="${other.id()}">${other.data("label")}</a></li>`;
+      }).join("");
+      return `<h2>${dir === "in" ? "Pointed to by" : "Points to"}</h2><ul>${items}</ul>`;
+    };
+
+    const githubLink = d.path ? `<a href="${GITHUB_BASE}${d.path}" target="_blank">${d.path} ↗</a>` : "";
+
+    panel.innerHTML = `
+      <h3>${d.label}</h3>
+      <div class="meta">
+        <span class="badge">${d.type}</span>
+        ${d.layer && d.layer !== d.type ? `<span class="badge">${d.layer}</span>` : ""}
+        ${d.year ? `<span class="badge">${d.year}</span>` : ""}
+        ${d.read_status ? `<span class="badge">${d.read_status}</span>` : ""}
+      </div>
+      ${d.title ? `<p>${d.title}</p>` : ""}
+      ${githubLink ? `<p>${githubLink}</p>` : ""}
+      ${renderList(outgoing.toArray(), "out")}
+      ${renderList(incoming.toArray(), "in")}
+    `;
+
+    panel.querySelectorAll("a[data-id]").forEach(a => {
+      a.addEventListener("click", ev => {
+        ev.preventDefault();
+        const target = cy.getElementById(ev.currentTarget.getAttribute("data-id"));
+        if (target.length) { target.select(); cy.center(target); renderPanel(target); }
+      });
+    });
+  }
+
+  cy.on("tap", "node", evt => { cy.elements().unselect(); evt.target.select(); renderPanel(evt.target); });
+  cy.on("tap", evt => { if (evt.target === cy) { cy.elements().unselect(); renderPanel(null); } });
+
+  // --- Sidebar: layer legend ----------------------------------------------
+  const legend = document.getElementById("legend");
+  const layersInUse = [...new Set(graph.nodes.map(n => n.layer))].sort();
+  legend.innerHTML = layersInUse.map(l => `
+    <div class="legend-row">
+      <div class="swatch" style="background:${LAYER_COLOR[l] || "#888"}"></div>
+      <span>${l}</span>
+    </div>
+  `).join("");
+
+  // --- Sidebar: edge legend ------------------------------------------------
+  const edgeLegend = document.getElementById("edge-legend");
+  const edgeKindsInUse = [...new Set(graph.edges.map(e => e.kind))].sort();
+  edgeLegend.innerHTML = edgeKindsInUse.map(k => `
+    <div class="legend-row">
+      <div class="swatch" style="background:${EDGE_KIND_COLOR[k] || "#888"}"></div>
+      <span>${k}</span>
+    </div>
+  `).join("");
+
+  // --- Sidebar: thread filter ---------------------------------------------
+  const threads = graph.nodes.filter(n => n.type === "thread");
+  const filters = document.getElementById("filters");
+  filters.innerHTML = `
+    <div class="filter-row"><input type="checkbox" id="thread-all" checked><label for="thread-all">All</label></div>
+  ` + threads.map(t => `
+    <div class="filter-row">
+      <input type="checkbox" class="thread-toggle" id="${t.id}" data-id="${t.id}" checked>
+      <label for="${t.id}">${t.label}</label>
+    </div>
+  `).join("");
+
+  function applyFilters() {
+    const active = new Set(
+      [...document.querySelectorAll(".thread-toggle:checked")].map(el => el.dataset.id)
+    );
+    cy.elements().removeClass("dimmed");
+    if (active.size === threads.length) return;
+    cy.nodes().forEach(n => {
+      if (n.data("type") === "thread") {
+        if (!active.has(n.id())) n.addClass("dimmed");
+        return;
+      }
+      if (n.data("type") === "seed") {
+        const tid = n.id().replace("seed:", "thread:");
+        if (!active.has(tid)) n.addClass("dimmed");
+        return;
+      }
+      // For sources/leads/raw: show if connected to any active thread
+      const connectedThreads = n.connectedEdges().connectedNodes().filter(m => m.data("type") === "thread");
+      const anyActive = connectedThreads.some(m => active.has(m.id()));
+      if (!anyActive && connectedThreads.length > 0) n.addClass("dimmed");
+    });
+    cy.edges().forEach(e => {
+      if (e.source().hasClass("dimmed") || e.target().hasClass("dimmed")) e.addClass("dimmed");
+    });
+  }
+
+  document.querySelectorAll(".thread-toggle").forEach(el => el.addEventListener("change", applyFilters));
+  document.getElementById("thread-all").addEventListener("change", ev => {
+    document.querySelectorAll(".thread-toggle").forEach(el => { el.checked = ev.target.checked; });
+    applyFilters();
+  });
+
+  // --- Stats ---------------------------------------------------------------
+  document.getElementById("stats").innerHTML = `
+    ${graph.nodes.length} nodes · ${graph.edges.length} edges<br>
+    generated ${graph.generated_at || "—"}
+  `;
+}
+
+main();
+</script>
+</body>
+</html>

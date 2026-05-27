@@ -1,0 +1,284 @@
+{
+  "nodes": [
+    {
+      "id": "seed:teacher-agency",
+      "label": "1. Teacher agency is being stripped",
+      "type": "seed",
+      "layer": "thesis",
+      "path": "thesis-seeds.md"
+    },
+    {
+      "id": "seed:ambition-over-complacency",
+      "label": "2. Ambition over complacency",
+      "type": "seed",
+      "layer": "thesis",
+      "path": "thesis-seeds.md"
+    },
+    {
+      "id": "seed:augmentation-not-efficiency",
+      "label": "3. Augmentation, not efficiency",
+      "type": "seed",
+      "layer": "thesis",
+      "path": "thesis-seeds.md"
+    },
+    {
+      "id": "seed:tech-cycles-in-education",
+      "label": "4. History rhymes \u2014 tech cycles",
+      "type": "seed",
+      "layer": "thesis",
+      "path": "thesis-seeds.md"
+    },
+    {
+      "id": "thread:ambition-over-complacency",
+      "label": "ambition over complacency",
+      "type": "thread",
+      "layer": "thread",
+      "claims": 1,
+      "path": "claim-evidence/ambition-over-complacency.md"
+    },
+    {
+      "id": "thread:augmentation-not-efficiency",
+      "label": "augmentation not efficiency",
+      "type": "thread",
+      "layer": "thread",
+      "claims": 1,
+      "path": "claim-evidence/augmentation-not-efficiency.md"
+    },
+    {
+      "id": "thread:teacher-agency",
+      "label": "teacher agency",
+      "type": "thread",
+      "layer": "thread",
+      "claims": 1,
+      "path": "claim-evidence/teacher-agency.md"
+    },
+    {
+      "id": "thread:tech-cycles-in-education",
+      "label": "tech cycles in education",
+      "type": "thread",
+      "layer": "thread",
+      "claims": 1,
+      "path": "claim-evidence/tech-cycles-in-education.md"
+    },
+    {
+      "id": "source:Dewey-1897-pedagogic-creed",
+      "label": "John Dewey 1897",
+      "title": "My Pedagogic Creed",
+      "type": "source",
+      "layer": "visionary",
+      "year": "1897",
+      "read_status": "read",
+      "path": "sources/Dewey-1897-pedagogic-creed.md"
+    },
+    {
+      "id": "source:Illich-1971-deschooling-society",
+      "label": "Ivan Illich 1971",
+      "title": "Deschooling Society",
+      "type": "source",
+      "layer": "visionary",
+      "year": "1971",
+      "read_status": "read",
+      "path": "sources/Illich-1971-deschooling-society.md"
+    },
+    {
+      "id": "source:Kirschner-Sweller-Clark-2006-minimal-guidance",
+      "label": "Paul A. Kirschner 2006",
+      "title": "Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching",
+      "type": "source",
+      "layer": "empirical",
+      "year": "2006",
+      "read_status": "read",
+      "path": "sources/Kirschner-Sweller-Clark-2006-minimal-guidance.md"
+    },
+    {
+      "id": "source:Papert-1980-gears-of-my-childhood",
+      "label": "Seymour Papert 1980",
+      "title": "The Gears of My Childhood\" (foreword to *Mindstorms: Children, Computers, and Powerful Ideas*)",
+      "type": "source",
+      "layer": "visionary",
+      "year": "1980",
+      "read_status": "read",
+      "path": "sources/Papert-1980-gears-of-my-childhood.md"
+    },
+    {
+      "id": "lead:ambition-over-complacency-leads",
+      "label": "ambition over complacency (leads)",
+      "type": "lead",
+      "layer": "lead",
+      "path": "leads/ambition-over-complacency-leads.md"
+    },
+    {
+      "id": "lead:augmentation-not-efficiency-leads",
+      "label": "augmentation not efficiency (leads)",
+      "type": "lead",
+      "layer": "lead",
+      "path": "leads/augmentation-not-efficiency-leads.md"
+    },
+    {
+      "id": "lead:teacher-agency-leads",
+      "label": "teacher agency (leads)",
+      "type": "lead",
+      "layer": "lead",
+      "path": "leads/teacher-agency-leads.md"
+    },
+    {
+      "id": "lead:tech-cycles-in-education-leads",
+      "label": "tech cycles in education (leads)",
+      "type": "lead",
+      "layer": "lead",
+      "path": "leads/tech-cycles-in-education-leads.md"
+    },
+    {
+      "id": "raw:Cristia-et-al-2017-OLPC-peru-rct",
+      "label": "Cristia et al 2017 OLPC peru rct (raw)",
+      "type": "raw",
+      "layer": "raw",
+      "path": "sources-raw/Cristia-et-al-2017-OLPC-peru-rct.pdf"
+    },
+    {
+      "id": "raw:Reiser-2001-history-of-instructional-media",
+      "label": "Reiser 2001 history of instructional media (raw)",
+      "type": "raw",
+      "layer": "raw",
+      "path": "sources-raw/Reiser-2001-history-of-instructional-media.pdf"
+    }
+  ],
+  "edges": [
+    {
+      "source": "seed:teacher-agency",
+      "target": "thread:teacher-agency",
+      "kind": "anchors"
+    },
+    {
+      "source": "seed:ambition-over-complacency",
+      "target": "thread:ambition-over-complacency",
+      "kind": "anchors"
+    },
+    {
+      "source": "seed:augmentation-not-efficiency",
+      "target": "thread:augmentation-not-efficiency",
+      "kind": "anchors"
+    },
+    {
+      "source": "seed:tech-cycles-in-education",
+      "target": "thread:tech-cycles-in-education",
+      "kind": "anchors"
+    },
+    {
+      "source": "thread:ambition-over-complacency",
+      "target": "source:Dewey-1897-pedagogic-creed",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:ambition-over-complacency",
+      "target": "source:Dewey-1897-pedagogic-creed",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:ambition-over-complacency",
+      "target": "source:Dewey-1897-pedagogic-creed",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:ambition-over-complacency",
+      "target": "source:Papert-1980-gears-of-my-childhood",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Papert-1980-gears-of-my-childhood",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Papert-1980-gears-of-my-childhood",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Kirschner-Sweller-Clark-2006-minimal-guidance",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Kirschner-Sweller-Clark-2006-minimal-guidance",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Kirschner-Sweller-Clark-2006-minimal-guidance",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Kirschner-Sweller-Clark-2006-minimal-guidance",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Dewey-1897-pedagogic-creed",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Dewey-1897-pedagogic-creed",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Illich-1971-deschooling-society",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Dewey-1897-pedagogic-creed",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Illich-1971-deschooling-society",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Illich-1971-deschooling-society",
+      "kind": "frames"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Illich-1971-deschooling-society",
+      "kind": "frames"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Illich-1971-deschooling-society",
+      "kind": "frames"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "lead:tech-cycles-in-education-leads",
+      "kind": "tracked-in"
+    },
+    {
+      "source": "thread:ambition-over-complacency",
+      "target": "lead:ambition-over-complacency-leads",
+      "kind": "tracked-in"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "lead:augmentation-not-efficiency-leads",
+      "kind": "tracked-in"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "lead:teacher-agency-leads",
+      "kind": "tracked-in"
+    },
+    {
+      "source": "source:Kirschner-Sweller-Clark-2006-minimal-guidance",
+      "target": "source:Papert-1980-gears-of-my-childhood",
+      "kind": "relates-to"
+    }
+  ],
+  "generated_at": "2026-05-27T19:11:38Z"
+}
