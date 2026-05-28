@@ -50,6 +50,26 @@ Skinner-1954-science-of-learning.pdf https://web.archive.org/web/2022/https://ww
 
 Jordan-2014-mooc-completion-rates.pdf https://www.irrodl.org/index.php/irrodl/article/download/1651/2813
 
+# --- Blog substitute for the paywalled tech-cycles books (added 2026-05-27) ---
+# Cuban (1986, 2001) and Watters (2021) are paywalled. Internet Archive's
+# digital lending route now 403's anonymous downloads on these titles, and the
+# only direct-PDF for Watters is an unauthorized GCS share. The authors have
+# substantial free public writing at larrycuban.wordpress.com and
+# hackeducation.com that distills the same arguments — often more current
+# (AI-aware). Per the 2026-05-27 steer, tech-cycles is reframed as setup
+# ("the medium of learning has been changing all along"), not as foil
+# ("every prior wave failed"). The blog corpus serves the setup framing well.
+# All eight URLs HEAD-verified 2026-05-27 (HTTP 200, HTML).
+
+Watters-2014-personalization-teaching-machines.html http://hackeducation.com/2014/07/02/personalization-teaching-machines
+Watters-2015-teaching-machines-and-turing-machines.html http://hackeducation.com/2015/08/10/digpedlab
+Watters-2018-machine-learning-history-of-future.html http://hackeducation.com/2018/10/20/machine-learning
+Watters-2019-100-worst-edtech-debacles.html http://hackeducation.com/2019/12/31/what-a-shitshow
+Cuban-2021-acot-apple-classroom.html https://larrycuban.wordpress.com/2021/09/18/whatever-happened-to-apple-classroom-of-tomorrow/
+Cuban-2022-programmed-learning.html https://larrycuban.wordpress.com/2022/12/05/whatever-happened-to-programmed-learning/
+Cuban-2024-will-ai-transform.html https://larrycuban.wordpress.com/2024/11/22/will-ai-transform-teaching-and-learning/
+Cuban-2025-some-teachers-use-of-ai.html https://larrycuban.wordpress.com/2025/03/04/some-teachers-use-of-ai/
+
 # --- COMMENTED OUT (returned HTML landing page, not the PDF; demoted to leads) ---
 # Reiser-2001-history-of-instructional-media.pdf https://link.springer.com/content/pdf/10.1007/BF02504506.pdf
 #   ^ Springer "content/pdf" URL serves a JS-rendered article page, not raw PDF bytes.

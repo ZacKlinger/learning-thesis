@@ -9,6 +9,19 @@ in `claim-evidence/tech-cycles-in-education.md` are drawn from it. The
 load-bearing books for this thread (Cuban, Watters, Postman) remain
 paywalled and unread.
 
+**Status (2026-05-27 — blog-substitute strategy adopted.):** The Cuban and
+Watters books remain paywalled (IA digital-lending now 403's anonymous
+downloads; the one direct-PDF mirror for Watters is unauthorized). Both
+authors maintain active public writing — Cuban at larrycuban.wordpress.com
+(ongoing since 2009, ~3 posts/week) and Watters at hackeducation.com
+(decade of essays). Eight load-bearing posts were added to
+`sources-wishlist.txt` on 2026-05-27 as a substitute primary corpus. The
+posts cover the central arguments of the books (often more currently;
+several are AI-aware). Treat these as legitimate primary writing by the
+same authors — not as second-hand summaries. The books remain on this
+leads list and should be promoted to verified sources if and when Zack
+obtains them.
+
 ## Primary sources to read
 
 - **Cuban, Larry (1986). *Teachers and Machines: The Classroom Use of
