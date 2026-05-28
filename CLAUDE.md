@@ -31,6 +31,7 @@ leads/                  # Unverified material, hypotheses, things to investigate
 sources/                # One note per work you have actually read
 sessions/               # Session logs (one per autonomous run, dated)
 digests/                # Weekly digests for Zack (one per Saturday run, dated)
+steers/                 # Human-authored direction notes (dated). Binding when present.
 ```
 
 **Per-source note (`sources/AUTHOR-YEAR-shortname.md`):**
@@ -84,7 +85,7 @@ read_status: read | skimmed | excerpted
 Each Saturday run does these things in order:
 
 1. **Pull latest.** Git pull to get any human edits Zack made during the week.
-2. **Read `thesis-seeds.md` and `queue.md`.** These are your direction.
+2. **Read `thesis-seeds.md`, `queue.md`, and the most recent file in `steers/`.** These are your direction. A steer, if present, is binding and supersedes any conflicting prior framing in `thesis-seeds.md` or thread files. If two steers conflict, the newer file wins.
 3. **Audit pass first (~25% of run effort).** Pick a random sample of 2–3 existing claims in `claim-evidence/`. Re-fetch their sources. Verify the quote is still accurate and the URL still resolves. If anything has rotted or drifted, fix it or demote the claim to `leads/` with a note.
 4. **Advance the queue (~70% of run effort).** Work the top items. For each:
    - If it's a canon entry to read: fetch the source, create the `sources/` note, extract verified quotes, update relevant `claim-evidence/` entries.
