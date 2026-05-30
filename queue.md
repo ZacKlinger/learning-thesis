@@ -2,68 +2,69 @@
 
 Prioritized list of next work. The Saturday routine works from the top.
 
-**Status (2026-05-23):** Refreshed after the second Saturday run. Five
-verified `sources/` notes now exist; four `claim-evidence/` threads have
-their first verbatim quotes. The next moves are driven by two pressures:
-(a) the Hmelo-Silver rejoinder must enter before the KSC-anchored
-counter-evidence in `augmentation-not-efficiency.md` is allowed to do
-heavy work, and (b) the tech-cycles thread has one data point (Jordan
-2014) and needs Cuban or Watters to become a documented pattern.
+**Status (2026-05-30):** Refreshed after the third Saturday run. Two new
+verified `sources/` notes (HSDC 2007 and Cuban 2024). Three claim-evidence
+threads updated with the steer's corrections. First audit pass completed
+clean (3 / 3 quotes verified verbatim, no URLs rotted). The next three
+weeks are the supporting sprint per the 2026-05-27 steer; the first
+priority is whichever of the five newly-added wishlist sources arrives.
 
 ## Next up
 
-1. **Read Hmelo-Silver, Duncan & Chinn (2007) — top priority.** Protocol
-   requires reading alongside, not after, Kirschner/Sweller/Clark (2006).
-   The KSC entries in `claim-evidence/augmentation-not-efficiency.md`
-   are flagged provisional pending HSDC. The new wishlist URL points at
-   an AFT mirror; if that also fails next week, demote and ask Zack to
-   obtain the PDF directly (the paper is well-cited and a copy almost
-   certainly exists in his network).
+1. **Continue the supporting sprint — read whichever of Scardamalia &
+   Bereiter, VanLehn 2011, Zeiser et al. 2014, Bryk et al. 2010, or
+   SKC 2007 sur-rejoinder arrives in `sources-raw/`.** All five URLs
+   added to the wishlist this week are best-guess. If multiple deliver,
+   priority order is: Bryk → Scardamalia & Bereiter → VanLehn → Zeiser
+   → SKC sur-rejoinder. Bryk is highest because the teacher-agency
+   thread's reframing depends on it. Scardamalia & Bereiter is next
+   because Knowledge Building is the strongest empirical case the
+   augmentation thread is missing. VanLehn 2011 because it tests the
+   "cost of expert attention" leg of the four-constraint frame
+   directly. Zeiser because it is the only large-N supporting case for
+   schools-built-around-ambitious-learning that has a plausible URL.
+   SKC because symmetry with HSDC.
 
-2. **Read Illich (1971), Chapters 2–7.** The file is in `sources-raw/`
-   and parsing works. Chapter 1 was read this Saturday. The remaining
-   chapters — Phenomenology of School; Ritualization of Progress;
-   Institutional Spectrum; Irrational Consistencies; Learning Webs;
-   Rebirth of Epimethean Man — sharpen the "AI-could-be-the-learning-web
-   Illich-imagined" tension that surfaced this week. Particular interest
-   in *Learning Webs* (Ch. 6) for the AI-routing-around-the-institution
-   reading.
+2. **Read Cuban 2025** ("Some Teachers' Use of AI"). The HTML file is
+   already in `sources-raw/`. Cuban reportedly moderates the position
+   of Cuban 2024. The contrast between Nov 2024 and March 2025 — same
+   author, same blog — is the sharpest available test of whether the
+   "medium evolves" framing is showing up in Cuban's own thinking.
+   Pair with Cuban 2024 (read this Saturday) in the tech-cycles thread.
 
-3. **Read Skinner (1958) "Teaching Machines" — second-priority for the
-   tech-cycles thread.** Retried with a Wayback Machine mirror. A primary
-   document of the personalized-learning lineage; the structural
-   similarity to current AI-tutoring rhetoric is exactly the point. If
-   delivered next week, pair the reading with the existing Jordan 2014
-   entries in `claim-evidence/tech-cycles-in-education.md`.
+3. **Read Illich (1971), Chapters 2–7** — specifically Chapter 6
+   ("Learning Webs"). Deferred from 2026-05-23 and again from this
+   week. The Illich-as-ally-of-the-thesis reading lives or dies here.
+   Already in `sources-raw/`; parses cleanly. The file in `sources/`
+   has `read_status: excerpted` and will need updating.
 
-4. **Audit pass on this session's claims.** Per protocol, sample 2–3
-   claims from the entries written this week and re-verify the quote +
-   URL + locator. This is the discipline that keeps the ledger from
-   rotting. Treat as a non-negotiable next Saturday.
+4. **Read at least one Watters blog post.** The hackeducation.com
+   files in `sources-raw/` (four of them, all HTML, all readable)
+   are the contemporary critical-edtech corpus that should pair with
+   Cuban for the tech-cycles thread. The most-pressing pair to Cuban
+   2024 is Watters 2018 ("Machine Learning: A History of the Future")
+   because it predates the current AI moment and the predictive value
+   of her 2018 framing is itself useful evidence. Start there.
 
-5. **Read Pea & Kurland (1984), "On the Cognitive Effects of Learning
-   Computer Programming," if a URL can be located.** The canonical
-   critique of early Logo enthusiasm. The Papert claims in
-   `claim-evidence/augmentation-not-efficiency.md` need this complication
-   before they can do heavy lifting in the thesis. Add to wishlist this
-   week.
+5. **Audit pass.** Three claims from this week's writing — one HSDC
+   quote (e.g. p. 102 "indistinguishable from some of the forms of
+   guidance recommended by Cognitive Load theorists") and two Cuban
+   quotes — get re-verified next Saturday.
 
-6. **Read Mehta & Fine (2019) excerpt if a chapter PDF can be located.**
-   Their finding — that deeper learning is rare even in schools that
-   explicitly aim for it, and tends to happen in electives and clubs
-   rather than core classes — is exactly the kind of empirically
-   grounded complication the `ambition-over-complacency` thread is
-   asymmetric without. The book is paywalled; an open chapter or
-   author preprint is worth searching for before defaulting to leads.
+6. **Inspect `sources-raw/` for any landing-page-disguised-as-PDF
+   problems from the new wishlist entries.** The fetcher does not
+   detect content-type drift; the agent does on next-Saturday read.
 
 ## Standing items (every Saturday)
 
 - **Audit pass: re-verify 2–3 random existing claims** in
-  `claim-evidence/`. *Now active — first claims exist as of this session.*
+  `claim-evidence/`. The discipline is now active and produced its
+  first results this Saturday (3 / 3 verified clean).
 - **Tension scan:** surface the most interesting complication from this
   week's reading.
-- **Thesis-fit check:** quote a current line from `thesis-seeds.md` and
-  ask whether the week's reading still supports it.
+- **Thesis-fit check:** quote a current line from the operative
+  direction (currently the 2026-05-27 steer's four-constraint
+  formulation) and ask whether the week's reading still supports it.
 - **Wishlist maintenance:** when reading reveals a needed source,
   append a line to `sources-wishlist.txt`. Demote persistently-failing
   URLs to `leads/` and replace with a working mirror.
@@ -73,41 +74,60 @@ heavy work, and (b) the tech-cycles thread has one data point (Jordan
 
 ## Backlog
 
-- Cuban (1986) *Teachers and Machines* and Watters (2021) *Teaching
-  Machines* — both paywalled; Zack to obtain or the agent records as
-  leads only. Both are load-bearing for the tech-cycles thread; the
-  thread cannot move from "one data point (MOOCs)" to "documented
-  pattern" without one of these.
-- Postman (1992) *Technopoly* — same access situation. The media-ecology
-  critique line cannot fully proceed without this.
-- Sizer (1984), Mehta & Fine (2019) once the practitioner layer comes up.
-- Locate and assess the Bloom 2-sigma replication record (VanLehn 2011
-  on intelligent tutoring is the contemporary update).
-- Founding documents of the American high school's shape: Committee of
-  Ten (1893), Cardinal Principles (1918), Conant (1959).
+- Cuban (1986) *Teachers and Machines* and Cuban (2001) *Oversold and
+  Underused*. Paywalled. The Cuban blog corpus in `sources-raw/` is a
+  partial substitute under the steer's reframing (tech-cycles as
+  setup, not foil) but the books remain canonical and will eventually
+  be needed for the final synthesis.
+- Watters (2021) *Teaching Machines*. Same access situation. The
+  hackeducation.com blog corpus is a partial substitute.
+- Postman (1992) *Technopoly*. Same access situation. The
+  media-ecology critique line cannot fully proceed without it.
+- Sizer (1984) *Horace's Compromise*, Meier (1995), Mehta & Fine
+  (2019) when the practitioner layer comes up.
 - Hirsch (1987) and the Core Knowledge sequence — the strongest
   content-first counter to the "ambition" framing. The
   `ambition-over-complacency` thread is asymmetric without this.
-- Lemov (2010) — the strongest practitioner counter to the "agency"
-  framing. The `teacher-agency` thread is asymmetric without this.
-- Cristia et al. (2017) OLPC Peru RCT — demoted from wishlist this week
-  because the AEA URL returned a landing page. Try NBER WP 18610 mirror.
-- Reiser (2001) — demoted from wishlist this week because the Springer
-  URL returned a landing page. Need a working mirror.
-- Pappano (2012) NYT MOOC piece — paywalled. Either Zack supplies it or
-  the thread cites it second-hand through Jordan 2014, p. 134.
+- Lemov (2010) — the strongest practitioner counter to the
+  workload-constraint reframing of teacher agency. The thread is
+  asymmetric without this.
+- Cristia et al. (2017) OLPC Peru RCT — demoted 2026-05-23. Try
+  NBER WP 18610 mirror; add to wishlist if URL located.
+- Reiser (2001) — demoted 2026-05-23. Need a working PDF mirror.
+- Pappano (2012) NYT MOOC piece — paywalled. Zack-supplied or
+  second-hand-via-Jordan only.
+- Skinner (1958) and Skinner (1954) — Wayback retries did not deliver
+  this week; inspect Actions log next Saturday and either re-retry
+  with a different mirror or demote to leads.
+- VanLehn 2011, Scardamalia & Bereiter 1994, Zeiser et al. 2014,
+  Bryk et al. 2010, SKC 2007 — wishlist entries added this Saturday.
+  Fall back to alternates if URLs fail.
+- Locate Pea & Kurland (1984) — the canonical Logo critique. The
+  Papert claims in `claim-evidence/augmentation-not-efficiency.md`
+  need this complication before they can do heavy lifting.
 
 ## Backlog (deferred until canon is read)
 
 - Synthesis essay 1: what does "previously impossible learning" mean,
-  operationally? Draft only after enough primary sources are read to
-  defend a definition.
-- Synthesis essay 2: which empirical wins in edtech are efficiency wins,
-  which are augmentation wins, and is the distinction stable on
-  inspection?
-- Synthesis essay 3 (tech-cycles thread): what would have to be true
-  for the AI wave to break the historical pattern? Draft only after
-  Cuban, Watters, and one wave-primary document (Skinner) are read.
+  operationally? The four-constraint frame from the 2026-05-27 steer
+  is the candidate operationalisation; draft after enough primary
+  sources are read to defend it.
+- Synthesis essay 2: which empirical wins in edtech remove which
+  constraints from the steer's four? Specifically, where does
+  HSDC-style scaffolded inquiry land relative to "cost of expert
+  attention" and "gap to expert practice"? Draft after VanLehn and
+  Knowledge Building are read.
+- Synthesis essay 3 (tech-cycles thread): with the steer's
+  setup-not-foil reframing, the essay shape changes from "what would
+  break the pattern" to "what does the next change of medium make
+  possible." Draft only after Cuban 1986 *or* a substantial chunk of
+  the blog corpus is read.
+- Synthesis essay 4 (new this week, post-Cuban 2024): a specification
+  of what AI is taking off the teacher's plate in the workload-relief
+  leg of the four-constraint frame that *isn't* the relational core
+  Cuban defends. This is the question surfaced in this Saturday's
+  digest under "Where I need you"; should not be drafted by the agent
+  alone — Zack's call on what counts as the relational core.
 
 ## Workflow-level item for Zack
 
@@ -117,4 +137,4 @@ heavy work, and (b) the tech-cycles thread has one data point (Jordan
   content-type check or a `file --mime-type` probe after the fetch
   so that bad fetches are recorded as failures rather than committed
   as garbage. The agent can write the patch; installing it requires
-  the `workflow` scope on the PAT.
+  the `workflow` scope on the PAT. (Restated from 2026-05-23.)

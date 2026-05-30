@@ -14,7 +14,7 @@
       "label": "Augmentation, not efficiency",
       "type": "thread",
       "layer": "thread",
-      "claims": 3,
+      "claims": 4,
       "path": "claim-evidence/augmentation-not-efficiency.md",
       "seed_framing": "The framing battle. \"Efficiency\" in education usually means doing the existing thing faster, which entrenches it. \"Augmentation\" means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line.\n\n**Steer (2026-05-27):** An interactive session surfaced an apparent synthesis \u2014 KSC's expertise-reversal concession plus Illich's skill-drill concession plus Papert's transitional-object case all seemed to support a two-phase framing: \"AI builds the prior-knowledge floor (efficiency win) \u2192 ambitious inquiry becomes available later (augmentation).\" **The thesis rejects this synthesis.** Reading Dewey \u00b68 (\"education is a process of living and not a preparation for future living\") as instrumental \u2014 early years are floor-building for later\u2026"
     },
@@ -32,9 +32,32 @@
       "label": "Tech cycles in education",
       "type": "thread",
       "layer": "thread",
-      "claims": 2,
+      "claims": 3,
       "path": "claim-evidence/tech-cycles-in-education.md",
       "seed_framing": "Every prior wave of technology in education (cinema, radio, television, programmed-instruction machines, classroom computers, MOOCs) was introduced with very similar optimistic rhetoric, and most failed to change what actually happens in schools. Cuban's historical record is the steelman the optimistic case has to clear: if the pattern is \"hype, modest adoption, absorption into the existing grammar of schooling, disappointment,\" then the burden is on showing what is structurally different this time. Not whether AI is different in capability \u2014 *every* prior wave was different in capability \u2014 but whether the *adoption pathway* into ambitious learning is different. This thread holds the others honest."
+    },
+    {
+      "id": "source:Cuban-2024-will-ai-transform",
+      "label": "Larry Cuban 2024",
+      "title": "Will AI Transform Teaching and Learning?",
+      "type": "source",
+      "layer": "historical / practitioner-historian (blog)",
+      "year": "2024",
+      "read_status": "read",
+      "url": "https://larrycuban.wordpress.com/2024/11/22/will-ai-transform-teaching-and-learning/",
+      "access_date": "2026-05-30",
+      "path": "sources/Cuban-2024-will-ai-transform.md",
+      "raw_path": "sources-raw/Cuban-2024-will-ai-transform.html",
+      "thesis_excerpt": "Cuban's compact contemporary statement of his classic position, applied to AI.\nAdapted from a five-member Google panel he sat on as the lone historian. The\nargument has three moves: (1) every prior classroom technology of the last\ncentury \u2014 radio, 16mm film, overhead projectors, instructional TV,\nvideocassettes, 1:1 laptops, interactive whiteboards \u2014 was introduced with\n\"revolutionary\" and \"transformational\" rhetoric; (2) none of them produced\nevidence of fundamental change in how teachers teach, student engagement, or\ntest scores; (3) the reason this happens is not that the technologies\u2026",
+      "quotes": [
+        "\"Over the past century, every technology introduced to improve teaching",
+        "\"Yet there is little evidence that classroom use of these previous",
+        "\"So I have concluded that those pushing AI use in classrooms fail to"
+      ],
+      "threads": [
+        "teacher-agency",
+        "tech-cycles-in-education"
+      ]
     },
     {
       "id": "source:Dewey-1897-pedagogic-creed",
@@ -57,6 +80,28 @@
       "threads": [
         "ambition-over-complacency",
         "teacher-agency"
+      ]
+    },
+    {
+      "id": "source:Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response",
+      "label": "Cindy E. Hmelo-Silver 2007",
+      "title": "Scaffolding and Achievement in Problem-Based and Inquiry Learning: A Response to Kirschner, Sweller, and Clark (2006)",
+      "type": "source",
+      "layer": "empirical",
+      "year": "2007",
+      "read_status": "read",
+      "url": "https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/HmeloSilverDuncan2007.pdf",
+      "access_date": "2026-05-30",
+      "path": "sources/Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.md",
+      "raw_path": "sources-raw/Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.pdf",
+      "thesis_excerpt": "The published rejoinder to Kirschner, Sweller & Clark (2006). HSDC argue that\nKSC's case is built on two flaws. First, a *pedagogical* flaw: KSC conflate\nproblem-based learning (PBL) and inquiry learning (IL) with unguided\ndiscovery learning, when in fact PBL and IL as actually practiced are\nextensively scaffolded \u2014 through expert modeling, just-in-time direct\ninstruction, tool-imposed structure (Model-It's plan/build/test modes;\nGenScope's linked representations; WISE's embedded hints; anchored\ninstruction's whiteboards), and curriculum-level constraints. The forms of\nguidance present in\u2026",
+      "quotes": [
+        "\"Kirschner and colleagues have indiscriminately lumped together several",
+        "\"We agree with Kirschner et al. (2006) that there is little evidence to",
+        "\"In summary, many of the types of scaffolding described provide very"
+      ],
+      "threads": [
+        "augmentation-not-efficiency"
       ]
     },
     {
@@ -191,25 +236,11 @@
       "path": "sources-raw/Cuban-2022-programmed-learning.html"
     },
     {
-      "id": "raw:Cuban-2024-will-ai-transform",
-      "label": "Cuban 2024 will ai transform (raw)",
-      "type": "raw",
-      "layer": "raw",
-      "path": "sources-raw/Cuban-2024-will-ai-transform.html"
-    },
-    {
       "id": "raw:Cuban-2025-some-teachers-use-of-ai",
       "label": "Cuban 2025 some teachers use of ai (raw)",
       "type": "raw",
       "layer": "raw",
       "path": "sources-raw/Cuban-2025-some-teachers-use-of-ai.html"
-    },
-    {
-      "id": "raw:Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response",
-      "label": "Hmelo Silver Duncan Chinn 2007 scaffolding response (raw)",
-      "type": "raw",
-      "layer": "raw",
-      "path": "sources-raw/Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.pdf"
     },
     {
       "id": "raw:Watters-2014-personalization-teaching-machines",
@@ -278,6 +309,36 @@
     },
     {
       "source": "thread:augmentation-not-efficiency",
+      "target": "source:Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
       "target": "source:Papert-1980-gears-of-my-childhood",
       "kind": "supports"
     },
@@ -319,6 +380,16 @@
     {
       "source": "thread:teacher-agency",
       "target": "source:Dewey-1897-pedagogic-creed",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Cuban-2024-will-ai-transform",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Cuban-2024-will-ai-transform",
       "kind": "supports"
     },
     {
@@ -347,6 +418,21 @@
       "kind": "supports"
     },
     {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2024-will-ai-transform",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2024-will-ai-transform",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2024-will-ai-transform",
+      "kind": "supports"
+    },
+    {
       "source": "thread:teacher-agency",
       "target": "lead:teacher-agency-leads",
       "kind": "tracked-in"
@@ -368,9 +454,14 @@
     },
     {
       "source": "source:Kirschner-Sweller-Clark-2006-minimal-guidance",
+      "target": "source:Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response",
+      "kind": "relates-to"
+    },
+    {
+      "source": "source:Kirschner-Sweller-Clark-2006-minimal-guidance",
       "target": "source:Papert-1980-gears-of-my-childhood",
       "kind": "relates-to"
     }
   ],
-  "generated_at": "2026-05-28T03:50:10Z"
+  "generated_at": "2026-05-30T15:24:38Z"
 }
