@@ -70,6 +70,50 @@ Cuban-2022-programmed-learning.html https://larrycuban.wordpress.com/2022/12/05/
 Cuban-2024-will-ai-transform.html https://larrycuban.wordpress.com/2024/11/22/will-ai-transform-teaching-and-learning/
 Cuban-2025-some-teachers-use-of-ai.html https://larrycuban.wordpress.com/2025/03/04/some-teachers-use-of-ai/
 
+# --- Supporting-sprint additions (added 2026-05-30 per the steer) ---
+# The 2026-05-27 steer asks for a three-week supporting sprint to balance the
+# ledger. Three target works, in priority order:
+#   1. Scardamalia & Bereiter — knowledge building / CSILE.
+#   2. VanLehn 2011 — the contemporary 2-sigma update.
+#   3. Deeper Learning Network evaluations — large-N supporting case.
+# All three URLs below are best-guess mirrors; if any fail, demote next week
+# and replace with an alternate. The supporting sprint blocks if none deliver.
+
+# Scardamalia & Bereiter — the founding CSILE paper. ikit.org is the Knowledge
+# Building site (the authors' own institutional umbrella at OISE/Toronto) and
+# typically hosts open PDFs. If this URL pattern fails, alternates: the
+# *Cambridge Handbook of the Learning Sciences* chapter via Sawyer's
+# cambridge.org page (paywalled), or the IKIT publications index.
+Scardamalia-Bereiter-1994-csile-knowledge-building.pdf https://ikit.org/fulltext/1994_CSILE.pdf
+
+# VanLehn 2011 — "The Relative Effectiveness of Human Tutoring, Intelligent
+# Tutoring Systems, and Other Tutoring Systems." Educational Psychologist
+# 46(4). Tandfonline is paywalled. Two speculative open mirrors below:
+# (a) the SFU course directory that already served KSC and HSDC; (b) the
+# LearnLab/Pittsburgh PSLC site where VanLehn's collaborators publish. If
+# both fail, the next move is to ask Zack to supply.
+VanLehn-2011-relative-effectiveness-tutoring.pdf https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/VanLehn2011.pdf
+
+# Deeper Learning Network evaluation — the AIR Zeiser et al. (2014) report
+# "Evidence of Deeper Learning Outcomes" is the largest contemporary
+# evaluation of schools designed around ambitious learning. AIR publishes
+# its reports as free PDFs at air.org; the URL convention is
+# /sites/default/files/downloads/report/<file>.pdf.
+Zeiser-et-al-2014-deeper-learning-outcomes.pdf https://www.air.org/sites/default/files/downloads/report/Report_3_Evidence_of_Deeper_Learning_Outcomes.pdf
+
+# Bryk et al. (2010) — "Organizing Schools for Improvement." The UChicago
+# book is paywalled, but the Consortium on School Research distributed an
+# open executive-summary PDF under the same title that distills the
+# workload-and-organization findings needed for the teacher-agency thread's
+# reframing (per the 2026-05-27 steer). consortium.uchicago.edu is a stable
+# open-access site.
+Bryk-et-al-2010-organizing-schools-summary.pdf https://consortium.uchicago.edu/sites/default/files/2018-10/05%20Organizing%20Schools.pdf
+
+# Sweller, Kirschner & Clark (2007) — the sur-rejoinder to HSDC in the same
+# Educational Psychologist 42(2) issue, pp. 115–121. The SFU course mirror
+# served KSC and HSDC; try the same directory.
+Sweller-Kirschner-Clark-2007-surrejoinder.pdf https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/SwellerKirschner2007.pdf
+
 # --- COMMENTED OUT (returned HTML landing page, not the PDF; demoted to leads) ---
 # Reiser-2001-history-of-instructional-media.pdf https://link.springer.com/content/pdf/10.1007/BF02504506.pdf
 #   ^ Springer "content/pdf" URL serves a JS-rendered article page, not raw PDF bytes.
