@@ -1,23 +1,39 @@
 # Thread: Tech cycles in education
 
-Thesis-seed v1 (#4): *"Every prior wave of technology in education was introduced with similar optimistic rhetoric, and most failed to change what actually happens in schools. The burden on an optimistic AI-in-education case is not whether AI is different in capability — every prior wave was different in capability — but whether the adoption pathway into ambitious learning is different."*
+Thesis-seed v1 (#4) — *as originally written*: *"Every prior wave of technology in education was introduced with similar optimistic rhetoric, and most failed to change what actually happens in schools. The burden on an optimistic AI-in-education case is not whether AI is different in capability — every prior wave was different in capability — but whether the adoption pathway into ambitious learning is different."*
 
-**Status (2026-05-23):** First verified entries land this Saturday. Jordan
-(2014) gives the cleanest empirical anchor for the MOOC wave's reality
-(median completion ~6.5%, demographics skewed to the already-educated). The
-hype-side anchor (Pappano 2012, "The Year of the MOOC") was not delivered by
-the fetcher — the *NYT* URL did not return parseable bytes; demoted to leads
-with a note. Cuban, Watters, Postman are paywalled and remain leads — these
-remain the load-bearing books for this thread and the agent cannot read them
-without Zack obtaining a copy. The Reiser 2001 survey paper was supposed to
-anchor a lighter historical map, but the URL on the wishlist returned a
-Springer landing page, not a PDF; demoted to leads with a request for a
-working mirror.
+**Steer-reframed (2026-05-27):** *"The medium of learning has been changing
+throughout history; AI is the latest, most consequential change to that
+medium. The historical record is the setup — not a base rate the optimistic
+case has to beat, but the frame inside which AI's removal of constraints on
+learning is the next move."*
 
-The Kirschner/Sweller/Clark (2006) reading this Saturday also surfaced a
-relevant *meta-observation* about the cycle of educational reform: an
-empirical-side paper unintentionally documenting the rhetorical pattern
-this thread is trying to name.
+The reframe matters operationally. Under v1, the question driving the thread
+was "what would have to be true for the AI wave to break the pattern?" —
+which subordinates the optimistic case to a burden of proof. Under the
+steer, the question driving the thread is "what does the next change of
+medium make possible that the prior media did not?" — which subordinates the
+historical record to a positive aim. The "what would make this wave
+actually break the pattern" question is preserved (it is real and the thesis
+must engage it) but it is now a question *inside* the setup, not the
+question that drives the thread.
+
+**Status (2026-05-30):** Three verified entries on the ledger after this
+Saturday. Jordan (2014) anchors the empirical reality-check on the MOOC
+wave. KSC 2006 is recorded as a meta-observation about the reform-rhetoric
+cycle. Cuban (2024) lands as a contemporary, AI-specific statement of the
+canonical Cuban argument — useful substitute material while *Teachers and
+Machines* (1986) remains paywalled, but Cuban's own prediction (AI will be
+adapted to fit the contours of existing classrooms, not transform them) is
+*not* the steer-reframed framing the thread is using. The gap is recorded
+honestly rather than papered over.
+
+The hype-side anchor (Pappano 2012, "The Year of the MOOC") was not
+delivered by the fetcher — *NYT* paywall + JS gate; demoted to leads.
+The full canonical books (Cuban 1986, 2001; Watters 2021; Postman 1992) are
+paywalled and remain leads. The Watters blog corpus and the Cuban blog
+corpus in sources-raw/ are partial substitutes; Cuban 2024 is the first
+of those entered this Saturday; the rest will land over the coming weeks.
 
 ---
 
@@ -103,10 +119,71 @@ in that same rhetoric.
   decade-scale rhythm of enthusiasm and disappointment. Is this the *same*
   phenomenon at different layers (institutional immune response to a class
   of reform), or two distinct phenomena that share a tempo? Reading Cuban
-  is the prerequisite for answering this.
-- KSC's "this pattern produced discovery → experiential → PBL → constructivist"
-  characterisation is itself contested. Hmelo-Silver et al. (2007), not yet
-  read, will offer the counter-frame.
+  in full is still the prerequisite for answering this — Cuban 2024 (blog,
+  this Saturday) is a contemporary summary, not the historical evidence.
+- KSC's "this pattern produced discovery → experiential → PBL →
+  constructivist" characterisation is contested by Hmelo-Silver, Duncan
+  & Chinn (2007), now read. HSDC argue KSC's lineage glosses over the
+  pedagogical differences between unguided discovery and scaffolded
+  inquiry. The cycle-narrative is one frame on the historical record;
+  it is not the only defensible frame.
+
+---
+
+## Claim: Every classroom technology of the last century — radio, 16mm film, overhead projectors, instructional TV, videocassettes, 1:1 laptops, interactive whiteboards — was introduced with "revolutionary" / "transformational" rhetoric, and (Cuban argues) none produced fundamental change in how teachers teach.
+
+This is Cuban's classic argument, made AI-specific in his 2024 blog post.
+Entered here as the cleanest contemporary statement of the historical
+pattern. *Per the steer:* this is recorded as setup ("the medium has been
+changing"), not as foil ("every prior wave failed therefore this one
+will"). Cuban himself would not accept that framing — his own conclusion
+is the foil version. The gap is recorded honestly.
+
+### Supporting evidence (for the setup framing)
+- "Over the past century, every technology introduced to improve teaching
+  and learning has been hyped as 'revolutionary' and 'transformational.'"
+  — [Cuban 2024](../sources/Cuban-2024-will-ai-transform.md) — layer: practitioner-historian (blog)
+- "Yet there is little evidence that classroom use of these previous
+  technologies forced classroom teachers to rethink, much less reshape,
+  their instruction. Nor have I found convincing evidence that these
+  technologies altered fundamentally how teachers teach, increased student
+  engagement, or raised test scores."
+  — [Cuban 2024](../sources/Cuban-2024-will-ai-transform.md) — layer: practitioner-historian (blog)
+- "While I believe AI will not force practitioners to rethink how they
+  teach, nonetheless, as so many teachers have done in the past, they will
+  adapt AI to fit the contours of their classrooms."
+  — [Cuban 2024](../sources/Cuban-2024-will-ai-transform.md) — layer: practitioner-historian (blog)
+
+### Counter-evidence (against absorbing Cuban into the steer's framing)
+- *Cuban's own conclusion is the foil framing, not the setup framing.* The
+  steer reads tech-cycles as "the medium evolves toward better learning."
+  Cuban reads tech-cycles as "the medium evolves only at the surface; what
+  teachers actually do is preserved by the institution." These are not the
+  same claim. The thesis owes him an account of *what is structurally
+  different this time in the adoption pathway* — not in the capability —
+  before it can claim the medium-evolves framing without inheriting his
+  counter-prediction.
+- *The counter-examples the v1 thread already named — textbook,
+  blackboard, calculator, standardised test booklet — are technologies
+  that did reshape schooling. Cuban does not engage them in this post.
+  They are the strongest evidence against treating the cycle as
+  universal.*
+
+### Open questions
+- Cuban 2025 (sources-raw/Cuban-2025-some-teachers-use-of-ai.html, unread)
+  reportedly moderates this position — Cuban himself updating on
+  early-AI teacher use. Reading it would set up a sharper question:
+  *what does Cuban himself think has shifted between Nov 2024 and March
+  2025, and is that shift evidence for the steer's "medium evolves"
+  framing?*
+- The "complexity of teaching" claim Cuban makes (entered in the
+  teacher-agency thread) is the *root* of his prediction. If Cuban is
+  right that AI advocates fundamentally misunderstand teaching, the
+  thesis's "AI removes the workload constraint" claim has to do the
+  detailed work of describing *which* AI-in-education designs avoid
+  the misunderstanding Cuban names. Cuban-style critique of bad AI
+  designs is then not enemy material — it is constraint material the
+  thesis can use.
 
 ---
 
