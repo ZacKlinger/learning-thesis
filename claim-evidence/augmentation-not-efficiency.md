@@ -2,15 +2,22 @@
 
 Thesis-seed v1: *"'Efficiency' in education usually means doing the existing thing faster, which entrenches it. 'Augmentation' means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line."*
 
-**Status (2026-05-23):** Active. Counter-evidence (Kirschner, Sweller & Clark
-2006) and supporting evidence (Papert 1980) both entered this Saturday. The
-two are in direct, named collision — KSC cite Papert by name as exemplifying
-the position they attack — so this thread is the right place to stage that
-tension, not paper over it. The Hmelo-Silver/Duncan/Chinn 2007 rejoinder to
-KSC has not been retrieved (the wishlist URL did not deliver); claims drawn
-from KSC are therefore provisional until HSDC is in hand. The radical
-counter — Illich (1971), which would dismiss the very framing as institutional
-capture — is also seeded here as a counter-counter that the thesis must engage.
+**Status (2026-05-30):** Per the 2026-05-27 steer the binary is a
+*rhetorical device* in the seed, not the load-bearing claim of the thesis.
+The clarified positive thesis is that AI removes four constraints (cost of
+expert attention; one-way fixed content; system-imposed teacher workload;
+gap to expert-level practice) so that "the truest forms of learning, whatever
+the research says those forms actually are" become available. The
+KSC/HSDC debate over scaffolding for novices is a debate *inside* that
+positive aim — over how to scaffold beginners — not a debate over whether
+to pursue it. Counter-evidence (KSC 2006), the rejoinder that bounds KSC
+(HSDC 2007), the visionary supporting case (Papert 1980), and the radical
+counter-counter that rejects the question (Illich 1971) are all on the
+ledger as of this Saturday. The ledger is no longer asymmetric in
+counter-evidence's favour, but the strongest *supporting* literature
+(Scardamalia & Bereiter; VanLehn 2011; the Deeper Learning Network
+evaluations) has not yet been read; that is the supporting sprint
+underway in the next 3 Saturdays.
 
 ---
 
@@ -51,10 +58,81 @@ agreement.
   argument exceed what the paper supports. *How much of the augmentation
   literature concerns expert/long-term learners (Papert's autobiographical
   self, Knowledge Building communities) where the KSC bound does not bite?*
-- Hmelo-Silver, Duncan & Chinn (2007) reportedly argue KSC mischaracterise
-  PBL/inquiry-as-practiced (which is heavily scaffolded, not "minimally
-  guided"). Source not yet retrieved. Until then, KSC is represented but not
-  endorsed.
+- Hmelo-Silver, Duncan & Chinn (2007) now read (this Saturday). They argue
+  KSC mischaracterise PBL/inquiry-as-practiced as "minimally guided" when
+  it is in fact heavily scaffolded — and they cite favorable meta-analyses
+  KSC overlooked. The KSC entries above are no longer flagged "provisional";
+  they are read in their HSDC-bounded form. The argument between KSC and
+  HSDC is *not* "either pure discovery works or it doesn't." It is "what
+  forms of guidance are needed under what conditions." (See the new HSDC
+  claim below.)
+
+---
+
+## Claim: Problem-based and inquiry learning *as actually practiced* are heavily scaffolded — providing forms of guidance that may be "indistinguishable" from those Cognitive Load theorists recommend — and the evidence against unguided discovery does not bind them.
+
+This is the HSDC rejoinder. It does not refute KSC's narrow claim; it
+contests KSC's *scope*. The honest read is that KSC and HSDC agree on the
+core normative point (provide guidance) and disagree on which existing
+pedagogies fall inside the "guided" camp.
+
+### Supporting evidence (for the augmentation thread; against KSC's framing of PBL/IL)
+- "Kirschner and colleagues have indiscriminately lumped together several
+  distinct pedagogical approaches—constructivist, discovery, problem-based,
+  experiential, and inquiry-based—under the category of minimally guided
+  instruction. We argue here that at least some of these approaches, in
+  particular, problem-based learning (PBL) and inquiry learning (IL), are
+  not minimally guided instructional approaches but rather provide extensive
+  scaffolding and guidance to facilitate student learning."
+  — [Hmelo-Silver, Duncan & Chinn 2007](../sources/Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.md), p. 99 — layer: empirical
+- "In summary, many of the types of scaffolding described provide very
+  strong forms of guidance that seem to us to be indistinguishable from
+  some of the forms of guidance recommended by Cognitive Load theorists."
+  — [Hmelo-Silver, Duncan & Chinn 2007](../sources/Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.md), p. 102 — layer: empirical
+- "Studies showing that unguided or minimally guided instruction is
+  inferior to direct instruction are simply irrelevant to most approaches
+  implementing PBL or IL."
+  — [Hmelo-Silver, Duncan & Chinn 2007](../sources/Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.md), p. 102 — layer: empirical
+- "In a more recent meta-analysis of the effects of PBL, Dochy, Segers,
+  Van den Bossche, and Gijbels (2003) found there was no effect of PBL on
+  declarative knowledge tests, but studies that compared PBL students with
+  those in traditional curricula on measures of knowledge application
+  showed a moderate effect size favoring PBL students."
+  — [Hmelo-Silver, Duncan & Chinn 2007](../sources/Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.md), p. 103 — layer: empirical (HSDC citing Dochy et al. 2003)
+- "African-American boys in the inquiry classrooms 'caught up' to and
+  showed no statistically significant difference from girls after exposure
+  to at least one inquiry-based unit." (re: Geier et al., ~19,000
+  middle-school students, two cohorts)
+  — [Hmelo-Silver, Duncan & Chinn 2007](../sources/Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.md), p. 104 — layer: empirical (HSDC citing Geier et al.)
+
+### Counter-evidence (against treating HSDC as a knockout of KSC)
+- "While we are not arguing against various forms of direct and more
+  heavily guided instruction, of the sort that Kirschner et al advocate, it
+  is still unclear how to balance IL and PBL (which are more constructivist
+  and experiential) with direct instructional guidance."
+  — [Hmelo-Silver, Duncan & Chinn 2007](../sources/Hmelo-Silver-Duncan-Chinn-2007-scaffolding-response.md), p. 106 — layer: empirical
+
+  *Why this is here:* HSDC's own concession that they do not know the
+  optimal balance between scaffolded inquiry and direct instructional
+  guidance mirrors KSC's expertise-reversal concession. Both sides bound
+  their own claim. The thesis should not treat HSDC as "the rejoinder
+  that ended the debate" — the debate is genuinely open, conditional on
+  learner, domain, and outcome measure.
+
+### Open questions
+- KSC's outcome measures are largely *declarative-knowledge tests* on
+  short timescales; HSDC argue (p. 105) that the goals of PBL/IL include
+  epistemic practices, self-directed learning, and collaboration that
+  "are not measured on achievement tests." Whoever defines the outcome
+  metric tends to define the answer. What is the thesis's own view on
+  which outcomes count?
+- The Geier et al. and Lynch et al. studies are quasi-experimental, not
+  RCT, with moderate effect sizes (0.37–0.44). HSDC do not engage
+  selection-bias worries directly. These are good but not definitive
+  evidence — same epistemic standard the protocol applies to KSC.
+- Sweller, Kirschner & Clark published a sur-rejoinder in the same issue
+  (*Educational Psychologist*, 42(2), 115–121). Not yet read; should be
+  added to the wishlist for symmetry.
 
 ---
 
