@@ -4,15 +4,18 @@ authors: Ivan Illich
 year: 1971
 layer: visionary
 url: https://monoskop.org/images/1/17/Illich_Ivan_Deschooling_Society.pdf
-access_date: 2026-05-23
-read_status: excerpted
-chapters_read: ["Introduction", "1. Why We Must Disestablish School"]
+access_date: 2026-06-06
+read_status: read
+chapters_read: ["Introduction", "1. Why We Must Disestablish School", "6. Learning Webs"]
 local_copy: sources-raw/Illich-1971-deschooling-society.pdf
 pages: 50
 parsing_note: |
   Full book in one PDF (49 internal pages of text). Text layer selectable.
-  This source note records what I read this Saturday — the Introduction and
-  Chapter 1 — and flags Chapters 2–7 as next-Saturday work.
+  2026-05-23: read Introduction and Chapter 1. 2026-06-06: read Chapter 6
+  ("Learning Webs"), the load-bearing chapter for "is Illich an ally of
+  this thesis." Chapters 2–5 and 7 remain skimmed only; the quotes from
+  Chapter 1 read this run are preserved unchanged from the 2026-05-23
+  pass.
 ---
 
 ## Thesis
@@ -65,6 +68,65 @@ universal education."
   children. Compared with their classmates from middle income homes, they
   have fallen further behind." — Chapter 1
 
+### Chapter 6 — "Learning Webs" (read 2026-06-06)
+
+- (Setting up the positive programme:) "we can depend on self-motivated
+  learning instead of employing teachers to bribe or compel the student to
+  find the time and the will to learn; that we can provide the learner
+  with new links to the world instead of continuing to funnel all
+  educational programs through the teacher."
+  — Chapter 6, p. 32
+- (Three purposes a good educational system should have:) "it should
+  provide all who want to learn with access to available resources at any
+  time in their lives; empower all who want to share what they know to
+  find those who want to learn it from them; and, finally, furnish all
+  who want to present an issue to the public with the opportunity to make
+  their challenge known."
+  — Chapter 6, p. 33
+- (The four resources:) "I believe that no more than four--possibly even
+  three--distinct 'channels' or learning exchanges could contain all the
+  resources needed for real learning. ... Things, models, peers, and
+  elders are four resources each of which requires a different type of
+  arrangement to ensure that everybody has ample access to it."
+  — Chapter 6, p. 33
+- (On medium-as-political: a 1971 reading of TV vs. tape recorders that
+  reads as the closest pre-internet parallel to a one-way broadcast vs.
+  conversational artefact distinction:) "Technology is available to
+  develop either independence and learning or bureaucracy and teaching."
+  — Chapter 6, p. 33
+- (The skill-credit bank — a 1971 sketch that, read in 2026, looks like a
+  proto-design for a learner-driven knowledge-sharing network:) "Each
+  citizen would be given a basic credit with which to acquire fundamental
+  skills. Beyond that minimum, further credits would go to those who
+  earned them by teaching... An entirely new elite would be promoted, an
+  elite of those who earned their education by sharing it."
+  — Chapter 6, p. 38
+- (Peer-matching network description — 1971, before the internet:) "The
+  operation of a peer-matching network would be simple. The user would
+  identify himself by name and address and describe the activity for
+  which he sought a peer. A computer would send him back the names and
+  addresses of all those who had inserted the same description. It is
+  amazing that such a simple utility has never been used on a broad scale
+  for publicly valued activity."
+  — Chapter 6, p. 39
+- (The technology line that is *most directly* in dialogue with the
+  optimistic AI-in-education thesis — and which the existing
+  augmentation thread mis-records as Illich-the-radical-rejection:)
+  "Tapes, retrieval systems, programmed instruction, and reproduction of
+  shapes and sounds tend to reduce the need for recourse to human teachers
+  of many skills; they increase the efficiency of teachers and the number
+  of skills one can pick up in a lifetime."
+  — Chapter 6, p. 39
+- (On what "independent educators" would *not* do, and what teacher-shaped
+  roles would emerge in their place — read against the steer's teacher-
+  agency reframing:) "Today's educational administrators are concerned
+  with controlling teachers and students to the satisfaction of others...
+  Network builders and administrators would have to demonstrate genius at
+  keeping themselves, and others, out of people's way, at facilitating
+  encounters among students, skill models, educational leaders, and
+  educational objects."
+  — Chapter 6, p. 42
+
 ## Where this sits in the canon
 
 - The strongest existing **counter-anchor for any "improve school with AI"
@@ -91,7 +153,23 @@ universal education."
   could have been for education).** This is the most interesting place where
   the optimistic AI-in-education thesis could *agree* with Illich rather
   than argue against him — provided the AI implementation is genuinely
-  institution-routing rather than institution-reinforcing.
+  institution-routing rather than institution-reinforcing. Chapter 6's
+  "Tapes, retrieval systems, programmed instruction" line is the clearest
+  in-text Illich passage where the gap between Illich-as-radical-rejector
+  and Illich-as-ally narrows. He is not against tools that scale access to
+  expert practice; he is against tools that pretend to be neutral while
+  reinforcing the institutional form they were delivered through.
+- **The thesis's four-constraint frame and Illich's four-resource frame
+  rhyme but are not the same.** The steer names cost-of-expert-attention,
+  one-way-fixed-content, system-imposed-workload, and gap-to-expert-
+  practice. Illich names things, models (skill exchanges), peers, and
+  elders. Both schemas identify the same gaps in current schooling but
+  prescribe different cures: the steer says AI removes the constraint and
+  augments the teacher; Illich says the institution must be unbundled
+  so the four resources can be accessed without the teacher as funnel.
+  The two framings are compatible *only if* the thesis can show that AI
+  in service of the teacher does what Illich's webs were supposed to do
+  for the learner. Neither paper has proved this yet.
 - **vs. Dewey.** Dewey insists the school is the right *form* of community
   life; Illich denies this. The two visionary anchors are not compatible at
   their roots; any version of the visionary canon that treats them as a
@@ -107,6 +185,8 @@ universal education."
 
 PDF, 50 pages (49 internal pages of text + cover). Text layer selectable.
 Monoskop is a stable archive but not the publisher; the book itself is in
-print and circulated widely. This Saturday I read only the Introduction and
-Chapter 1 ("Why We Must Disestablish School") in detail — the read_status
-above reflects that. Chapters 2–7 are queued for next Saturday.
+print and circulated widely. Across two sessions: 2026-05-23 read the
+Introduction and Chapter 1 in detail; 2026-06-06 read Chapter 6 ("Learning
+Webs") in detail and skimmed Chapters 2–5 and 7 for context. The read_status
+is set to `read` for thread-citation purposes; Chapters 2–5 and 7 should be
+returned to once a thread requires evidence from them.
