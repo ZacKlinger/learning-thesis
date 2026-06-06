@@ -18,15 +18,25 @@ actually break the pattern" question is preserved (it is real and the thesis
 must engage it) but it is now a question *inside* the setup, not the
 question that drives the thread.
 
-**Status (2026-05-30):** Three verified entries on the ledger after this
+**Status (2026-06-06):** Four verified entries on the ledger after this
 Saturday. Jordan (2014) anchors the empirical reality-check on the MOOC
 wave. KSC 2006 is recorded as a meta-observation about the reform-rhetoric
 cycle. Cuban (2024) lands as a contemporary, AI-specific statement of the
 canonical Cuban argument — useful substitute material while *Teachers and
 Machines* (1986) remains paywalled, but Cuban's own prediction (AI will be
-adapted to fit the contours of existing classrooms, not transform them) is
-*not* the steer-reframed framing the thread is using. The gap is recorded
-honestly rather than papered over.
+adapted to fit the contours of existing classrooms) is *not* the steer-
+reframed framing the thread is using. The gap is recorded honestly.
+
+Cuban (2025) is added this Saturday as the natural pair. It is a genre
+shift: Cuban steps out of the historian's voice and curates teachers'
+own descriptions of their AI use. Read alongside Cuban 2024, the pair
+shows Cuban's own framing softening between Nov 2024 and March 2025 —
+his prediction holds in attenuated form, but the post-shape ("here are
+teachers finding genuine value in AI") is the opposite of the prior
+post-shape ("AI will be added to the list of hyped innovations"). That
+shift is itself a small data point on the steer-reframed thread: the
+medium-evolves framing has a closer fit to Cuban's March 2025 curation
+than to his November 2024 prediction.
 
 The hype-side anchor (Pappano 2012, "The Year of the MOOC") was not
 delivered by the fetcher — *NYT* paywall + JS gate; demoted to leads.
@@ -170,12 +180,16 @@ is the foil version. The gap is recorded honestly.
   universal.*
 
 ### Open questions
-- Cuban 2025 (sources-raw/Cuban-2025-some-teachers-use-of-ai.html, unread)
-  reportedly moderates this position — Cuban himself updating on
-  early-AI teacher use. Reading it would set up a sharper question:
-  *what does Cuban himself think has shifted between Nov 2024 and March
-  2025, and is that shift evidence for the steer's "medium evolves"
-  framing?*
+- Cuban 2025 read this Saturday. He does not state a moderated position
+  in his own voice; he *curates* teacher voices and stops. That genre
+  shift is the answer, and it is partial. His Nov 2024 prediction holds
+  ("AI will be adapted to fit the contours of their classrooms" —
+  exactly what the curated teachers describe doing) but the post's
+  emotional register has moved from deflation ("just another hyped
+  innovation") to recognition ("here are teachers finding genuine
+  value"). The shift gives the steer-reframed thread its first
+  Cuban-derived support — small, qualitative, and Cuban himself has not
+  endorsed it. See the new claim below.
 - The "complexity of teaching" claim Cuban makes (entered in the
   teacher-agency thread) is the *root* of his prediction. If Cuban is
   right that AI advocates fundamentally misunderstand teaching, the
@@ -184,6 +198,62 @@ is the foil version. The gap is recorded honestly.
   the misunderstanding Cuban names. Cuban-style critique of bad AI
   designs is then not enemy material — it is constraint material the
   thesis can use.
+
+---
+
+---
+
+## Claim (small, evolving): The genre shift between Cuban 2024 and Cuban 2025 is a small but real datum that the AI wave is being absorbed by teachers in a different shape than prior waves — bottom-up, on teacher initiative, on workload-relief and content-adaptation uses, without the top-down deployment that defined earlier waves.
+
+This is a claim about *Cuban's own framing*, not about AI in classrooms
+generally. Recording it here because the steer's reframing of tech-cycles
+as setup ("the medium has been changing all along") leans heavily on
+whether the current change of medium looks like prior changes in its
+*adoption pathway*. Cuban himself is the closest available authority on
+prior-wave adoption pathways; his framing of the current wave is therefore
+load-bearing evidence.
+
+### Supporting evidence (for the genre-shift reading)
+- (Cuban 2024 — predictive historian voice:) "While I believe AI will not
+  force practitioners to rethink how they teach, nonetheless, as so many
+  teachers have done in the past, they will adapt AI to fit the contours
+  of their classrooms. And in doing so, AI may become just another item
+  added to the list of previously hyped technological innovations..."
+  — [Cuban 2024](../sources/Cuban-2024-will-ai-transform.md) — layer: practitioner-historian (blog)
+- (Cuban 2025 — curator voice; the framing sentence is the entire
+  authorial intervention:) "I have gathered comments from teachers who
+  have used AI in daily lessons and grading student work."
+  — [Cuban 2025](../sources/Cuban-2025-some-teachers-use-of-ai.md) — layer: practitioner (curated)
+- (The most-cited Cuban 2025 teacher voice — Roberts, on three decades of
+  teaching:) "it's been the best year yet of nearly three decades of
+  teaching"
+  — Jen Roberts in [Cuban 2025](../sources/Cuban-2025-some-teachers-use-of-ai.md) — layer: practitioner (curated)
+
+### Counter-evidence (against treating Cuban 2025 as a position change)
+- Cuban 2025 contains no analytical commentary by Cuban. The Nov 2024
+  prediction is preserved unchanged on the blog index. The genre shift
+  is real; a position change has not been claimed by the author. Read
+  the pair as Cuban's *prediction* in 2024 plus Cuban's *observation* in
+  2025, not as a recantation.
+- The bottom-up-adoption claim is consistent with Cuban 2024's prediction
+  that teachers will adapt AI to fit their classrooms. The thesis's
+  "structurally different this time" move would need to show that the
+  *shape* of the bottom-up adoption is different from prior bottom-up
+  adoptions (calculators, smartboards, YouTube), not merely that it is
+  happening.
+
+### Open questions
+- The cleanest historical comparison is the calculator (1970s–80s), which
+  was also a bottom-up, teacher-initiated, workload-reducing technology
+  that was eventually absorbed into existing classroom contours. Did the
+  calculator's absorption produce new kinds of mathematical learning, or
+  only the same kinds faster? This is the prior-wave question that should
+  precede the AI-is-different argument. Not yet researched in the ledger.
+- Watters (2018) — in `sources-raw/` as
+  `Watters-2018-machine-learning-history-of-future.html` — predates the
+  current ChatGPT moment and would set up a sharper test: how much of
+  the Cuban-2025-style teacher adoption Watters specifically predicted
+  vs. would specifically critique. Queued for next Saturday.
 
 ---
 
