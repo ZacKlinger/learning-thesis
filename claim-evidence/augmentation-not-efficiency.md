@@ -2,7 +2,7 @@
 
 Thesis-seed v1: *"'Efficiency' in education usually means doing the existing thing faster, which entrenches it. 'Augmentation' means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line."*
 
-**Status (2026-05-30):** Per the 2026-05-27 steer the binary is a
+**Status (2026-06-06):** Per the 2026-05-27 steer the binary is a
 *rhetorical device* in the seed, not the load-bearing claim of the thesis.
 The clarified positive thesis is that AI removes four constraints (cost of
 expert attention; one-way fixed content; system-imposed teacher workload;
@@ -12,12 +12,37 @@ KSC/HSDC debate over scaffolding for novices is a debate *inside* that
 positive aim — over how to scaffold beginners — not a debate over whether
 to pursue it. Counter-evidence (KSC 2006), the rejoinder that bounds KSC
 (HSDC 2007), the visionary supporting case (Papert 1980), and the radical
-counter-counter that rejects the question (Illich 1971) are all on the
-ledger as of this Saturday. The ledger is no longer asymmetric in
-counter-evidence's favour, but the strongest *supporting* literature
-(Scardamalia & Bereiter; VanLehn 2011; the Deeper Learning Network
-evaluations) has not yet been read; that is the supporting sprint
-underway in the next 3 Saturdays.
+counter-counter (Illich 1971) are all on the ledger.
+
+This Saturday two changes:
+
+(1) The Illich entry below is recalibrated after reading Chapter 6
+("Learning Webs"). The Ch 1 quotes still support an Illich-rejects-the-
+question reading. But Ch 6 contains an explicit positive technology
+programme — peer-matching networks, skill exchanges, "tapes, retrieval
+systems, programmed instruction" — and an explicit claim that "technology
+is available to develop either independence and learning or bureaucracy
+and teaching." Read across the two chapters, Illich is *not* a rejection
+of the augmentation aim; he is a rejection of the institution within
+which most augmentation rhetoric operates. That distinction matters for
+the thesis: Illich is a constraint on *how* the four constraints get
+removed, not on whether removing them is the right aim.
+
+(2) Cuban 2025 — a curated post documenting teachers using AI in their
+own work — is added as the first contemporary practitioner-level
+supporting datum for two specific constraints (workload and one-way
+content). It is small evidence and partial (see the source note for
+its self-imposed selection bias), but it is the first ledger entry
+where ordinary teachers' own descriptions of their use map onto the
+steer's four-constraint frame without a research filter in between.
+
+The strongest *empirical* supporting literature (Scardamalia & Bereiter;
+VanLehn 2011; the Deeper Learning Network evaluations; Bryk et al.) has
+*still* not been read. All five supporting-sprint URLs queued
+2026-05-30 failed in the fetcher this week. The thread remains
+constraint-evidence-strong and outcome-evidence-thin. Demotions and
+alternate URLs are recorded in
+`leads/augmentation-not-efficiency-leads.md`.
 
 ---
 
@@ -180,41 +205,137 @@ empirical. Filed as supporting the thesis seed *with that qualifier*.
 
 ---
 
-## Claim: The "augmentation vs. efficiency" framing itself may be the wrong frame, because the institutional form within which both happen is the problem.
+## Claim: Illich is not a rejection of the augmentation aim. He is a rejection of the institutional form most augmentation rhetoric operates inside — and his Chapter 6 "Learning Webs" sketch is the closest 1971 antecedent to what the optimistic AI-in-education case is making.
 
-This is the Illich counter-counter — a radical position that does not pick
-sides between KSC and Papert but rejects the question. Entered here so the
-thread does not collapse into a binary the seed implicitly accepts.
+Rewritten 2026-06-06 after reading Ch 6. The 2026-05-23 entry treated
+Illich as a counter-counter that "rejects the question" of augmentation.
+That reading is half right: Ch 1 *is* a wholesale rejection of school as
+an institution. But Ch 6 — Illich's positive programme — is technology-
+embracing in a way that maps onto the thesis's four-constraint frame
+closely enough that the "rejects the question" reading was an
+oversimplification. Illich is a constraint *on how* the four constraints
+get removed (the medium must enable independence, not bureaucracy; the
+network must route around the school, not extend it), not a constraint
+on whether removing them is the right aim.
 
-### Supporting evidence
+### Supporting evidence (for the augmentation aim, read through Illich Ch 6)
+- "Tapes, retrieval systems, programmed instruction, and reproduction of
+  shapes and sounds tend to reduce the need for recourse to human teachers
+  of many skills; they increase the efficiency of teachers and the number
+  of skills one can pick up in a lifetime."
+  — [Illich 1971](../sources/Illich-1971-deschooling-society.md), Ch. 6, p. 39 — layer: visionary
+- "Technology is available to develop either independence and learning or
+  bureaucracy and teaching."
+  — [Illich 1971](../sources/Illich-1971-deschooling-society.md), Ch. 6, p. 33 — layer: visionary
+- "we can depend on self-motivated learning instead of employing teachers
+  to bribe or compel the student to find the time and the will to learn;
+  that we can provide the learner with new links to the world instead of
+  continuing to funnel all educational programs through the teacher."
+  — [Illich 1971](../sources/Illich-1971-deschooling-society.md), Ch. 6, p. 32 — layer: visionary
+- "The operation of a peer-matching network would be simple. The user
+  would identify himself by name and address and describe the activity for
+  which he sought a peer. A computer would send him back the names and
+  addresses of all those who had inserted the same description. It is
+  amazing that such a simple utility has never been used on a broad scale
+  for publicly valued activity."
+  — [Illich 1971](../sources/Illich-1971-deschooling-society.md), Ch. 6, p. 39 — layer: visionary
+
+### Counter-evidence (still — Illich on what disqualifies most edtech)
 - "Universal education through schooling is not feasible. ... Neither new
   attitudes of teachers toward their pupils nor the proliferation of
-  educational hardware or software (in classroom or bedroom), nor finally the
-  attempt to expand the pedagogue's responsibility until it engulfs his
-  pupils' lifetimes will deliver universal education."
+  educational hardware or software (in classroom or bedroom), nor finally
+  the attempt to expand the pedagogue's responsibility until it engulfs
+  his pupils' lifetimes will deliver universal education."
   — [Illich 1971](../sources/Illich-1971-deschooling-society.md), Introduction — layer: visionary
-- "We need research on the possible use of technology to create institutions
-  which serve personal, creative, and autonomous interaction and the emergence
-  of values which cannot be substantially controlled by technocrats."
-  — [Illich 1971](../sources/Illich-1971-deschooling-society.md), Ch. 1 — layer: visionary
 
-### Counter-evidence (against the Illichian dismissal of the framing)
-- *(none yet — but the strongest counter is the practitioner record of
-  ambitious learning *within* institutional schools (Meier, Mehta & Fine,
-  High Tech High) — neither yet read)*
+  *Why this is still here:* the Ch 6 supporting reading does not nullify
+  Ch 1. Illich's "tapes, retrieval systems" line is positive only on the
+  condition that the tools are deployed in a deschooled — or at minimum,
+  institutionally-routed-around — form. The same tools deployed *inside*
+  the existing school grammar would be, on Illich's view, a category
+  error. The thesis must specify which deployment it means.
 
 ### Open questions
-- Illich (1971) and the optimistic AI-in-education thesis can actually
-  *agree*, if AI implementations route around the institution (kids learning
-  at home, adult learners self-directed) rather than reinforce it. Where in
-  the contemporary landscape is this happening, and where is it being
-  re-absorbed into the institution?
+- Where in the contemporary landscape is AI being deployed in a way that
+  matches Illich's Ch 6 conditions (routes around the institution, gives
+  the learner direct access to "things, models, peers, and elders") vs.
+  in a way that re-absorbs into the existing school grammar (an
+  AI-powered worksheet, an LMS plugin, a scripted dialogue)? Cuban 2025
+  has a small handful of data points on each side.
+- The peer-matching design from Ch 6 has been (partially) instantiated by
+  the open internet since 1995. Did it actually deliver the kind of
+  learning Illich's argument predicted? The honest answer is mixed:
+  open-source communities, Wikipedia, and Stack Exchange behave somewhat
+  like Illich's webs; the *educational* sites that came to dominate
+  (Khan Academy, MOOCs, Duolingo) look more like the bureaucratic
+  variant. A serious history-rhymes engagement with Illich requires
+  reading the contemporary critical-edtech literature against his Ch 6
+  predictions specifically, not against his Ch 1 polemic.
 - What is the cleanest operational definition of "previously impossible
   learning"? Without one, the augmentation/efficiency distinction collapses
-  into rhetoric. Candidates: knowledge artifacts that require the tool to
-  exist; collaboration only possible at digital distance; feedback loops too
-  fast for human-only instruction; access to phenomena previously confined
-  to specialists.
-- Where in the literature has someone tested the *kinds* of learning a tool
-  enables (rather than the same outcome faster)? Candidates: Scardamalia &
-  Bereiter on Knowledge Building / CSILE / Knowledge Forum.
+  into rhetoric. Candidates: knowledge artefacts that require the tool to
+  exist; collaboration only possible at digital distance; feedback loops
+  too fast for human-only instruction; access to phenomena previously
+  confined to specialists. Illich's four resources (things, models, peers,
+  elders) suggest a different cut: which AI implementations *expand
+  access* to which resource, for which learner, at what cost in
+  institutional capture?
+
+---
+
+## Claim (small, contemporary, practitioner): Teachers experimenting with AI in 2024–25 are concentrating their bottom-up adoption on workload-relief and content-adaptation uses — precisely two of the four constraints the steer names.
+
+The Cuban 2025 datum. One curated blog post; no sampling frame; see the
+source-note's selection-bias caveat. Worth recording because it is the
+first ledger entry where ordinary teachers' own words describe their use,
+unfiltered by a researcher's question. The mapping onto the four-
+constraint frame is striking and was not put there by anyone in the
+thesis's frame — it is what Cuban himself happened to collect.
+
+### Supporting evidence (for the four-constraint frame, from teachers' own words)
+- (Constraint #3 — workload that forces teaching-to-the-middle-of-30:)
+  "Taking back my summer helped me be more refreshed for a new school
+  year. When I'm not spending so much time at home doing these things,
+  I'm able to spend more time with my family and my friends and my wife
+  so I can be my best at work, instead of being tired or rundown."
+  — Tim Ballaret in [Cuban 2025](../sources/Cuban-2025-some-teachers-use-of-ai.md) — layer: practitioner (curated)
+- (Constraint #2 — one-way nature of fixed content:) "the tool could
+  instantly produce simplified versions of readings on the causes of
+  terrorism for 14-year-olds who either read at lower reading levels than
+  the rest of the class or have been learning English as a second
+  language."
+  — Aileen Wallace in [Cuban 2025](../sources/Cuban-2025-some-teachers-use-of-ai.md) — layer: practitioner (curated)
+- (Constraint #1 — cost of expert attention, the writing-feedback case:)
+  "automated feedback can tell her students faster than she can how to
+  improve, which in turn allows her to hand out more writing assignments"
+  — Jen Roberts paraphrased in [Cuban 2025](../sources/Cuban-2025-some-teachers-use-of-ai.md) — layer: practitioner (curated)
+
+### Counter-evidence (against treating Cuban 2025 as proof of augmentation)
+- (Roberts admitting partial substitution, not augmentation:) "In actual
+  practicality, I do not look at the feedback it gives every single
+  student. That's just not a great use of my time."
+  — Jen Roberts in [Cuban 2025](../sources/Cuban-2025-some-teachers-use-of-ai.md) — layer: practitioner (curated)
+
+  *Why this counts as counter-evidence:* If the per-student feedback the
+  AI generates is no longer read by the teacher, then what has happened is
+  not constraint-removal in service of the teacher's judgment — it is
+  delegation of an instructional act the teacher used to perform. Some
+  delegation is fine (worksheet auto-grading was already this). Some is
+  the category error the teacher-agency thread is built to resist. The
+  thesis owes a specification of which is which.
+
+### Open questions
+- The Sarah Millard "they wanted to beat the computer" example is the
+  one quote in Cuban 2025 that looks like a *new* kind of learning task —
+  students critiquing an AI-generated essay rather than writing one of
+  their own. Is the critique-the-machine assignment a useful augmentation
+  pattern (engagement + epistemic practice + content domain)? Or the
+  AI-equivalent of "fill in the blanks on the textbook chapter" with
+  better packaging? Worth a deliberate look once Scardamalia & Bereiter is
+  read, since Knowledge Building's strongest claim is that the *artefact*
+  (a student-built knowledge base) is what makes the new learning visible.
+- The sample in Cuban 2025 is select; teachers who tried AI and stopped,
+  who had bad experiences, or whose principals mandated AI against their
+  judgment are absent. The four-constraint frame is consistent with this
+  sample but is not validated by it. The Bryk et al. workload research is
+  still the load-bearing source the thread needs.
