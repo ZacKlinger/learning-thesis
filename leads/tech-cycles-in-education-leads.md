@@ -45,6 +45,19 @@ obtains them.
 - **Christensen, Clayton M., Horn, Michael B. & Johnson, Curtis W. (2008).
   *Disrupting Class*.** Disruption-theory case applied to K-12.
 
+## Supporting-sprint URL that failed in the 2026-06-05 fetcher (demoted 2026-06-06)
+
+- **Sweller, Kirschner & Clark 2007 — sur-rejoinder to HSDC.**
+  *Educational Psychologist* 42(2), 115–121. Tried:
+  `https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/SwellerKirschner2007.pdf` — failed. The Nesbit course directory hosted KSC 2006 and HSDC 2007
+  but apparently not the sur-rejoinder. Alternate to try: the
+  *Educational Psychologist* table-of-contents page links to Taylor &
+  Francis (paywalled); ERIC may host a working PDF (ERIC ID search
+  for "Sweller Kirschner Clark 2007 sur-rejoinder"). Symmetry with KSC
+  and HSDC means this is worth chasing, but it is lower priority than
+  Bryk and Scardamalia & Bereiter — the published KSC ↔ HSDC exchange
+  is already in the ledger.
+
 ## Demoted from the wishlist (URL did not deliver parseable bytes)
 
 These were on `sources-wishlist.txt` but the fetcher did not deliver a

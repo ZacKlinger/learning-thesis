@@ -19,6 +19,45 @@ Unverified material relevant to the augmentation/efficiency thread. Nothing here
 - Outcomes studies of intelligent tutoring systems (Cognitive Tutor, ASSISTments, Carnegie Learning) — these are the empirical body that AI-tutoring claims rest on, but the effect sizes are modest, not transformative.
 - Studies attempting to operationalize "deeper" or "transferable" learning gains attributable to tools — see the Deeper Learning Network evaluations from American Institutes for Research (~2014).
 
+## Supporting-sprint URLs that failed in the 2026-06-05 fetcher (demoted 2026-06-06)
+
+The five wishlist URLs added on 2026-05-30 per the steer's supporting
+sprint all failed to deliver to `sources-raw/` over the 2026-05-30 push,
+the 2026-06-05 Friday safety-net run, and any intermediate retries. The
+GitHub Actions run for 2026-06-05 reports "fetch success" (the workflow
+itself did not crash) but no new files in `sources-raw/` and no follow-on
+"fetch-sources: add N file(s)" bot commit. Each URL is recorded below with
+the most-plausible alternate to try next; the wishlist is being updated in
+the same commit as this demotion.
+
+- **Scardamalia & Bereiter 1994 — CSILE.** Tried:
+  `https://ikit.org/fulltext/1994_CSILE.pdf` — failed. The
+  `ikit.org/fulltext/` directory layout is the agent's best guess and may
+  not be correct, or the specific paper may be hosted elsewhere on the
+  IKIT site. Alternate to try: a direct Google Scholar-derived PDF (the
+  Carl Bereiter / OISE pages at `tinker.ed.uiuc.edu` historically hosted
+  the *Journal of the Learning Sciences* (1994) paper). Adding
+  `https://www.scribd.com/document/...` would be unreliable; better to
+  ask Zack to supply the PDF if no open mirror surfaces. Until then,
+  this remains the load-bearing missing source for the augmentation
+  thread.
+- **VanLehn 2011 — relative effectiveness of tutoring.** Tried:
+  `https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/VanLehn2011.pdf` —
+  failed. The Nesbit course directory hosted KSC and HSDC but not
+  VanLehn. The most-likely alternate is the LearnLab/Pittsburgh PSLC
+  site, where Kurt VanLehn's collaborators published. URL to try:
+  `https://pact.cs.cmu.edu/koedinger/pubs/VanLehn2011.pdf` or the
+  *Educational Psychologist* DOI mirror via Taylor & Francis (which is
+  paywalled). If both fail, ask Zack to supply.
+- **Zeiser et al. 2014 — Deeper Learning Outcomes (AIR).** Tried:
+  `https://www.air.org/sites/default/files/downloads/report/Report_3_Evidence_of_Deeper_Learning_Outcomes.pdf` — failed. The AIR site
+  reorganized its publications URL scheme around 2020; the historical
+  `/sites/default/files/downloads/` path is no longer canonical. The
+  current scheme is `/sites/default/files/2021-09/...` etc. Alternate:
+  search `air.org` directly for "Evidence of Deeper Learning Outcomes"
+  and grab the current canonical URL — likely
+  `https://www.air.org/sites/default/files/Report3-Evidence-of-Deeper-Learning-Outcomes.pdf` or similar. Add to wishlist next Saturday.
+
 ## Tensions to chase
 
 - The strongest empirical case for educational technology is *efficiency* (mastery learning, retrieval practice apps, adaptive drill). The strongest *aspirational* case is augmentation (Knowledge Building, Logo, simulation-based science). The thesis seed treats these as opposed; they may simply be different problems.

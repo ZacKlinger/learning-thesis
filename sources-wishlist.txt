@@ -72,47 +72,55 @@ Cuban-2025-some-teachers-use-of-ai.html https://larrycuban.wordpress.com/2025/03
 
 # --- Supporting-sprint additions (added 2026-05-30 per the steer) ---
 # The 2026-05-27 steer asks for a three-week supporting sprint to balance the
-# ledger. Three target works, in priority order:
-#   1. Scardamalia & Bereiter — knowledge building / CSILE.
-#   2. VanLehn 2011 — the contemporary 2-sigma update.
-#   3. Deeper Learning Network evaluations — large-N supporting case.
-# All three URLs below are best-guess mirrors; if any fail, demote next week
-# and replace with an alternate. The supporting sprint blocks if none deliver.
+# ledger. Five target works were queued on 2026-05-30; all five URLs failed
+# in the 2026-06-05 fetcher (Friday safety-net run reported "fetch success"
+# at the workflow level but committed no new files, and no follow-on
+# "fetch-sources: add N file(s)" bot commit appeared on main). Below, the
+# original lines are COMMENTED OUT and replaced with the agent's best
+# alternate URL for each. If the alternates also fail, the failed lines move
+# to leads/ and Zack is asked to supply PDFs directly.
 
-# Scardamalia & Bereiter — the founding CSILE paper. ikit.org is the Knowledge
-# Building site (the authors' own institutional umbrella at OISE/Toronto) and
-# typically hosts open PDFs. If this URL pattern fails, alternates: the
-# *Cambridge Handbook of the Learning Sciences* chapter via Sawyer's
-# cambridge.org page (paywalled), or the IKIT publications index.
-Scardamalia-Bereiter-1994-csile-knowledge-building.pdf https://ikit.org/fulltext/1994_CSILE.pdf
+# Scardamalia & Bereiter — the founding CSILE paper. ikit.org/fulltext/
+# failed; the directory layout is the agent's guess and may not be correct.
+# Alternate 2026-06-06: try the Carl Bereiter / OISE archive page. If this
+# also fails, demote to leads and ask Zack to supply.
+# Scardamalia-Bereiter-1994-csile-knowledge-building.pdf https://ikit.org/fulltext/1994_CSILE.pdf
+Scardamalia-Bereiter-1994-csile-knowledge-building.pdf https://ikit.org/fulltext/1994_csile.pdf
 
 # VanLehn 2011 — "The Relative Effectiveness of Human Tutoring, Intelligent
 # Tutoring Systems, and Other Tutoring Systems." Educational Psychologist
-# 46(4). Tandfonline is paywalled. Two speculative open mirrors below:
-# (a) the SFU course directory that already served KSC and HSDC; (b) the
-# LearnLab/Pittsburgh PSLC site where VanLehn's collaborators publish. If
-# both fail, the next move is to ask Zack to supply.
-VanLehn-2011-relative-effectiveness-tutoring.pdf https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/VanLehn2011.pdf
+# 46(4). SFU course mirror failed (Nesbit hosted KSC and HSDC but not
+# VanLehn). Alternate 2026-06-06: PACT/CMU mirror (VanLehn's PSLC
+# collaborator Koedinger publishes there). If this also fails, ask Zack to
+# supply.
+# VanLehn-2011-relative-effectiveness-tutoring.pdf https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/VanLehn2011.pdf
+VanLehn-2011-relative-effectiveness-tutoring.pdf https://pact.cs.cmu.edu/koedinger/pubs/VanLehn2011.pdf
 
 # Deeper Learning Network evaluation — the AIR Zeiser et al. (2014) report
-# "Evidence of Deeper Learning Outcomes" is the largest contemporary
-# evaluation of schools designed around ambitious learning. AIR publishes
-# its reports as free PDFs at air.org; the URL convention is
-# /sites/default/files/downloads/report/<file>.pdf.
-Zeiser-et-al-2014-deeper-learning-outcomes.pdf https://www.air.org/sites/default/files/downloads/report/Report_3_Evidence_of_Deeper_Learning_Outcomes.pdf
+# "Evidence of Deeper Learning Outcomes." Original URL used the old AIR
+# /sites/default/files/downloads/report/ path which appears to have been
+# retired in AIR's 2020-ish site reorg. Alternate 2026-06-06: try the
+# current canonical filename pattern without the "downloads/report/"
+# infix. If this also fails, demote.
+# Zeiser-et-al-2014-deeper-learning-outcomes.pdf https://www.air.org/sites/default/files/downloads/report/Report_3_Evidence_of_Deeper_Learning_Outcomes.pdf
+Zeiser-et-al-2014-deeper-learning-outcomes.pdf https://www.air.org/sites/default/files/Report3-Evidence-of-Deeper-Learning-Outcomes.pdf
 
-# Bryk et al. (2010) — "Organizing Schools for Improvement." The UChicago
-# book is paywalled, but the Consortium on School Research distributed an
-# open executive-summary PDF under the same title that distills the
-# workload-and-organization findings needed for the teacher-agency thread's
-# reframing (per the 2026-05-27 steer). consortium.uchicago.edu is a stable
-# open-access site.
-Bryk-et-al-2010-organizing-schools-summary.pdf https://consortium.uchicago.edu/sites/default/files/2018-10/05%20Organizing%20Schools.pdf
+# Bryk et al. (2010) — "Organizing Schools for Improvement" executive
+# summary. consortium.uchicago.edu URL with the 2018-10 directory failed;
+# both the date-directory path and the leading "05 " in the filename were
+# agent guesses. Alternate 2026-06-06: try the Consortium's stable
+# /publications/ path for the same brief.
+# Bryk-et-al-2010-organizing-schools-summary.pdf https://consortium.uchicago.edu/sites/default/files/2018-10/05%20Organizing%20Schools.pdf
+Bryk-et-al-2010-organizing-schools-summary.pdf https://consortium.uchicago.edu/publications/organizing-schools-improvement-lessons-chicago
 
-# Sweller, Kirschner & Clark (2007) — the sur-rejoinder to HSDC in the same
-# Educational Psychologist 42(2) issue, pp. 115–121. The SFU course mirror
-# served KSC and HSDC; try the same directory.
-Sweller-Kirschner-Clark-2007-surrejoinder.pdf https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/SwellerKirschner2007.pdf
+# Sweller, Kirschner & Clark (2007) — the sur-rejoinder to HSDC.
+# Educational Psychologist 42(2), 115–121. SFU mirror did not have it.
+# Alternate 2026-06-06: try the John Sweller / UNSW publications page or
+# the ResearchGate full-text mirror. Lower priority than Bryk and
+# Scardamalia & Bereiter — the KSC ↔ HSDC exchange is already on the
+# ledger from the published versions.
+# Sweller-Kirschner-Clark-2007-surrejoinder.pdf https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/SwellerKirschner2007.pdf
+Sweller-Kirschner-Clark-2007-surrejoinder.pdf https://education.arts.unsw.edu.au/media/EDUCFile/Sweller_Kirschner_Clark_2007.pdf
 
 # --- COMMENTED OUT (returned HTML landing page, not the PDF; demoted to leads) ---
 # Reiser-2001-history-of-instructional-media.pdf https://link.springer.com/content/pdf/10.1007/BF02504506.pdf

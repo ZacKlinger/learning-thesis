@@ -25,6 +25,27 @@ Unverified material relevant to the teacher-agency thread. Nothing here has been
 - Bryk, Sebring, Allensworth, Luppescu & Easton (2010), *Organizing Schools for Improvement* (Chicago school reform study) — empirical work on the organizational conditions for teacher effectiveness.
 - Roosevelt, *The Teacher Wars* (Goldstein 2014) — narrative history of the profession.
 
+## Supporting-sprint URL that failed in the 2026-06-05 fetcher (demoted 2026-06-06)
+
+- **Bryk et al. 2010 — *Organizing Schools for Improvement* executive
+  summary.** Tried:
+  `https://consortium.uchicago.edu/sites/default/files/2018-10/05%20Organizing%20Schools.pdf` — failed. The Consortium on School Research
+  has stable URLs but the 2018-10 directory path and the leading "05 " in
+  the filename are both agent guesses, not verified. The Consortium does
+  host *Organizing Schools for Improvement* materials at
+  `consortium.uchicago.edu`; the correct path appears to be under
+  `/publications/` with a different file naming convention. Alternate to
+  try next Saturday: search consortium.uchicago.edu directly for
+  "Organizing Schools for Improvement" and grab the working PDF URL —
+  likely `https://consortium.uchicago.edu/publications/organizing-schools-improvement-lessons-chicago` (landing page) and then the linked PDF
+  asset. Adding the canonical landing-page URL would yield a JS-rendered
+  HTML page, not the PDF; the agent should add the direct PDF asset URL
+  once located. **This is the most load-bearing missing source for the
+  thread.** Without it, the workload-constraint-on-the-system reframing
+  rests on Cuban 2024's prose and Cuban 2025's anecdotes rather than on
+  the organizational-research evidence the steer's frame actually rests
+  on. Treat as priority for next Saturday's URL-acquisition work.
+
 ## Tensions to chase
 
 - The de-skilling literature (Apple, Au) and the structured-teaching literature (Lemov, Engelmann) are largely talking past each other. A serious version of the thread needs to engage both, not just the one that flatters the thesis.
