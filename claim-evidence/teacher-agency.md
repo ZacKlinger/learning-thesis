@@ -2,28 +2,37 @@
 
 Thesis-seed v1: *"Scripted curricula and tools-as-replacement are eroding the conditions for great teaching. Any AI-in-education vision that further reduces teacher judgment is a category error."*
 
-**Status (2026-05-30):** Per the 2026-05-27 steer, this thread is being
-reframed. The load-bearing claim is no longer "teacher agency is being
-stripped" framed as teacher-as-vulnerable. It is **workload-constraint-on-
-the-system**: the system imposes conditions (teaching to the middle of 30,
-scripted curricula, administrative burden) that make great teaching
-impossible regardless of the teacher's skill or intent. AI's role in this
-thread is *not* to route around the teacher. It is to remove the workload
-constraints — to give teachers back the time, attention, and personalization-
-bandwidth the system has been taking from them. The teacher is not the
-bottleneck; the system is. The steer is explicit: framings in prior writing
-that treated teachers as bottlenecks are to be corrected as they surface.
+**Status (2026-06-06):** Per the 2026-05-27 steer this thread frames AI's
+role through the **workload-constraint-on-the-system** lens: the system
+imposes conditions (teaching to the middle of 30, scripted curricula,
+administrative burden) that make great teaching impossible regardless of
+the teacher's skill or intent. AI's role is to remove the workload
+constraints, not to route around the teacher. The teacher is not the
+bottleneck; the system is.
 
-Two verified entries on the ledger as of this Saturday: Dewey 1897 (the
-visionary anchor — teacher as "member of the community" selecting
-influences) and Cuban 2024 (a contemporary statement — teaching is complex,
-improvisational, emotional, and AI advocates routinely fail to understand
-this). The empirical counters that would balance the thread (Bryk et al.
-2010 on workload as the load-bearing variable; Lemov 2010 on the
-structured-teaching tradition; the Direct Instruction record; the "floor
-effect" of scripting on under-resourced classrooms) have not yet been read.
-Illich (1971) is cited as a *prior question* that the thread implicitly
-accepts an answer to.
+This Saturday adds two things. (1) The Cuban 2025 datum — teachers'
+own descriptions of their AI use — clusters heavily on workload-relief
+and on tasks that *consumed teacher time without contributing to teaching
+judgment* (parent emails, recommendation letters, summer lesson
+planning, ESL/below-grade-level content adaptation). One teacher
+(Ballaret) explicitly names the workload-recovered: "Taking back my
+summer." This is the cleanest small contemporary practitioner evidence
+the thread has for the workload-constraint reframing. (2) The Illich
+Ch 6 reading complicates the thread in a different direction: Illich's
+positive programme is explicitly that the teacher-as-funnel role
+should be dissolved into peer-matching networks and skill exchanges.
+That is *not* the thesis's reframing; the steer is explicit that the
+thesis is teacher-with-AI, not learner-routes-around-teacher. Illich's
+Ch 6 thus belongs in this thread as an unresolved tension, not as
+support.
+
+The empirical counters that would balance the thread (Bryk et al. 2010
+on workload as the load-bearing variable; Lemov 2010 on the structured-
+teaching tradition; the Direct Instruction record; the "floor effect"
+of scripting on under-resourced classrooms) have *still* not been read.
+The Bryk URL in last week's wishlist failed in the fetcher; demotion
+and alternate URL are recorded in
+`leads/teacher-agency-leads.md`.
 
 ---
 
@@ -98,11 +107,66 @@ the ledger.
   educational hardware or software (in classroom or bedroom)... will deliver
   universal education."
   — [Illich 1971](../sources/Illich-1971-deschooling-society.md), Introduction — layer: visionary
+- (Illich Ch 6 sharpens the disagreement: the network operators of his
+  positive programme should *not* function as teachers.)
+  "Today's educational administrators are concerned with controlling
+  teachers and students to the satisfaction of others... Network builders
+  and administrators would have to demonstrate genius at keeping
+  themselves, and others, out of people's way, at facilitating encounters
+  among students, skill models, educational leaders, and educational
+  objects."
+  — [Illich 1971](../sources/Illich-1971-deschooling-society.md), Ch. 6, p. 42 — layer: visionary
 
   *Why this is here:* Illich would say the entire "protect teacher agency"
   debate operates inside an institutional form that itself manufactures the
-  dependencies it claims to remedy. The thesis does not have to accept this,
-  but it has to engage it rather than assume the school as a given.
+  dependencies it claims to remedy. The Ch 6 quote sharpens this: Illich's
+  positive programme dissolves the teacher-as-funnel role into a network
+  of demonstrators, peer-matchers, and pedagogical counsellors — not the
+  teacher-in-the-loop the steer's reframing protects. The two visions
+  agree on the diagnosis (the system is broken in ways that compromise
+  what teachers can do) and disagree on the remedy (rehabilitate the
+  teacher's role vs. unbundle it). The thesis does not have to accept
+  Illich's remedy, but it should not pretend the disagreement is small.
+
+### Supporting evidence (workload-relief — small contemporary practitioner data)
+- "Taking back my summer helped me be more refreshed for a new school
+  year. When I'm not spending so much time at home doing these things,
+  I'm able to spend more time with my family and my friends and my wife
+  so I can be my best at work, instead of being tired or rundown."
+  — Tim Ballaret in [Cuban 2025](../sources/Cuban-2025-some-teachers-use-of-ai.md) — layer: practitioner (curated)
+- "When writing a negative letter about grades to a parent, I go to AI
+  to change the wording for me."
+  — anonymous middle school teacher in [Cuban 2025](../sources/Cuban-2025-some-teachers-use-of-ai.md) — layer: practitioner (curated)
+- "I use it as a tool to communicate with administrators and parents.
+  I find it much quicker to type in the general idea and receive an email
+  I could have written, but it would have taken me 15 minutes or more."
+  — anonymous elementary teacher in [Cuban 2025](../sources/Cuban-2025-some-teachers-use-of-ai.md) — layer: practitioner (curated)
+
+  *Why these are here:* These are concrete instances of AI being used by
+  teachers, on their own initiative, to recover time from tasks that the
+  system has been imposing on them (summer planning, parent communication,
+  administrative correspondence) — not to substitute for the
+  relational/judgmental core of teaching. They map onto constraint #3
+  exactly. Their evidentiary weight is small (curated, anecdotal) but
+  they are the first ledger entries from teachers' own words.
+
+### Counter-evidence (workload-relief that crosses the line into substitution)
+- "In actual practicality, I do not look at the feedback it gives every
+  single student. That's just not a great use of my time. But I do a lot
+  of spot checking..."
+  — Jen Roberts in [Cuban 2025](../sources/Cuban-2025-some-teachers-use-of-ai.md) — layer: practitioner (curated)
+
+  *Why this is here:* The Roberts case is a direct test of the steer's
+  injunction that AI must not become a route around the teacher. Roberts
+  reports getting time back *because* the AI now does work the teacher
+  used to do — including the per-student-feedback work the teacher no
+  longer reads. This is exactly the line the thread's reframing is built
+  to surface. Cuban 2025 contains both sides (Ballaret's workload-relief
+  *with* judgment preserved; Roberts' workload-relief *with* judgment
+  partially substituted). The thread should record both. The steer's
+  Open Question from 2026-05-30 — what AI is taking off the teacher's
+  plate that *isn't* the relational core — has its first concrete test
+  cases here.
 
 ### Open questions
 - The thread's load-bearing variable is now **workload constraint**, not
