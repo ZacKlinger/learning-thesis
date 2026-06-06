@@ -14,7 +14,7 @@
       "label": "Augmentation, not efficiency",
       "type": "thread",
       "layer": "thread",
-      "claims": 4,
+      "claims": 5,
       "path": "claim-evidence/augmentation-not-efficiency.md",
       "seed_framing": "The framing battle. \"Efficiency\" in education usually means doing the existing thing faster, which entrenches it. \"Augmentation\" means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line.\n\n**Steer (2026-05-27):** An interactive session surfaced an apparent synthesis \u2014 KSC's expertise-reversal concession plus Illich's skill-drill concession plus Papert's transitional-object case all seemed to support a two-phase framing: \"AI builds the prior-knowledge floor (efficiency win) \u2192 ambitious inquiry becomes available later (augmentation).\" **The thesis rejects this synthesis.** Reading Dewey \u00b68 (\"education is a process of living and not a preparation for future living\") as instrumental \u2014 early years are floor-building for later\u2026"
     },
@@ -32,7 +32,7 @@
       "label": "Tech cycles in education",
       "type": "thread",
       "layer": "thread",
-      "claims": 3,
+      "claims": 4,
       "path": "claim-evidence/tech-cycles-in-education.md",
       "seed_framing": "Every prior wave of technology in education (cinema, radio, television, programmed-instruction machines, classroom computers, MOOCs) was introduced with very similar optimistic rhetoric, and most failed to change what actually happens in schools. Cuban's historical record is the steelman the optimistic case has to clear: if the pattern is \"hype, modest adoption, absorption into the existing grammar of schooling, disappointment,\" then the burden is on showing what is structurally different this time. Not whether AI is different in capability \u2014 *every* prior wave was different in capability \u2014 but whether the *adoption pathway* into ambitious learning is different. This thread holds the others honest."
     },
@@ -55,6 +55,30 @@
         "\"So I have concluded that those pushing AI use in classrooms fail to"
       ],
       "threads": [
+        "teacher-agency",
+        "tech-cycles-in-education"
+      ]
+    },
+    {
+      "id": "source:Cuban-2025-some-teachers-use-of-ai",
+      "label": "Larry Cuban 2025",
+      "title": "How Some Teachers Use AI",
+      "type": "source",
+      "layer": "practitioner-historian (blog) / curated practitioner voices",
+      "year": "2025",
+      "read_status": "read",
+      "url": "https://larrycuban.wordpress.com/2025/03/04/some-teachers-use-of-ai/",
+      "access_date": "2026-06-06",
+      "path": "sources/Cuban-2025-some-teachers-use-of-ai.md",
+      "raw_path": "sources-raw/Cuban-2025-some-teachers-use-of-ai.html",
+      "thesis_excerpt": "A genre shift from Cuban 2024. Where the November 2024 post was Cuban\n*predicting* \u2014 his historian's voice applying his Cuban-1986 frame to AI \u2014\nthe March 2025 post is Cuban *curating*. He opens with a single declarative\nsentence (\"I have gathered comments from teachers who have used AI in daily\nlessons and grading student work\") and then steps out of the frame. The body\nis teacher voices, lightly edited, drawn from press accounts and direct\nquotes. Cuban offers no analysis, no concluding paragraph, no prediction.\nThat structure is the argument: the absorption Cuban 2024 predicted is\u2026",
+      "quotes": [
+        "\"I have gathered comments from teachers who have used AI in daily lessons",
+        "(Jen Roberts, English teacher, Point Loma High School, San Diego, on",
+        "(Roberts, on the mechanism:) \"automated feedback can tell her students"
+      ],
+      "threads": [
+        "augmentation-not-efficiency",
         "teacher-agency",
         "tech-cycles-in-education"
       ]
@@ -111,9 +135,9 @@
       "type": "source",
       "layer": "visionary",
       "year": "1971",
-      "read_status": "excerpted",
+      "read_status": "read",
       "url": "https://monoskop.org/images/1/17/Illich_Ivan_Deschooling_Society.pdf",
-      "access_date": "2026-05-23",
+      "access_date": "2026-06-06",
       "path": "sources/Illich-1971-deschooling-society.md",
       "raw_path": "sources-raw/Illich-1971-deschooling-society.pdf",
       "thesis_excerpt": "Illich's argument is more radical than the standard \"schools could be better\"\ncritique: schooling itself, as an institution, manufactures the dependencies\nit claims to remedy. The \"hidden curriculum\" of school is the equation of\nprocess with substance \u2014 students are trained to confuse \"teaching with\nlearning, grade advancement with education, a diploma with competence.\"\nUniversal schooling, on this view, cannot be fixed by reform (better\nteachers, better technology, more funding); it must be replaced with\n\"educational webs which heighten the opportunity for each one to transform\neach moment\u2026",
@@ -236,13 +260,6 @@
       "path": "sources-raw/Cuban-2022-programmed-learning.html"
     },
     {
-      "id": "raw:Cuban-2025-some-teachers-use-of-ai",
-      "label": "Cuban 2025 some teachers use of ai (raw)",
-      "type": "raw",
-      "layer": "raw",
-      "path": "sources-raw/Cuban-2025-some-teachers-use-of-ai.html"
-    },
-    {
       "id": "raw:Watters-2014-personalization-teaching-machines",
       "label": "Watters 2014 personalization teaching machines (raw)",
       "type": "raw",
@@ -363,6 +380,41 @@
       "kind": "supports"
     },
     {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Illich-1971-deschooling-society",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Illich-1971-deschooling-society",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Illich-1971-deschooling-society",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Cuban-2025-some-teachers-use-of-ai",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Cuban-2025-some-teachers-use-of-ai",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Cuban-2025-some-teachers-use-of-ai",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Cuban-2025-some-teachers-use-of-ai",
+      "kind": "counters"
+    },
+    {
       "source": "thread:teacher-agency",
       "target": "source:Dewey-1897-pedagogic-creed",
       "kind": "supports"
@@ -391,6 +443,26 @@
       "source": "thread:teacher-agency",
       "target": "source:Cuban-2024-will-ai-transform",
       "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Cuban-2025-some-teachers-use-of-ai",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Cuban-2025-some-teachers-use-of-ai",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Cuban-2025-some-teachers-use-of-ai",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Cuban-2025-some-teachers-use-of-ai",
+      "kind": "counters"
     },
     {
       "source": "thread:tech-cycles-in-education",
@@ -433,6 +505,26 @@
       "kind": "supports"
     },
     {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2024-will-ai-transform",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2025-some-teachers-use-of-ai",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2025-some-teachers-use-of-ai",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "lead:augmentation-not-efficiency-leads",
+      "kind": "tracked-in"
+    },
+    {
       "source": "thread:teacher-agency",
       "target": "lead:teacher-agency-leads",
       "kind": "tracked-in"
@@ -440,11 +532,6 @@
     {
       "source": "thread:ambition-over-complacency",
       "target": "lead:ambition-over-complacency-leads",
-      "kind": "tracked-in"
-    },
-    {
-      "source": "thread:augmentation-not-efficiency",
-      "target": "lead:augmentation-not-efficiency-leads",
       "kind": "tracked-in"
     },
     {
@@ -463,5 +550,5 @@
       "kind": "relates-to"
     }
   ],
-  "generated_at": "2026-05-30T15:24:38Z"
+  "generated_at": "2026-06-06T15:19:20Z"
 }
