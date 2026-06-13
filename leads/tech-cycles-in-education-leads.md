@@ -45,18 +45,21 @@ obtains them.
 - **Christensen, Clayton M., Horn, Michael B. & Johnson, Curtis W. (2008).
   *Disrupting Class*.** Disruption-theory case applied to K-12.
 
-## Supporting-sprint URL that failed in the 2026-06-05 fetcher (demoted 2026-06-06)
+## Supporting-sprint URL that failed in the 2026-06-05 fetcher (demoted 2026-06-06; updated 2026-06-13)
 
 - **Sweller, Kirschner & Clark 2007 — sur-rejoinder to HSDC.**
   *Educational Psychologist* 42(2), 115–121. Tried:
-  `https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/SwellerKirschner2007.pdf` — failed. The Nesbit course directory hosted KSC 2006 and HSDC 2007
-  but apparently not the sur-rejoinder. Alternate to try: the
-  *Educational Psychologist* table-of-contents page links to Taylor &
-  Francis (paywalled); ERIC may host a working PDF (ERIC ID search
-  for "Sweller Kirschner Clark 2007 sur-rejoinder"). Symmetry with KSC
-  and HSDC means this is worth chasing, but it is lower priority than
-  Bryk and Scardamalia & Bereiter — the published KSC ↔ HSDC exchange
-  is already in the ledger.
+  `https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/SwellerKirschner2007.pdf` — failed in 2026-06-05.
+  Tried 2026-06-12: `https://education.arts.unsw.edu.au/media/EDUCFile/Sweller_Kirschner_Clark_2007.pdf` — the file was delivered but turned out to
+  be a UNSW School of Education marketing landing page (HTML) saved
+  with a .pdf extension. The fetcher's `curl --fail` did not catch it
+  because the HTTP response was 200. *This is the second documented
+  instance of this exact failure mode in the fetcher* (Reiser 2001 and
+  Cristia et al. 2017 were the first). The wishlist's content-type
+  check is the workflow-level fix; reiterated in the digest.
+  The bogus PDF was deleted from `sources-raw/` on 2026-06-13.
+  Alternate to try 2026-06-13: `https://andymatuschak.org/files/papers/Sweller%20et%20al%20-%202007%20-%20Why%20Minimally%20Guided%20Teaching%20Techniques%20Do%20Not%20Work.pdf` — Andy Matuschak hosts a stable
+  copy at his personal academic file archive. URL is space-encoded.
 
 ## Demoted from the wishlist (URL did not deliver parseable bytes)
 

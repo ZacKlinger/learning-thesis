@@ -80,12 +80,15 @@ Cuban-2025-some-teachers-use-of-ai.html https://larrycuban.wordpress.com/2025/03
 # alternate URL for each. If the alternates also fail, the failed lines move
 # to leads/ and Zack is asked to supply PDFs directly.
 
-# Scardamalia & Bereiter — the founding CSILE paper. ikit.org/fulltext/
-# failed; the directory layout is the agent's guess and may not be correct.
-# Alternate 2026-06-06: try the Carl Bereiter / OISE archive page. If this
-# also fails, demote to leads and ask Zack to supply.
+# Scardamalia & Bereiter — the founding CSILE paper. Two prior URLs failed
+# (ikit.org/fulltext/1994_CSILE.pdf and 1994_csile.pdf; the directory and
+# casing were guesses). Alternate 2026-06-13: gerrystahl.net hosts a stable
+# copy of the 1994 Journal of the Learning Sciences paper at
+# `gerrystahl.net/hci/scardamalia.pdf`. Gerry Stahl is a well-known CSCL
+# researcher; his personal academic page is a stable mirror.
 # Scardamalia-Bereiter-1994-csile-knowledge-building.pdf https://ikit.org/fulltext/1994_CSILE.pdf
-Scardamalia-Bereiter-1994-csile-knowledge-building.pdf https://ikit.org/fulltext/1994_csile.pdf
+# Scardamalia-Bereiter-1994-csile-knowledge-building.pdf https://ikit.org/fulltext/1994_csile.pdf
+Scardamalia-Bereiter-1994-csile-knowledge-building.pdf http://www.gerrystahl.net/hci/scardamalia.pdf
 
 # VanLehn 2011 — "The Relative Effectiveness of Human Tutoring, Intelligent
 # Tutoring Systems, and Other Tutoring Systems." Educational Psychologist
@@ -97,30 +100,46 @@ Scardamalia-Bereiter-1994-csile-knowledge-building.pdf https://ikit.org/fulltext
 VanLehn-2011-relative-effectiveness-tutoring.pdf https://pact.cs.cmu.edu/koedinger/pubs/VanLehn2011.pdf
 
 # Deeper Learning Network evaluation — the AIR Zeiser et al. (2014) report
-# "Evidence of Deeper Learning Outcomes." Original URL used the old AIR
-# /sites/default/files/downloads/report/ path which appears to have been
-# retired in AIR's 2020-ish site reorg. Alternate 2026-06-06: try the
-# current canonical filename pattern without the "downloads/report/"
-# infix. If this also fails, demote.
+# "Evidence of Deeper Learning Outcomes." Two prior AIR URLs failed (the
+# 2014-era /sites/default/files/downloads/report/ path and a 2020-era
+# /sites/default/files/ variant — both were guesses). Alternate
+# 2026-06-13: ERIC hosts the canonical fulltext PDF at the document's
+# permanent ED ID. ED553364 = the Zeiser et al. (2014) report. This is
+# the most stable open-access mirror.
 # Zeiser-et-al-2014-deeper-learning-outcomes.pdf https://www.air.org/sites/default/files/downloads/report/Report_3_Evidence_of_Deeper_Learning_Outcomes.pdf
-Zeiser-et-al-2014-deeper-learning-outcomes.pdf https://www.air.org/sites/default/files/Report3-Evidence-of-Deeper-Learning-Outcomes.pdf
+# Zeiser-et-al-2014-deeper-learning-outcomes.pdf https://www.air.org/sites/default/files/Report3-Evidence-of-Deeper-Learning-Outcomes.pdf
+Zeiser-et-al-2014-deeper-learning-outcomes.pdf https://files.eric.ed.gov/fulltext/ED553364.pdf
 
-# Bryk et al. (2010) — "Organizing Schools for Improvement" executive
-# summary. consortium.uchicago.edu URL with the 2018-10 directory failed;
-# both the date-directory path and the leading "05 " in the filename were
-# agent guesses. Alternate 2026-06-06: try the Consortium's stable
-# /publications/ path for the same brief.
+# Bryk et al. (2010) — *Organizing Schools for Improvement*. Two prior
+# URLs failed. Both were agent guesses: the original used a "05 "-prefixed
+# filename which was wrong; the alternate used the publications/ landing-
+# page URL which would have delivered JS-rendered HTML, not a PDF.
+# Alternate 2026-06-13: the 2010 Consortium symposium presentation PDF is
+# at consortium.uchicago.edu in the 2018-10 directory with the canonical
+# CCSR filename `5272ccsr_symposium_organizing_schools_final_(2).pdf`.
+# This is the symposium presentation accompanying the book, *not* the
+# book or executive summary — but it is the closest open-access primary
+# document from the project and is hosted at the Consortium directly.
+# Filename-encoded as the (2) in the URL is literal.
 # Bryk-et-al-2010-organizing-schools-summary.pdf https://consortium.uchicago.edu/sites/default/files/2018-10/05%20Organizing%20Schools.pdf
-Bryk-et-al-2010-organizing-schools-summary.pdf https://consortium.uchicago.edu/publications/organizing-schools-improvement-lessons-chicago
+# Bryk-et-al-2010-organizing-schools-summary.pdf https://consortium.uchicago.edu/publications/organizing-schools-improvement-lessons-chicago
+Bryk-et-al-2010-organizing-schools-symposium.pdf https://consortium.uchicago.edu/sites/default/files/2018-10/5272ccsr_symposium_organizing_schools_final_(2).pdf
 
 # Sweller, Kirschner & Clark (2007) — the sur-rejoinder to HSDC.
-# Educational Psychologist 42(2), 115–121. SFU mirror did not have it.
-# Alternate 2026-06-06: try the John Sweller / UNSW publications page or
-# the ResearchGate full-text mirror. Lower priority than Bryk and
-# Scardamalia & Bereiter — the KSC ↔ HSDC exchange is already on the
-# ledger from the published versions.
+# Educational Psychologist 42(2), 115–121. Two prior URLs failed; the
+# UNSW alternate from 2026-06-06 turned out to be the canonical
+# landing-page-as-PDF failure (a UNSW School of Education marketing
+# page served as HTML and saved with a .pdf extension). The fetcher's
+# curl --fail did not catch it because the HTTP response was 200. The
+# bogus file was deleted from sources-raw/ on 2026-06-13.
+# Alternate 2026-06-13: Andy Matuschak's academic file archive at
+# `andryamatuschak.org/files/papers/` hosts a stable copy of the 2007
+# sur-rejoinder. Matuschak is a researcher in this space; his file
+# archive has historically been a stable mirror. URL must be URL-encoded
+# for the spaces in the filename.
 # Sweller-Kirschner-Clark-2007-surrejoinder.pdf https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/SwellerKirschner2007.pdf
-Sweller-Kirschner-Clark-2007-surrejoinder.pdf https://education.arts.unsw.edu.au/media/EDUCFile/Sweller_Kirschner_Clark_2007.pdf
+# Sweller-Kirschner-Clark-2007-surrejoinder.pdf https://education.arts.unsw.edu.au/media/EDUCFile/Sweller_Kirschner_Clark_2007.pdf
+Sweller-Kirschner-Clark-2007-surrejoinder.pdf https://andymatuschak.org/files/papers/Sweller%20et%20al%20-%202007%20-%20Why%20Minimally%20Guided%20Teaching%20Techniques%20Do%20Not%20Work.pdf
 
 # --- COMMENTED OUT (returned HTML landing page, not the PDF; demoted to leads) ---
 # Reiser-2001-history-of-instructional-media.pdf https://link.springer.com/content/pdf/10.1007/BF02504506.pdf

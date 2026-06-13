@@ -19,7 +19,17 @@ Unverified material relevant to the augmentation/efficiency thread. Nothing here
 - Outcomes studies of intelligent tutoring systems (Cognitive Tutor, ASSISTments, Carnegie Learning) — these are the empirical body that AI-tutoring claims rest on, but the effect sizes are modest, not transformative.
 - Studies attempting to operationalize "deeper" or "transferable" learning gains attributable to tools — see the Deeper Learning Network evaluations from American Institutes for Research (~2014).
 
-## Supporting-sprint URLs that failed in the 2026-06-05 fetcher (demoted 2026-06-06)
+## Supporting-sprint URLs that failed in the 2026-06-05 fetcher (demoted 2026-06-06; updated 2026-06-13)
+
+**Update 2026-06-13:** None of the 2026-06-06 alternate URLs for
+Scardamalia & Bereiter, VanLehn, or Zeiser delivered a usable file to
+`sources-raw/` over the 2026-06-12 Friday safety-net fetch. (The
+fetcher did deliver one file — Sweller-Kirschner-Clark-2007 from the
+UNSW URL — but it turned out to be an HTML landing page; see
+`leads/tech-cycles-in-education-leads.md`.) The two-week supporting
+sprint is therefore *not* going to complete by the steer's 2026-06-13
+target on these URLs alone. New alternates are queued for the
+2026-06-19 fetch (see entries below).
 
 The five wishlist URLs added on 2026-05-30 per the steer's supporting
 sprint all failed to deliver to `sources-raw/` over the 2026-05-30 push,
@@ -30,33 +40,33 @@ itself did not crash) but no new files in `sources-raw/` and no follow-on
 the most-plausible alternate to try next; the wishlist is being updated in
 the same commit as this demotion.
 
-- **Scardamalia & Bereiter 1994 — CSILE.** Tried:
-  `https://ikit.org/fulltext/1994_CSILE.pdf` — failed. The
-  `ikit.org/fulltext/` directory layout is the agent's best guess and may
-  not be correct, or the specific paper may be hosted elsewhere on the
-  IKIT site. Alternate to try: a direct Google Scholar-derived PDF (the
-  Carl Bereiter / OISE pages at `tinker.ed.uiuc.edu` historically hosted
-  the *Journal of the Learning Sciences* (1994) paper). Adding
-  `https://www.scribd.com/document/...` would be unreliable; better to
-  ask Zack to supply the PDF if no open mirror surfaces. Until then,
-  this remains the load-bearing missing source for the augmentation
-  thread.
-- **VanLehn 2011 — relative effectiveness of tutoring.** Tried:
+- **Scardamalia & Bereiter 1994 — CSILE.** Tried 2026-05-30:
+  `https://ikit.org/fulltext/1994_CSILE.pdf` — failed.
+  Tried 2026-06-06: `https://ikit.org/fulltext/1994_csile.pdf` (lower-case
+  alternate) — failed. The `ikit.org/fulltext/` directory layout was an
+  agent guess and is not correct.
+  Alternate to try 2026-06-13: `http://www.gerrystahl.net/hci/scardamalia.pdf` — Gerry Stahl (CSCL researcher) hosts a stable
+  copy at his personal academic page. Worth one more attempt before
+  asking Zack to supply.
+- **VanLehn 2011 — relative effectiveness of tutoring.** Tried 2026-05-30:
   `https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/VanLehn2011.pdf` —
-  failed. The Nesbit course directory hosted KSC and HSDC but not
-  VanLehn. The most-likely alternate is the LearnLab/Pittsburgh PSLC
-  site, where Kurt VanLehn's collaborators published. URL to try:
-  `https://pact.cs.cmu.edu/koedinger/pubs/VanLehn2011.pdf` or the
-  *Educational Psychologist* DOI mirror via Taylor & Francis (which is
-  paywalled). If both fail, ask Zack to supply.
-- **Zeiser et al. 2014 — Deeper Learning Outcomes (AIR).** Tried:
-  `https://www.air.org/sites/default/files/downloads/report/Report_3_Evidence_of_Deeper_Learning_Outcomes.pdf` — failed. The AIR site
-  reorganized its publications URL scheme around 2020; the historical
-  `/sites/default/files/downloads/` path is no longer canonical. The
-  current scheme is `/sites/default/files/2021-09/...` etc. Alternate:
-  search `air.org` directly for "Evidence of Deeper Learning Outcomes"
-  and grab the current canonical URL — likely
-  `https://www.air.org/sites/default/files/Report3-Evidence-of-Deeper-Learning-Outcomes.pdf` or similar. Add to wishlist next Saturday.
+  failed. The Nesbit course directory hosted KSC and HSDC but not VanLehn.
+  Tried 2026-06-06: `https://pact.cs.cmu.edu/koedinger/pubs/VanLehn2011.pdf` — failed. The PACT/CMU mirror does not host
+  it either (Koedinger is a VanLehn collaborator, not a co-author on
+  this paper). Web search for an open-access PDF turns up only
+  paywalled Taylor & Francis (DOI 10.1080/00461520.2011.611369),
+  ResearchGate (login required), and citation listings. There is no
+  reliable open PDF mirror. **Demote to leads pending Zack supplying
+  the PDF directly.** This is recorded in the 2026-06-13 digest's
+  "Where I need you" #1.
+- **Zeiser et al. 2014 — Deeper Learning Outcomes (AIR).** Tried 2026-05-30:
+  `https://www.air.org/sites/default/files/downloads/report/Report_3_Evidence_of_Deeper_Learning_Outcomes.pdf` — failed.
+  Tried 2026-06-06: `https://www.air.org/sites/default/files/Report3-Evidence-of-Deeper-Learning-Outcomes.pdf` — failed. Both AIR URLs were
+  agent guesses derived from earlier-era AIR paths. Alternate to try
+  2026-06-13: `https://files.eric.ed.gov/fulltext/ED553364.pdf` — ERIC
+  hosts the canonical fulltext PDF for the document's ED553364 ID. ERIC
+  fulltext URLs have been the most reliable mirror for AIR-era reports
+  in prior runs; worth a clear primary try before demoting.
 
 ## Tensions to chase
 
