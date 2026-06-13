@@ -2,7 +2,7 @@
 
 Thesis-seed v1: *"'Efficiency' in education usually means doing the existing thing faster, which entrenches it. 'Augmentation' means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line."*
 
-**Status (2026-06-06):** Per the 2026-05-27 steer the binary is a
+**Status (2026-06-13):** Per the 2026-05-27 steer the binary is a
 *rhetorical device* in the seed, not the load-bearing claim of the thesis.
 The clarified positive thesis is that AI removes four constraints (cost of
 expert attention; one-way fixed content; system-imposed teacher workload;
@@ -38,10 +38,30 @@ steer's four-constraint frame without a research filter in between.
 
 The strongest *empirical* supporting literature (Scardamalia & Bereiter;
 VanLehn 2011; the Deeper Learning Network evaluations; Bryk et al.) has
-*still* not been read. All five supporting-sprint URLs queued
-2026-05-30 failed in the fetcher this week. The thread remains
-constraint-evidence-strong and outcome-evidence-thin. Demotions and
-alternate URLs are recorded in
+*still* not been read. Three of the five 2026-06-06 alternate URLs failed
+again this week (the Bryk landing page, the Zeiser path, the
+Scardamalia & Bereiter CSILE PDF). The Sweller-Kirschner-Clark 2007
+sur-rejoinder file that did arrive turned out to be a UNSW School of
+Education landing page HTML mislabelled as a PDF — the canonical
+landing-page-disguised-as-PDF failure mode, demoted in the same commit.
+After three consecutive weeks of failed fetches and only one alternate
+URL still untried (VanLehn 2011 via the CMU PSLC mirror, queued for the
+2026-06-19 fetch), the supporting sprint will not complete on the
+steer's 2026-06-13 target. This is surfaced honestly in the digest's
+thesis-fit check and "Where I need you" rather than papered over.
+
+This Saturday also adds **Watters 2018** ("Machine Teaching, Machine
+Learning, and the History of the Future of Public Education") to the
+ledger as a complication of the thread's *vocabulary*. Watters identifies
+"augment, not replace" as a century-old corporate marketing trope —
+exactly the language the thesis-seed v1 uses ("augmentation, not
+efficiency"). The Watters entry below records the complication. The
+load-bearing weight of the entry is in `tech-cycles-in-education.md`
+where Watters' historical evidence sits; here it appears as a
+*rhetorical-proximity warning* the thesis owes a response to.
+
+The thread remains constraint-evidence-strong and outcome-evidence-thin.
+Demotions and alternate URLs are recorded in
 `leads/augmentation-not-efficiency-leads.md`.
 
 ---
@@ -280,6 +300,59 @@ on whether removing them is the right aim.
   elders) suggest a different cut: which AI implementations *expand
   access* to which resource, for which learner, at what cost in
   institutional capture?
+
+---
+
+## Claim (rhetorical-proximity warning): "Augment, not replace" is itself a century-old corporate marketing claim — the thesis's vocabulary is on the historical-pattern side of the line, not outside it.
+
+Recorded here as a check on the thread's own framing, not as a primary
+positive or counter claim. The load-bearing argument from Watters 2018
+sits in `tech-cycles-in-education.md` ("the historical record on prior
+waves of that exact rhetoric is that the promised revolutions did not
+arrive"). The reason to also record it here is operational: the
+augmentation thread cannot use "augmentation, not efficiency" as if it
+were a fresh distinction without engaging the fact that the same
+vocabulary has been in the ed-tech industry playbook since at least the
+early 20th century.
+
+### Supporting evidence (for the rhetorical-proximity reading)
+- "These companies and their league of marketers and advocates have long
+  argued that their products will augment what teachers can do. Augment,
+  not replace, of course. Their products will make teachers' work easier,
+  faster, companies have always promised."
+  — [Watters 2018](../sources/Watters-2018-machine-learning-history-of-future.md), ¶4 — layer: critical / media-historical (blog)
+
+### Counter-evidence (against treating Watters as a refutation of the thread)
+- *Watters is making a historical observation about rhetoric, not a
+  conceptual refutation.* The thesis's "augmentation" might mean
+  something different in substance from the marketing claim — but the
+  thesis owes that account. The 2026-05-27 steer's reframing ("the truest
+  forms of learning, whatever the research says those forms actually are")
+  is part of an answer: it specifies the *aim* rather than the marketing
+  vocabulary. But until the thread can name the aim positively *and* show
+  that the marketing-claim version was insincere or incoherent, Watters'
+  challenge remains unanswered.
+- *Watters' 2018 examples (Knewton, IBM Watson) are corporate top-down
+  products.* The Cuban 2025 teacher data — bottom-up adoption of a
+  general-purpose chatbot for workload-relief uses on teacher initiative
+  — is not the kind of "augmentation" Watters was critiquing. The
+  rhetorical proximity matters; the deployment shape may not be the
+  same.
+
+### Open questions
+- Specify what makes the thesis's "augmentation" different from the
+  marketing claim Watters identifies. Candidates: (a) the thesis is
+  about *previously impossible learning* (not "the existing thing
+  faster"), (b) the steer's four-constraint frame names specific
+  constraints rather than gestural "support for teachers," (c) the
+  deployment shape (bottom-up, learner- or teacher-initiated, free or
+  near-free general-purpose tool) is structurally different from the
+  corporate-procurement model Watters critiques. Each candidate is
+  testable; none is currently doing operational work in the thread.
+- Should the thread retire the "augmentation" vocabulary in favour of
+  a less freighted term — e.g., "enabling previously impossible
+  learning"? The current name is rhetorically vulnerable in a way the
+  thesis hasn't yet priced in.
 
 ---
 
