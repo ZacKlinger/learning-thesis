@@ -18,25 +18,52 @@ actually break the pattern" question is preserved (it is real and the thesis
 must engage it) but it is now a question *inside* the setup, not the
 question that drives the thread.
 
-**Status (2026-06-06):** Four verified entries on the ledger after this
+**Status (2026-06-13):** Five verified entries on the ledger after this
 Saturday. Jordan (2014) anchors the empirical reality-check on the MOOC
 wave. KSC 2006 is recorded as a meta-observation about the reform-rhetoric
-cycle. Cuban (2024) lands as a contemporary, AI-specific statement of the
-canonical Cuban argument — useful substitute material while *Teachers and
-Machines* (1986) remains paywalled, but Cuban's own prediction (AI will be
-adapted to fit the contours of existing classrooms) is *not* the steer-
-reframed framing the thread is using. The gap is recorded honestly.
+cycle. Cuban (2024) and Cuban (2025) form a Nov-2024–March-2025 pair on
+the AI wave specifically (predictive vs. curatorial voices). Watters 2018
+— added this Saturday — is the first critical-edtech entry on the
+ledger, and it sits in productive tension with the steer's reframing of
+this thread (see the Status note below). All four canonical books for the
+thread (Cuban 1986, 2001; Watters 2021; Postman 1992) remain paywalled
+and unread; the blog corpus is the primary substitute.
 
-Cuban (2025) is added this Saturday as the natural pair. It is a genre
-shift: Cuban steps out of the historian's voice and curates teachers'
-own descriptions of their AI use. Read alongside Cuban 2024, the pair
-shows Cuban's own framing softening between Nov 2024 and March 2025 —
-his prediction holds in attenuated form, but the post-shape ("here are
+**Watters 2018 — a complication of the steer's reframing.** The steer
+recast this thread from "every prior wave failed, so this one must prove
+itself" (foil) to "the medium has been changing all along, AI is the next
+change" (setup). Watters 2018 sits inside the foil framing — her case is
+that the *medium-change-rhetoric is itself the marketing claim*, repeated
+for a century with the same shape ("augment what teachers can do.
+Augment, not replace, of course"). Her position is that the actual change
+in each prior wave has been to the political-economic infrastructure of
+schooling (corporate capture, proprietary lock-in, data extraction,
+algorithmic prediction sold as "personalization"), not to learning. This
+is *not* the setup framing the steer wants, and the steer is not
+self-evidently right against her: Watters has 100 years of historical
+evidence behind the foil framing and the burden is on the setup framing
+to specify what is structurally different about the current change of
+medium. The thread keeps the steer's reframing but enters Watters as the
+strongest 2018 challenge to it, with the burden the reframing must clear
+recorded explicitly below.
+
+The Watters 2018 entry also complicates the augmentation-not-efficiency
+thread independently: Watters identifies "augment, not replace" as a
+century-old corporate marketing trope — i.e., the thesis-seed v1
+vocabulary is itself on Watters' list of historically-repeating ed-tech
+claims. The augmentation thread's status paragraph is sharpened in the
+same commit to record this.
+
+Cuban (2025) is the natural pair: a genre shift from Cuban 2024.
+Cuban steps out of the historian's voice and curates teachers' own
+descriptions of their AI use. Read alongside Cuban 2024, the pair shows
+Cuban's own framing softening between Nov 2024 and March 2025 — his
+prediction holds in attenuated form, but the post-shape ("here are
 teachers finding genuine value in AI") is the opposite of the prior
 post-shape ("AI will be added to the list of hyped innovations"). That
 shift is itself a small data point on the steer-reframed thread: the
 medium-evolves framing has a closer fit to Cuban's March 2025 curation
-than to his November 2024 prediction.
+than to his November 2024 prediction *and* to Watters' 2018 framing.
 
 The hype-side anchor (Pappano 2012, "The Year of the MOOC") was not
 delivered by the fetcher — *NYT* paywall + JS gate; demoted to leads.
@@ -254,6 +281,108 @@ load-bearing evidence.
   current ChatGPT moment and would set up a sharper test: how much of
   the Cuban-2025-style teacher adoption Watters specifically predicted
   vs. would specifically critique. Queued for next Saturday.
+
+---
+
+## Claim: "Augment, not replace" is itself a century-old corporate marketing claim in ed-tech — and the historical record on prior waves of that exact rhetoric is that the promised revolutions did not arrive.
+
+This is the load-bearing Watters 2018 challenge to the thesis. It is *not*
+the Cuban "teachers absorb tech without changing how they teach" framing
+(that frames the failure as institutional immune response). Watters'
+framing is that the *rhetoric* is the constant — corporate ed-tech has
+been promising augmentation-not-replacement to schools for over a century
+— and that the actual material change in each wave has been to the
+political-economic infrastructure (data extraction, lock-in, algorithmic
+prediction), not to learning. This sits at the awkward intersection of
+the tech-cycles thread (where the historical record lives) and the
+augmentation-not-efficiency thread (where the rhetorical framing lives).
+Entered here because Watters' load-bearing move is the *historical
+demonstration* of the pattern, not the framing argument.
+
+### Supporting evidence (for the cyclical-rhetoric reading)
+- "These companies and their league of marketers and advocates have long
+  argued that their products will augment what teachers can do. Augment,
+  not replace, of course. Their products will make teachers' work easier,
+  faster, companies have always promised."
+  — [Watters 2018](../sources/Watters-2018-machine-learning-history-of-future.md), ¶4 — layer: critical / media-historical (blog)
+- "as long as these companies and their evangelists have been pitching
+  their products to schools, they have promised a 'revolution.' ... So far
+  at least these predictions have always been wrong."
+  — [Watters 2018](../sources/Watters-2018-machine-learning-history-of-future.md), ¶5 — layer: critical / media-historical (blog)
+- "Educational films were going to change everything. Teaching machines
+  were going to change everything. Educational television was going to
+  change everything. Virtual reality was going to change everything. The
+  Internet was going to change everything. The Macintosh computer was
+  going to change everything. The iPad was going to change everything.
+  Khan Academy was going to change everything. MOOCs were going to change
+  everything. And on and on and on."
+  — [Watters 2018](../sources/Watters-2018-machine-learning-history-of-future.md), ¶7 — layer: critical / media-historical (blog)
+- "The transformational, revolutionary potential of these technologies has
+  always been vastly, vastly overhyped. And it isn't simply, as some
+  education reformers like to tell it, that it's because educators or
+  parents are resistant to change. It's surely in part because the claims
+  that marketers make are often just simply untrue."
+  — [Watters 2018](../sources/Watters-2018-machine-learning-history-of-future.md), ¶10 — layer: critical / media-historical (blog)
+- (On AI specifically, pre-dating ChatGPT by 4 years:) "in 1965, for
+  example, Herbert Simon said that 'machines will be capable, within
+  twenty years, of doing any work a man can do.' In 1970, Marvin Minsky
+  said that 'in from three to eight years, we will have a machine with
+  the general intelligence of an average human being.' Fifty, sixty years
+  later, we still don't."
+  — [Watters 2018](../sources/Watters-2018-machine-learning-history-of-future.md), ¶13 — layer: critical / media-historical (blog)
+
+### Counter-evidence (against absorbing Watters' frame whole)
+- Watters' 2018 examples of "AI in education" are Knewton ("mind reading
+  robot tutor in the sky") and IBM Watson — top-down corporate products
+  pitched to school districts. The 2022-onward generative-AI wave is the
+  first wave in Watters' century-long pattern where the technology
+  reached students and teachers as a free or near-free general-purpose
+  tool, *outside* the corporate procurement pipeline she spends most of
+  her essay critiquing. The bottom-up adoption Cuban 2025 documents is
+  the structural difference Watters' 2018 frame did not anticipate.
+  Either Watters is wrong about the new wave (testable in real time) or
+  the bottom-up tools will themselves be absorbed into the corporate
+  pipeline (also testable, see Microsoft / OpenAI / Google partnership
+  pricing of EDU tiers).
+- *Counter-examples to "every prior wave failed" remain unaddressed by
+  Watters.* The textbook, the blackboard, the calculator, the
+  standardised test booklet, the spreadsheet (in business and
+  increasingly in math classes) — these are technologies that did
+  reshape what gets taught and how. Watters does not engage them. The
+  cycle-as-universal reading requires the cycle's counter-examples to
+  be addressed; neither Cuban nor Watters does this work.
+- The "augment, not replace" rhetoric is *also* used by the thesis seeds
+  themselves. The seed-v1 framing ("augmentation, not efficiency") is
+  vulnerable to being read as a sophisticated restatement of the very
+  pitch Watters identifies. The 2026-05-27 steer's reframing ("the
+  truest forms of learning, whatever the research says those forms
+  actually are") is a partial response — it specifies the *aim* rather
+  than the marketing vocabulary — but the rhetorical proximity remains.
+  The thesis owes a clean account of what makes its use of "augmentation"
+  different from the century of marketing claims Watters identifies, or
+  the vocabulary should be retired.
+
+### Open questions
+- Watters' 2018 piece pre-dates the November 2022 ChatGPT moment by four
+  years. Of her 2018 predictions, which have been confirmed by 2024–25
+  and which have been complicated? Confirmed: the "personalization"
+  rhetoric is intact (now applied to LLM tutors). Complicated: the
+  bottom-up teacher-led adoption Cuban 2025 documents is not in Watters'
+  2018 frame at all. *Reading the Watters 2019 piece ("100 Worst EdTech
+  Debacles") and a more recent Watters post would let the thread test
+  whether her own frame has updated.*
+- The infrastructural-harm argument Watters makes (proprietary black-box
+  systems, biased training data, lock-in) is largely orthogonal to the
+  "does it work?" question the rest of this thread tracks. It belongs
+  on the ledger but it is a different *kind* of objection than KSC's
+  cognitive-load critique or Jordan's completion-rate finding. The
+  thesis owes a separate response to it; it is not addressed by removing
+  the steer's four constraints.
+- Pasquale 2015 (*The Black Box Society*) and Noble 2018 (*The Algorithms
+  of Oppression*) are the theoretical backing Watters cites. Worth adding
+  to leads for the augmentation thread, on the question of which
+  AI-in-education designs are vulnerable to those critiques and which
+  are not.
 
 ---
 
