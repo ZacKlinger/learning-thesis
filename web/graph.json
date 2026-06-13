@@ -14,7 +14,7 @@
       "label": "Augmentation, not efficiency",
       "type": "thread",
       "layer": "thread",
-      "claims": 5,
+      "claims": 6,
       "path": "claim-evidence/augmentation-not-efficiency.md",
       "seed_framing": "The framing battle. \"Efficiency\" in education usually means doing the existing thing faster, which entrenches it. \"Augmentation\" means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line.\n\n**Steer (2026-05-27):** An interactive session surfaced an apparent synthesis \u2014 KSC's expertise-reversal concession plus Illich's skill-drill concession plus Papert's transitional-object case all seemed to support a two-phase framing: \"AI builds the prior-knowledge floor (efficiency win) \u2192 ambitious inquiry becomes available later (augmentation).\" **The thesis rejects this synthesis.** Reading Dewey \u00b68 (\"education is a process of living and not a preparation for future living\") as instrumental \u2014 early years are floor-building for later\u2026"
     },
@@ -32,7 +32,7 @@
       "label": "Tech cycles in education",
       "type": "thread",
       "layer": "thread",
-      "claims": 4,
+      "claims": 5,
       "path": "claim-evidence/tech-cycles-in-education.md",
       "seed_framing": "Every prior wave of technology in education (cinema, radio, television, programmed-instruction machines, classroom computers, MOOCs) was introduced with very similar optimistic rhetoric, and most failed to change what actually happens in schools. Cuban's historical record is the steelman the optimistic case has to clear: if the pattern is \"hype, modest adoption, absorption into the existing grammar of schooling, disappointment,\" then the burden is on showing what is structurally different this time. Not whether AI is different in capability \u2014 *every* prior wave was different in capability \u2014 but whether the *adoption pathway* into ambitious learning is different. This thread holds the others honest."
     },
@@ -218,6 +218,29 @@
       ]
     },
     {
+      "id": "source:Watters-2018-machine-learning-history-of-future",
+      "label": "Audrey Watters 2018",
+      "title": "Machine Teaching, Machine Learning, and the History of the Future of Public Education",
+      "type": "source",
+      "layer": "critical / media-historical (blog, prepared conference remarks)",
+      "year": "2018",
+      "read_status": "read",
+      "url": "http://hackeducation.com/2018/10/20/machine-learning",
+      "access_date": "2026-06-13",
+      "path": "sources/Watters-2018-machine-learning-history-of-future.md",
+      "raw_path": "sources-raw/Watters-2018-machine-learning-history-of-future.html",
+      "thesis_excerpt": "Watters' two-assertion frame: (1) the role of corporations and philanthropists in\nshaping education policy is *not* new \u2014 the ed-tech industry has been at this for\nover a century, and the marketing rhetoric has *always* been the same: their\nproducts will \"augment what teachers can do. Augment, not replace, of course\";\n(2) the \"revolutions\" these companies have promised have always failed to\nmaterialise. The body of the piece then historicises AI specifically as the\nlatest instance of that recurring pattern, with Herbert Simon (1965) and\nMarvin Minsky (1970) AI predictions as the contemporary\u2026",
+      "quotes": [
+        "\"These companies and their league of marketers and advocates have long argued",
+        "\"as long as these companies and their evangelists have been pitching their",
+        "\"Educational films were going to change everything. Teaching machines were"
+      ],
+      "threads": [
+        "augmentation-not-efficiency",
+        "tech-cycles-in-education"
+      ]
+    },
+    {
       "id": "lead:ambition-over-complacency-leads",
       "label": "ambition over complacency (leads)",
       "type": "lead",
@@ -272,13 +295,6 @@
       "type": "raw",
       "layer": "raw",
       "path": "sources-raw/Watters-2015-teaching-machines-and-turing-machines.html"
-    },
-    {
-      "id": "raw:Watters-2018-machine-learning-history-of-future",
-      "label": "Watters 2018 machine learning history of future (raw)",
-      "type": "raw",
-      "layer": "raw",
-      "path": "sources-raw/Watters-2018-machine-learning-history-of-future.html"
     },
     {
       "id": "raw:Watters-2019-100-worst-edtech-debacles",
@@ -396,6 +412,11 @@
     },
     {
       "source": "thread:augmentation-not-efficiency",
+      "target": "source:Watters-2018-machine-learning-history-of-future",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
       "target": "source:Cuban-2025-some-teachers-use-of-ai",
       "kind": "supports"
     },
@@ -520,6 +541,31 @@
       "kind": "supports"
     },
     {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Watters-2018-machine-learning-history-of-future",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Watters-2018-machine-learning-history-of-future",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Watters-2018-machine-learning-history-of-future",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Watters-2018-machine-learning-history-of-future",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Watters-2018-machine-learning-history-of-future",
+      "kind": "supports"
+    },
+    {
       "source": "thread:augmentation-not-efficiency",
       "target": "lead:augmentation-not-efficiency-leads",
       "kind": "tracked-in"
@@ -550,5 +596,5 @@
       "kind": "relates-to"
     }
   ],
-  "generated_at": "2026-06-06T15:19:20Z"
+  "generated_at": "2026-06-13T15:16:39Z"
 }
