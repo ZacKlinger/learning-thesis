@@ -2,7 +2,7 @@
 
 Thesis-seed v1: *"'Efficiency' in education usually means doing the existing thing faster, which entrenches it. 'Augmentation' means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line."*
 
-**Status (2026-06-13):** Per the 2026-05-27 steer the binary is a
+**Status (2026-06-20):** Per the 2026-05-27 steer the binary is a
 *rhetorical device* in the seed, not the load-bearing claim of the thesis.
 The clarified positive thesis is that AI removes four constraints (cost of
 expert attention; one-way fixed content; system-imposed teacher workload;
@@ -10,9 +10,57 @@ gap to expert-level practice) so that "the truest forms of learning, whatever
 the research says those forms actually are" become available. The
 KSC/HSDC debate over scaffolding for novices is a debate *inside* that
 positive aim — over how to scaffold beginners — not a debate over whether
-to pursue it. Counter-evidence (KSC 2006), the rejoinder that bounds KSC
-(HSDC 2007), the visionary supporting case (Papert 1980), and the radical
-counter-counter (Illich 1971) are all on the ledger.
+to pursue it.
+
+**The supporting sprint completed this Saturday.** Three of the four
+load-bearing empirical sources the 2026-05-27 steer named arrived in
+this week's fetch and are now on the ledger:
+
+- **Scardamalia & Bereiter 1994** ("Computer Support for Knowledge-
+  Building Communities") — the canonical empirical positive case for
+  the augmentation aim. CSILE is technology that enables a kind of
+  learning (knowledge-building communities modeled on scholarly
+  disciplines) that was not previously feasible at classroom scale.
+  Sits inside the HSDC scaffolded-inquiry frame; not vulnerable to the
+  KSC critique. New claim added below.
+- **Zeiser et al. 2014** ("Evidence of Deeper Learning Outcomes",
+  AIR/Hewlett study Report 3) — the at-scale empirical anchor. A
+  quasi-experimental evaluation of 10 deeper-learning high school
+  networks (~14,000 students) finding 0.10–0.20 SD positive effects
+  on cognitive, interpersonal, and intrapersonal outcomes, and a 9
+  percentage-point on-time graduation gain, with effects similar for
+  high- and low-prior-achievement students. New claim added below.
+- **Sweller, Kirschner & Clark 2007 sur-rejoinder** — completes the
+  KSC ↔ HSDC ↔ SKC exchange. Does not retract the KSC 2006 position;
+  reasserts the worked-example case and challenges the
+  general-teachable-strategies premise. Recorded as a sharpening of
+  the existing KSC entry below.
+
+The augmentation thread now has, for the first time, a genuine
+empirical *positive* case alongside the empirical steelman (KSC),
+the visionary positive case (Papert, Illich Ch 6), and the
+contemporary practitioner data (Cuban 2025). The remaining missing
+source from the steer's supporting sprint is VanLehn 2011 (demoted
+to leads 2026-06-13 after three URLs failed).
+
+Prior status (2026-06-13) preserved below for continuity.
+
+(1) The Illich entry below is recalibrated after reading Chapter 6
+("Learning Webs"). The Ch 1 quotes still support an Illich-rejects-the-
+question reading. But Ch 6 contains an explicit positive technology
+programme — peer-matching networks, skill exchanges, "tapes, retrieval
+systems, programmed instruction" — and an explicit claim that "technology
+is available to develop either independence and learning or bureaucracy
+and teaching." Read across the two chapters, Illich is *not* a rejection
+of the augmentation aim; he is a rejection of the institution within
+which most augmentation rhetoric operates. That distinction matters for
+the thesis: Illich is a constraint on *how* the four constraints get
+removed, not on whether removing them is the right aim.
+
+(2) Cuban 2025 — a curated post documenting teachers using AI in their
+own work — is on the ledger as the first contemporary practitioner-level
+supporting datum for two specific constraints (workload and one-way
+content).
 
 This Saturday two changes:
 
@@ -36,31 +84,35 @@ its self-imposed selection bias), but it is the first ledger entry
 where ordinary teachers' own descriptions of their use map onto the
 steer's four-constraint frame without a research filter in between.
 
-The strongest *empirical* supporting literature (Scardamalia & Bereiter;
-VanLehn 2011; the Deeper Learning Network evaluations; Bryk et al.) has
-*still* not been read. Three of the five 2026-06-06 alternate URLs failed
-again this week (the Bryk landing page, the Zeiser path, the
-Scardamalia & Bereiter CSILE PDF). The Sweller-Kirschner-Clark 2007
-sur-rejoinder file that did arrive turned out to be a UNSW School of
-Education landing page HTML mislabelled as a PDF — the canonical
-landing-page-disguised-as-PDF failure mode, demoted in the same commit.
-After three consecutive weeks of failed fetches and only one alternate
-URL still untried (VanLehn 2011 via the CMU PSLC mirror, queued for the
-2026-06-19 fetch), the supporting sprint will not complete on the
-steer's 2026-06-13 target. This is surfaced honestly in the digest's
-thesis-fit check and "Where I need you" rather than papered over.
+As of 2026-06-20, the strongest empirical supporting literature is now
+on the ledger: Scardamalia & Bereiter 1994 (the design-theoretical case
+for knowledge-building communities), Zeiser et al. 2014 (the at-scale
+quasi-experimental evaluation of deeper-learning networks), Bryk et al.
+2010 (the structural-conditions framework — primarily relevant to
+teacher-agency, with cross-cutting implications here). VanLehn 2011
+remains demoted; the Bloom-2-sigma → ITS effect-size update relies on
+secondary citations until Zack supplies an institutional PDF or a new
+mirror is found.
 
-This Saturday also adds **Watters 2018** ("Machine Teaching, Machine
-Learning, and the History of the Future of Public Education") to the
-ledger as a complication of the thread's *vocabulary*. Watters identifies
-"augment, not replace" as a century-old corporate marketing trope —
-exactly the language the thesis-seed v1 uses ("augmentation, not
-efficiency"). The Watters entry below records the complication. The
-load-bearing weight of the entry is in `tech-cycles-in-education.md`
-where Watters' historical evidence sits; here it appears as a
-*rhetorical-proximity warning* the thesis owes a response to.
+Watters 2018 ("Machine Teaching, Machine Learning, and the History of
+the Future of Public Education") sits on the ledger as a complication of
+the thread's *vocabulary*. Watters identifies "augment, not replace" as a
+century-old corporate marketing trope — exactly the language the thesis-
+seed v1 uses ("augmentation, not efficiency"). The Watters entry below
+records the complication. The load-bearing weight of the entry is in
+`tech-cycles-in-education.md` where Watters' historical evidence sits;
+here it appears as a *rhetorical-proximity warning* the thesis owes a
+response to.
 
-The thread remains constraint-evidence-strong and outcome-evidence-thin.
+The thread is now constraint-evidence-strong **and** outcome-evidence-
+present-but-modest. The Zeiser effect sizes (0.10–0.20 SD) are real and
+contemporary but not transformative; the S&B mechanism case is rigorous
+but the headline empirical claim self-cites. The honest characterisation
+is that the augmentation aim has well-documented mechanisms (S&B), a
+moderate at-scale effect record on structurally similar practices
+(Zeiser), and a methodological-debate-not-settled status on whether
+those practices are *better* than direct instruction for novice
+declarative knowledge (KSC ↔ HSDC ↔ SKC, all three pieces now read).
 Demotions and alternate URLs are recorded in
 `leads/augmentation-not-efficiency-leads.md`.
 
@@ -103,14 +155,29 @@ agreement.
   argument exceed what the paper supports. *How much of the augmentation
   literature concerns expert/long-term learners (Papert's autobiographical
   self, Knowledge Building communities) where the KSC bound does not bite?*
-- Hmelo-Silver, Duncan & Chinn (2007) now read (this Saturday). They argue
-  KSC mischaracterise PBL/inquiry-as-practiced as "minimally guided" when
-  it is in fact heavily scaffolded — and they cite favorable meta-analyses
-  KSC overlooked. The KSC entries above are no longer flagged "provisional";
-  they are read in their HSDC-bounded form. The argument between KSC and
-  HSDC is *not* "either pure discovery works or it doesn't." It is "what
-  forms of guidance are needed under what conditions." (See the new HSDC
-  claim below.)
+- Hmelo-Silver, Duncan & Chinn (2007) is read. They argue KSC
+  mischaracterise PBL/inquiry-as-practiced as "minimally guided" when
+  it is in fact heavily scaffolded — and they cite favorable meta-
+  analyses KSC overlooked. The KSC entries above are no longer flagged
+  "provisional"; they are read in their HSDC-bounded form. (See the
+  HSDC claim below.)
+- Sweller, Kirschner & Clark 2007 sur-rejoinder is now read (this
+  Saturday). It does not retract KSC 2006; it sharpens the position.
+  Three moves from the sur-rejoinder bear on the augmentation thread:
+  (a) the worked-example effect is the load-bearing empirical anchor and
+  any PBL/IL approach has to engage its implications for novice
+  problem-solving search; (b) the "scaffolding" HSDC describe is, on
+  SKC's reading, "guided discovery" approaching the limit of fully-
+  worked-example direct instruction — not a refutation of KSC but a
+  capitulation to it; (c) "no novel, teachable, general problem-solving
+  or thinking strategy" has been isolated despite decades of effort,
+  which cuts at the entire deeper-learning frame the ambition thread
+  leans on. The KSC ↔ HSDC ↔ SKC exchange is now complete on the
+  ledger. The honest read is that the methodological standoff is real
+  and unresolved; neither side has engaged the knowledge-building
+  literature (Scardamalia & Bereiter 1994, read this Saturday) directly,
+  and the unit-of-analysis disagreement (individual cognitive load vs.
+  knowledge-building community) runs through every page.
 
 ---
 
@@ -175,9 +242,14 @@ pedagogies fall inside the "guided" camp.
   RCT, with moderate effect sizes (0.37–0.44). HSDC do not engage
   selection-bias worries directly. These are good but not definitive
   evidence — same epistemic standard the protocol applies to KSC.
-- Sweller, Kirschner & Clark published a sur-rejoinder in the same issue
-  (*Educational Psychologist*, 42(2), 115–121). Not yet read; should be
-  added to the wishlist for symmetry.
+- Sweller, Kirschner & Clark sur-rejoinder (same issue,
+  *Educational Psychologist*, 42(2), 115–121) is now read. SKC
+  reject HSDC's "scaffolded PBL is distinct from minimally guided"
+  bounding move: on their view, the more scaffolded PBL becomes, the
+  closer it gets to direct instruction, which is the SKC
+  recommendation. They do not retract the original argument. The
+  symmetry is now on the ledger; the debate remains open. See the
+  KSC entry's Open questions above for the full update.
 
 ---
 
@@ -300,6 +372,253 @@ on whether removing them is the right aim.
   elders) suggest a different cut: which AI implementations *expand
   access* to which resource, for which learner, at what cost in
   institutional capture?
+
+---
+
+## Claim (empirical, design-theoretical): Knowledge-building communities — student-authored community databases with publication/peer-review affordances, asynchronous discussion, intentional-learning notes — are a kind of learning the technology made feasible at classroom scale that was not previously possible. Scardamalia & Bereiter call this a "third way" distinct from didactic instruction and child-centered discovery, and explicitly contrast its student-centred intentionality with the system-centred intentionality of intelligent tutoring systems.
+
+This is the first peer-reviewed empirical positive case for the augmentation
+aim on the ledger. The mechanism case is rigorous (the "first-order vs.
+second-order environment" framing, the IRE-discourse-pattern critique, the
+explicit design moves CSILE makes); the headline empirical claim is more
+qualified than its citations sometimes suggest and rests on a self-
+citation to Scardamalia et al. 1992 that the thread should chase before
+leaning on the magnitude.
+
+The Scardamalia & Bereiter case sits *inside* the HSDC scaffolded-inquiry
+frame — CSILE is heavily structured, with explicit discourse types,
+intentionality affordances, and peer-review process — so it is not
+vulnerable to the KSC critique that targets unguided minimal-guidance
+approaches. SKC have not engaged the knowledge-building literature
+directly; the unit-of-analysis disagreement (individual cognitive load
+vs. knowledge-building community) is the most consequential unresolved
+question across the entire empirical layer of this thread.
+
+### Supporting evidence (for the augmentation aim)
+- (Schools as first-order environments need to become second-order:) "In
+  second-order environments, learning is not asymptotic because what one
+  person does in adapting changes the environment so that others must
+  readapt. ... More relevant examples in education are the sciences and
+  other learned disciplines in which adaptation involves making
+  contributions to collective knowledge."
+  — [Scardamalia & Bereiter 1994](../sources/Scardamalia-Bereiter-1994-csile-knowledge-building.md), p. 268 — layer: empirical
+- (The "third way" framing — neither didactic nor activity-centered:)
+  "any hope for technology to have a role in restructuring education
+  must take the form of searching for a third way — something that is
+  neither didactic, activity-centered, nor a mere compromise between the
+  two (which is what already exists in most schools)."
+  — [Scardamalia & Bereiter 1994](../sources/Scardamalia-Bereiter-1994-csile-knowledge-building.md), p. 270 — layer: empirical
+- (Reversing the IRE discourse pattern:) "Transcripts of classroom
+  discussion indicate that it typically consists of a string of three-
+  step units, each unit consisting of the following conversational
+  moves: teacher initiates, student responds, teacher evaluates (Heap,
+  1985). Whatever this formula represents, it surely does not represent
+  the pattern of discourse in a knowledge-building community."
+  — [Scardamalia & Bereiter 1994](../sources/Scardamalia-Bereiter-1994-csile-knowledge-building.md), p. 274 — layer: empirical
+- (Explicit contrast with intelligent tutoring — directly relevant to the
+  AI-tutor model:) "The low-tech approach to diagnosis of CSILE (students
+  diagnose their own needs and write an I need to understand [INTU] note)
+  contrasts sharply with that of intelligent-tutoring systems. With
+  intelligent-tutoring systems, the intentionality resides in the
+  system's own diagnostic and decision processes. The contrasting view,
+  which we have embodied in CSILE, is that an important part of
+  education is for students themselves to learn to carry out those
+  diagnostic and decision processes."
+  — [Scardamalia & Bereiter 1994](../sources/Scardamalia-Bereiter-1994-csile-knowledge-building.md), p. 278 — layer: empirical
+- (Empirical headline, with self-citation caveat:) "Evaluations of CSILE
+  to date indicate that CSILE students greatly surpass students in
+  ordinary classrooms on measures of depth of learning and reflection,
+  awareness of what they have learned or need to learn, and
+  understanding of learning itself. Moreover, individual achievement, as
+  conventionally measured, does not suffer. In fact, students do better
+  on standardized tests in reading, language, and vocabulary
+  (Scardamalia et al., 1992)."
+  — [Scardamalia & Bereiter 1994](../sources/Scardamalia-Bereiter-1994-csile-knowledge-building.md), p. 281 — layer: empirical
+
+### Counter-evidence (against treating CSILE as proof technology drives change)
+- (S&B themselves:) "We do not want to suggest that the technology by
+  itself can bring about the transformation of a school into a
+  knowledge-building community. We already have evidence that teacher
+  strategies can make a major difference in the extent to which students
+  engage in collaborative knowledge building."
+  — [Scardamalia & Bereiter 1994](../sources/Scardamalia-Bereiter-1994-csile-knowledge-building.md), p. 281 — layer: empirical
+
+  *Why this is here:* The thesis should not use Scardamalia & Bereiter
+  as evidence for AI-without-teachers or for technology-as-driver-of-
+  change. The authors are explicit that teacher strategies are
+  load-bearing; CSILE is an *enabling infrastructure*, not a
+  replacement for skilled pedagogical work. This maps onto the 2026-
+  05-27 steer's framing exactly: AI removes constraints; teachers do
+  the actual teaching.
+- (Alan Kay observation, S&B endorsing:) "Nobody wants to use
+  technology to recreate education as it is, yet there is not much to
+  distinguish what goes on in most computer-supported versus
+  traditional classrooms. Alan Kay (1991) suggests that the phenomenon
+  of reframing innovations to recreate the familiar is itself
+  commonplace."
+  — [Scardamalia & Bereiter 1994](../sources/Scardamalia-Bereiter-1994-csile-knowledge-building.md), p. 265 — layer: empirical
+
+  *Why this is here:* This is the same observation Cuban makes about the
+  history of educational technology — that the institutional default is
+  to absorb new tools into existing practice rather than restructure
+  practice around what the tools enable. S&B agree with this diagnosis.
+  The augmentation case has to specify what design moves resist the
+  absorption-into-the-familiar default. CSILE's specific design choices
+  (community database with publication norms, intentional-learning
+  notes, asynchronous discussion replacing IRE) are an answer for one
+  technology; the AI thesis needs an analogous specification.
+
+### Open questions
+- The "greatly surpass" empirical claim self-cites (Scardamalia et al.
+  1992). The thread should chase the underlying study — and the
+  subsequent CSILE / Knowledge Forum evaluation literature (Lamon,
+  Reeve & Caswell 1999; Hewitt 2002; later Knowledge Forum studies) —
+  before leaning on the magnitude. Add to wishlist.
+- The unit-of-analysis disagreement between S&B (knowledge-building
+  community) and KSC (individual cognitive load) is genuinely
+  unresolved. The thesis owes a position: is the right unit of
+  analysis for "ambitious learning" the individual learner (where the
+  worked-example effect bites) or the community of learners (where
+  CSILE's discourse-pattern reversal does work that individual-level
+  measurement cannot detect)? Both sides are partly right; the answer
+  is probably "different units for different questions" — but the
+  thesis has not yet articulated which question goes with which unit.
+- CSILE was 1994 technology — a centralised database with networked
+  microcomputers. The contemporary AI question is whether LLM-mediated
+  conversational interaction can substitute for, complement, or
+  undermine the community-database design choices CSILE makes. S&B's
+  "the intentionality resides in the student" criterion gives a
+  testable bright line: any AI design where the diagnostic and decision
+  processes live in the system (most current AI tutoring) is on the
+  wrong side; any AI design that augments student-authored discourse
+  in a community context (closer to what a thoughtful LLM-augmented
+  Knowledge Forum would look like) is on the right side. The thesis
+  should engage this distinction explicitly.
+
+---
+
+## Claim (empirical, at-scale): Schools deliberately organised around deeper-learning practices — project-based learning, internships, collaborative work, longer-term assessments — produce 0.10–0.20 SD positive effects on cognitive, interpersonal, and intrapersonal outcomes, and a 9-percentage-point gain on on-time graduation, with effects similar for high- and low-prior-achievement students. The magnitude is comparable to other rigorously evaluated structural reform efforts.
+
+This is the contemporary at-scale empirical anchor the thread has been
+missing. Zeiser et al. 2014 (the third report of the AIR/Hewlett *Study
+of Deeper Learning*) is a quasi-experimental matched-pair evaluation of
+ten deeper-learning high school networks (Asia Society, Big Picture
+Learning, ConnectEd, EdVisions, Envision, Expeditionary Learning, High
+Tech High, Internationals Network for Public Schools, New Tech Network,
+New Visions). It is the largest contemporary empirical evaluation of
+schools built around the practices that the augmentation thread's
+positive case rests on.
+
+The evidence is real and is the strongest current contemporary support
+for the ambition-over-complacency / augmentation aim. It is also
+modest in magnitude and quasi-experimental in design. The honest
+characterisation is: this is real positive evidence at scale, *not* a
+revolutionary effect. The skeptic side (Watters, Cuban) would correctly
+note that prior reform efforts have produced Zeiser-magnitude effects
+and been absorbed within a decade.
+
+### Supporting evidence
+- (Cognitive headline:) "Students attending network schools scored
+  higher in all three subjects tested (reading, mathematics, and
+  science) with effect sizes of 0.12, 0.11, and 0.11 of a standard
+  deviation, respectively."
+  — [Zeiser et al. 2014](../sources/Zeiser-et-al-2014-deeper-learning-outcomes.md), p. 14 — layer: empirical
+- (Interpersonal/intrapersonal headline:) "Students who attended
+  participating network high schools reported greater collaboration
+  skills and higher levels of academic engagement, motivation to learn,
+  and self-efficacy than similar students who attended non-network
+  high schools."
+  — [Zeiser et al. 2014](../sources/Zeiser-et-al-2014-deeper-learning-outcomes.md), p. 18 — layer: empirical
+- (Graduation:) "approximately 65 percent of students who attended
+  participating network high schools graduated within four years from
+  a high school in the same district. For similar students who
+  attended non-network high schools, 56 percent were estimated to
+  graduate within four years from a school in the same district. ...
+  attending a network school increased the on-time graduation rate by
+  approximately 9 percentage points."
+  — [Zeiser et al. 2014](../sources/Zeiser-et-al-2014-deeper-learning-outcomes.md), pp. 20–21 — layer: empirical
+- (Equity finding:) "The effects of attending a network school on PBTS
+  scores did not differ among students who entered high school with
+  lower and higher prior achievement. ... The results suggest that
+  both students who entered high school with below-average scores and
+  students who entered with above-average scores benefited from
+  attending a network school."
+  — [Zeiser et al. 2014](../sources/Zeiser-et-al-2014-deeper-learning-outcomes.md), p. 17 — layer: empirical
+- (Mechanism claim:) "the key mechanisms underlying the positive
+  effects of attending a network school reported in this study are
+  the learning opportunities enacted within the schools—in particular,
+  opportunities to engage in complex problem solving and creative
+  thinking; opportunities to communicate, collaborate, learn how to
+  learn, and receive feedback; and opportunities for assessments
+  aligned with deeper learning, interdisciplinary learning, and making
+  real-world connections."
+  — [Zeiser et al. 2014](../sources/Zeiser-et-al-2014-deeper-learning-outcomes.md), pp. 27–28 — layer: empirical
+
+### Counter-evidence (Zeiser's own honesty about scope and design)
+- (On effect-size context:) "The results are similar in magnitude to
+  the effects obtained for other reforms that have been rigorously
+  evaluated and have shown positive effects. For example, a quasi-
+  experimental study of Talent Development High Schools found an
+  impact of 0.12 standard deviations on mathematics achievement
+  (Kemple, Herlihy, & Smith, 2005) and a randomized study of Early
+  College High Schools found an impact of 0.14 standard deviations
+  on high school ELA achievement (Berger et al., 2013)."
+  — [Zeiser et al. 2014](../sources/Zeiser-et-al-2014-deeper-learning-outcomes.md), p. 15 — layer: empirical
+
+  *Why this counts as counter-evidence:* The effect size, while real,
+  is in the same range as other contemporary structural reform
+  evaluations — including reforms that are not built around the
+  deeper-learning practices the thread's positive case rests on. The
+  ambition thread cannot use Zeiser as evidence that deeper-learning
+  practices are *uniquely* effective; it can use Zeiser as evidence
+  that they are *competitively* effective with the rigorously
+  evaluated alternatives, with the equity-of-effect bonus that those
+  alternatives often did not show.
+- (Honesty about generalisation:) "because we chose schools that were
+  implementing networks' approaches to fostering deeper learning at
+  least moderately well, we do not know what results would have been
+  obtained had we sampled network schools that implemented network
+  approaches with lower levels of fidelity."
+  — [Zeiser et al. 2014](../sources/Zeiser-et-al-2014-deeper-learning-outcomes.md), p. 28 — layer: empirical
+
+  *Why this is here:* Zeiser does not answer the question Cuban's
+  historical record poses — whether a typical American high school
+  adopting deeper-learning practices would see these results. The
+  schools studied were selected for at-least-moderate fidelity to the
+  model; the comparison schools were not. The thread should record
+  Zeiser as evidence for "deeper learning works when implemented at
+  least moderately well at networks that select for fidelity" and
+  *not* as evidence for "if every US high school adopted these
+  practices it would look like this."
+- (Between-pair variation:) "our results showed substantial variation
+  across pairs in the effects of attending network schools. Although
+  we have documented this variation across schools, we do not have
+  the evidence required to explain this variation."
+  — [Zeiser et al. 2014](../sources/Zeiser-et-al-2014-deeper-learning-outcomes.md), p. 28 — layer: empirical
+
+### Open questions
+- Zeiser's mechanism claim is about *deeper-learning practices* (PBL,
+  collaboration, internships, portfolios) — not about *AI tools*.
+  Generalising from "schools structured around deeper-learning
+  practices produce these effects" to "AI deployed in service of
+  deeper-learning aims will produce these effects" is the inference
+  the thesis needs to defend. The Scardamalia & Bereiter mechanism
+  case (above) is part of the bridge; the AI-specific evidence is not
+  yet on the ledger. (VanLehn 2011, demoted, would have been the
+  cleanest AI-specific empirical anchor; the bridge is currently
+  underspecified.)
+- The four-year-college / selective-institution finding has two
+  competing interpretations Zeiser names (reducing undermatching vs.
+  inducing overmatching) and the data do not distinguish them.
+  Persistence-to-second-year was unchanged. The thread should not
+  lean on the postsecondary finding without engaging both readings.
+- The KSC tradition would note that 0.10–0.20 SD effects are in the
+  same range as well-designed direct-instruction interventions. The
+  augmentation case needs to engage why these *particular*
+  practices (PBL, collaborative work, portfolios) are the right
+  practices to pursue, not just that they produce non-zero effects
+  comparable to the alternatives. The thread does not yet have a
+  clean answer.
 
 ---
 
