@@ -25,28 +25,22 @@ Unverified material relevant to the teacher-agency thread. Nothing here has been
 - Bryk, Sebring, Allensworth, Luppescu & Easton (2010), *Organizing Schools for Improvement* (Chicago school reform study) — empirical work on the organizational conditions for teacher effectiveness.
 - Roosevelt, *The Teacher Wars* (Goldstein 2014) — narrative history of the profession.
 
-## Supporting-sprint URL that failed in the 2026-06-05 fetcher (demoted 2026-06-06; updated 2026-06-13)
+## Supporting-sprint URL that failed in the 2026-06-05 fetcher (demoted 2026-06-06; updated 2026-06-20)
 
 - **Bryk et al. 2010 — *Organizing Schools for Improvement*.** Tried
   2026-05-30: `https://consortium.uchicago.edu/sites/default/files/2018-10/05%20Organizing%20Schools.pdf` — failed (agent-guessed
   directory and filename).
   Tried 2026-06-06: `https://consortium.uchicago.edu/publications/organizing-schools-improvement-lessons-chicago` — failed; this is the
   landing page and would have served HTML even if it succeeded.
-  Alternate to try 2026-06-13: `https://consortium.uchicago.edu/sites/default/files/2018-10/5272ccsr_symposium_organizing_schools_final_(2).pdf` — this is the January 2010 symposium
-  presentation accompanying the book, hosted at the Consortium site
-  with a canonical CCSR-prefixed filename. URL is filename-encoded
-  with `(2)` as a literal part of the filename. The symposium
-  presentation is *not* the executive summary or the book — it is
-  the accompanying presentation slide deck — but it is the closest
-  open-access primary document from the project and is the load-
-  bearing source the thread needs.
-  **This remains the most load-bearing missing source for the
-  thread.** Without it, the workload-constraint-on-the-system reframing
-  rests on Cuban 2024's prose and Cuban 2025's anecdotes rather than on
-  the organizational-research evidence the steer's frame actually rests
-  on. After this Saturday's alternate, if the symposium PDF also fails
-  to deliver, the next move is to ask Zack to supply the book's
-  executive summary directly.
+  Tried 2026-06-13: `https://consortium.uchicago.edu/sites/default/files/2018-10/5272ccsr_symposium_organizing_schools_final_(2).pdf` —
+  **delivered 2026-06-19.** PROMOTED to verified source 2026-06-20; see
+  [Bryk et al. 2010 (symposium deck)](../sources/Bryk-et-al-2010-organizing-schools-symposium.md). The file is the 5-page slide deck
+  from the January 2010 CCSR symposium accompanying the book, not the
+  full book itself; the full book remains paywalled. The deck is
+  empirically substantial within its scope (the Essential Supports
+  framework with effect-size data); load-bearing claims for the public
+  essay should be confirmed against the full book before being cited
+  with confidence.
 
 ## Tensions to chase
 

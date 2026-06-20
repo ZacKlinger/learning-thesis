@@ -9,7 +9,7 @@ Unverified material relevant to the augmentation/efficiency thread. Nothing here
 - **Kirschner, Paul A., Sweller, John & Clark, Richard E. (2006). "Why Minimal Guidance During Instruction Does Not Work."** *Educational Psychologist*, 41(2), 75–86. Mandatory steelman.
 - **Hmelo-Silver, Cindy E., Duncan, Ravit G. & Chinn, Clark A. (2007). "Scaffolding and Achievement in Problem-Based and Inquiry Learning: A Response to Kirschner, Sweller, and Clark (2006)."** Must be read alongside KSC 2006.
 - **Sweller, John (1988). "Cognitive Load During Problem Solving: Effects on Learning."** *Cognitive Science*, 12(2). Mechanism paper underlying KSC.
-- **Scardamalia, Marlene & Bereiter, Carl. Knowledge Building writings.** Probably the most rigorous research program on a kind of learning that the technology (CSILE / Knowledge Forum) actually made possible. Specific candidate to test the "augmentation" claim with evidence.
+- ~~**Scardamalia, Marlene & Bereiter, Carl. Knowledge Building writings.** Probably the most rigorous research program on a kind of learning that the technology (CSILE / Knowledge Forum) actually made possible. Specific candidate to test the "augmentation" claim with evidence.~~ **PROMOTED 2026-06-20:** The foundational 1994 *Journal of the Learning Sciences* paper read; see [Scardamalia & Bereiter 1994](../sources/Scardamalia-Bereiter-1994-csile-knowledge-building.md). Further Knowledge Forum / CSILE literature (Lamon, Reeve & Caswell 1999; Hewitt 2002; later evaluations of Knowledge Forum at scale) remains queued.
 - **Pea, Roy D. & Kurland, D. Midian (1984). "On the Cognitive Effects of Learning Computer Programming."** Influential critique of early Logo claims — the cautionary tale every Papert-influenced thesis needs to absorb.
 - **Bloom, Benjamin S. (1984). "The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring."** *Educational Researcher*, 13(6). The empirical hook for tech-tutoring efficiency claims.
 
@@ -19,7 +19,27 @@ Unverified material relevant to the augmentation/efficiency thread. Nothing here
 - Outcomes studies of intelligent tutoring systems (Cognitive Tutor, ASSISTments, Carnegie Learning) — these are the empirical body that AI-tutoring claims rest on, but the effect sizes are modest, not transformative.
 - Studies attempting to operationalize "deeper" or "transferable" learning gains attributable to tools — see the Deeper Learning Network evaluations from American Institutes for Research (~2014).
 
-## Supporting-sprint URLs that failed in the 2026-06-05 fetcher (demoted 2026-06-06; updated 2026-06-13)
+## Supporting-sprint URLs that failed in the 2026-06-05 fetcher (demoted 2026-06-06; updated 2026-06-20)
+
+**Update 2026-06-20:** The 2026-06-19 fetch *delivered*. Three of the
+four alternate URLs queued 2026-06-13 returned real PDFs:
+- Scardamalia & Bereiter (gerrystahl.net mirror) — 13 pp, parseable,
+  read this Saturday.
+- Zeiser (ERIC ED553364 fulltext) — 30 pp, parseable, read this
+  Saturday.
+- Sweller, Kirschner & Clark 2007 sur-rejoinder (Andy Matuschak file
+  archive) — 7 pp, parseable, read this Saturday.
+
+Bryk (the consortium.uchicago.edu 2010 symposium presentation
+alternate) also delivered — a 5-page slide deck rather than the full
+book, but it is the canonical CCSR symposium material. Read this
+Saturday; load-bearing for the teacher-agency thread.
+
+The four-source supporting sprint the 2026-05-27 steer scheduled is now
+complete *except* for VanLehn 2011, which remains demoted (no working
+mirror after three URL attempts). The synthesis question the steer
+scheduled for the 2026-06-13 digest is now answerable; see this
+Saturday's digest for the explicit "Where I need you" handoff to Zack.
 
 **Update 2026-06-13:** None of the 2026-06-06 alternate URLs for
 Scardamalia & Bereiter, VanLehn, or Zeiser delivered a usable file to
@@ -45,9 +65,9 @@ the same commit as this demotion.
   Tried 2026-06-06: `https://ikit.org/fulltext/1994_csile.pdf` (lower-case
   alternate) — failed. The `ikit.org/fulltext/` directory layout was an
   agent guess and is not correct.
-  Alternate to try 2026-06-13: `http://www.gerrystahl.net/hci/scardamalia.pdf` — Gerry Stahl (CSCL researcher) hosts a stable
-  copy at his personal academic page. Worth one more attempt before
-  asking Zack to supply.
+  Tried 2026-06-13: `http://www.gerrystahl.net/hci/scardamalia.pdf` —
+  **delivered 2026-06-19.** PROMOTED to verified source 2026-06-20; see
+  [Scardamalia & Bereiter 1994](../sources/Scardamalia-Bereiter-1994-csile-knowledge-building.md).
 - **VanLehn 2011 — relative effectiveness of tutoring.** Tried 2026-05-30:
   `https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/VanLehn2011.pdf` —
   failed. The Nesbit course directory hosted KSC and HSDC but not VanLehn.
@@ -62,11 +82,14 @@ the same commit as this demotion.
 - **Zeiser et al. 2014 — Deeper Learning Outcomes (AIR).** Tried 2026-05-30:
   `https://www.air.org/sites/default/files/downloads/report/Report_3_Evidence_of_Deeper_Learning_Outcomes.pdf` — failed.
   Tried 2026-06-06: `https://www.air.org/sites/default/files/Report3-Evidence-of-Deeper-Learning-Outcomes.pdf` — failed. Both AIR URLs were
-  agent guesses derived from earlier-era AIR paths. Alternate to try
-  2026-06-13: `https://files.eric.ed.gov/fulltext/ED553364.pdf` — ERIC
-  hosts the canonical fulltext PDF for the document's ED553364 ID. ERIC
-  fulltext URLs have been the most reliable mirror for AIR-era reports
-  in prior runs; worth a clear primary try before demoting.
+  agent guesses derived from earlier-era AIR paths.
+  Tried 2026-06-13: `https://files.eric.ed.gov/fulltext/ED553364.pdf` —
+  **delivered 2026-06-19.** PROMOTED to verified source 2026-06-20; see
+  [Zeiser et al. 2014](../sources/Zeiser-et-al-2014-deeper-learning-outcomes.md).
+  Companion reports (Report 1 *The Shape of Deeper Learning*, Huberman
+  et al. 2014; Report 2 *Providing Opportunities for Deeper Learning*,
+  Bitter et al. 2014) would strengthen the mechanism story and are
+  queued for wishlist addition.
 
 ## Tensions to chase
 
