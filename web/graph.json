@@ -14,7 +14,7 @@
       "label": "Augmentation, not efficiency",
       "type": "thread",
       "layer": "thread",
-      "claims": 6,
+      "claims": 8,
       "path": "claim-evidence/augmentation-not-efficiency.md",
       "seed_framing": "The framing battle. \"Efficiency\" in education usually means doing the existing thing faster, which entrenches it. \"Augmentation\" means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line.\n\n**Steer (2026-05-27):** An interactive session surfaced an apparent synthesis \u2014 KSC's expertise-reversal concession plus Illich's skill-drill concession plus Papert's transitional-object case all seemed to support a two-phase framing: \"AI builds the prior-knowledge floor (efficiency win) \u2192 ambitious inquiry becomes available later (augmentation).\" **The thesis rejects this synthesis.** Reading Dewey \u00b68 (\"education is a process of living and not a preparation for future living\") as instrumental \u2014 early years are floor-building for later\u2026"
     },
@@ -23,7 +23,7 @@
       "label": "Teacher agency",
       "type": "thread",
       "layer": "thread",
-      "claims": 1,
+      "claims": 2,
       "path": "claim-evidence/teacher-agency.md",
       "seed_framing": "Scripted curricula and tools-as-replacement are eroding the conditions for great teaching. Any AI-in-education vision that further reduces teacher judgment is a category error."
     },
@@ -35,6 +35,28 @@
       "claims": 5,
       "path": "claim-evidence/tech-cycles-in-education.md",
       "seed_framing": "Every prior wave of technology in education (cinema, radio, television, programmed-instruction machines, classroom computers, MOOCs) was introduced with very similar optimistic rhetoric, and most failed to change what actually happens in schools. Cuban's historical record is the steelman the optimistic case has to clear: if the pattern is \"hype, modest adoption, absorption into the existing grammar of schooling, disappointment,\" then the burden is on showing what is structurally different this time. Not whether AI is different in capability \u2014 *every* prior wave was different in capability \u2014 but whether the *adoption pathway* into ambitious learning is different. This thread holds the others honest."
+    },
+    {
+      "id": "source:Bryk-et-al-2010-organizing-schools-symposium",
+      "label": "Anthony S. Bryk 2010",
+      "title": "Organizing Schools for Improvement: Lessons from Chicago (symposium presentation)",
+      "type": "source",
+      "layer": "empirical",
+      "year": "2010",
+      "read_status": "read",
+      "url": "https://consortium.uchicago.edu/sites/default/files/2018-10/5272ccsr_symposium_organizing_schools_final_(2).pdf",
+      "access_date": "2026-06-20",
+      "path": "sources/Bryk-et-al-2010-organizing-schools-symposium.md",
+      "raw_path": "sources-raw/Bryk-et-al-2010-organizing-schools-symposium.pdf",
+      "thesis_excerpt": "This is the *slide deck* from the January 2010 CCSR symposium accompanying the\nbook *Organizing Schools for Improvement: Lessons from Chicago* (University of\nChicago Press, 2010). It is not the book itself. It is a 5-page summary of the\nstudy's headline findings: a 15-year longitudinal study of 100+ Chicago\nelementary schools that identified **five \"Essential Supports\"** as\ndistinguishing schools that substantially improved in reading and math from\nthose that stagnated, and that quantified the relationship between each\nsupport's strength and the likelihood of substantial improvement.\n\nThe\u2026",
+      "quotes": [
+        "\"Schools with strong teacher cooperative relationships focused on curricular",
+        "\"Schools did not improve attendance if their learning climate was",
+        "(On what predicts higher grades and pass rates:) \"Attendance, grades and"
+      ],
+      "threads": [
+        "teacher-agency"
+      ]
     },
     {
       "id": "source:Cuban-2024-will-ai-transform",
@@ -218,6 +240,48 @@
       ]
     },
     {
+      "id": "source:Scardamalia-Bereiter-1994-csile-knowledge-building",
+      "label": "Marlene Scardamalia 1994",
+      "title": "Computer Support for Knowledge-Building Communities",
+      "type": "source",
+      "layer": "empirical",
+      "year": "1994",
+      "read_status": "read",
+      "url": "https://gerrystahl.net/hci/scardamalia.pdf",
+      "access_date": "2026-06-20",
+      "path": "sources/Scardamalia-Bereiter-1994-csile-knowledge-building.md",
+      "raw_path": "sources-raw/Scardamalia-Bereiter-1994-csile-knowledge-building.pdf",
+      "thesis_excerpt": "The foundational paper articulating *knowledge building* as a \"third way\" for\nschooling \u2014 distinct from didactic instruction and from child-centered\ndiscovery \u2014 and describing CSILE (Computer-Supported Intentional Learning\nEnvironments) as the enabling technology. The argument has four moves: (1)\ncontemporary schools are *first-order environments* in which adaptation is\nasymptotic; the alternative is the *second-order environment* of scientific\nresearch disciplines, where each participant's adaptation changes the\nenvironment for others, producing non-asymptotic learning. (2) The diagnosis\nof\u2026",
+      "quotes": [
+        "\"Schools need to be restructured as communities in which the construction of",
+        "\"Nobody wants to use technology to recreate education as it is, yet there",
+        "\"We argue that the classroom needs to foster transformational thought, on"
+      ],
+      "threads": [
+        "augmentation-not-efficiency"
+      ]
+    },
+    {
+      "id": "source:Sweller-Kirschner-Clark-2007-surrejoinder",
+      "label": "John Sweller 2007",
+      "title": "Why Minimally Guided Teaching Techniques Do Not Work: A Reply to Commentaries",
+      "type": "source",
+      "layer": "empirical",
+      "year": "2007",
+      "read_status": "read",
+      "url": "https://andymatuschak.org/files/papers/Sweller%20et%20al%20-%202007%20-%20Why%20Minimally%20Guided%20Teaching%20Techniques%20Do%20Not%20Work.pdf",
+      "access_date": "2026-06-20",
+      "path": "sources/Sweller-Kirschner-Clark-2007-surrejoinder.md",
+      "raw_path": "sources-raw/Sweller-Kirschner-Clark-2007-surrejoinder.pdf",
+      "thesis_excerpt": "The published sur-rejoinder by Sweller, Kirschner & Clark to the two\ncommentaries on their 2006 paper \u2014 Schmidt, Loyens, van Gog & Paas (2007)\nand Hmelo-Silver, Duncan & Chinn (2007). The piece does *not* concede ground;\nit reasserts and sharpens the original argument. Three moves matter for the\nledger:\n\n(1) **The worked-example effect as the empirical anchor.** SKC argue that\nthe worked-example effect \u2014 the demonstrated superiority of fully-worked\nsolutions over problem-solving search for novice learners \u2014 is the\nload-bearing empirical finding that *any* approach claiming to be effective\nfor\u2026",
+      "quotes": [
+        "(On the design of PBL:) \"Their disagreement with our contention that PBL",
+        "(On the worked-example effect:) \"The worked-example effect makes quite",
+        "(On the worked-example logic applied to PBL:) \"If problem solving is"
+      ],
+      "threads": []
+    },
+    {
       "id": "source:Watters-2018-machine-learning-history-of-future",
       "label": "Audrey Watters 2018",
       "title": "Machine Teaching, Machine Learning, and the History of the Future of Public Education",
@@ -238,6 +302,28 @@
       "threads": [
         "augmentation-not-efficiency",
         "tech-cycles-in-education"
+      ]
+    },
+    {
+      "id": "source:Zeiser-et-al-2014-deeper-learning-outcomes",
+      "label": "Kristina L. Zeiser 2014",
+      "title": "Evidence of Deeper Learning Outcomes (Report 3, Findings from the Study of Deeper Learning: Opportunities and Outcomes)",
+      "type": "source",
+      "layer": "empirical",
+      "year": "2014",
+      "read_status": "read",
+      "url": "https://files.eric.ed.gov/fulltext/ED553364.pdf",
+      "access_date": "2026-06-20",
+      "path": "sources/Zeiser-et-al-2014-deeper-learning-outcomes.md",
+      "raw_path": "sources-raw/Zeiser-et-al-2014-deeper-learning-outcomes.pdf",
+      "thesis_excerpt": "The third and final report of the AIR / Hewlett Foundation *Study of Deeper\nLearning: Opportunities and Outcomes* \u2014 a quasi-experimental evaluation of\nten high school networks that explicitly pursue \"deeper learning\" (Asia\nSociety International Studies, Big Picture Learning, ConnectEd,\nEdVisions Schools, Envision Schools, Expeditionary Learning, High Tech High,\nInternationals Network for Public Schools, New Tech Network, New Visions for\nPublic Schools). The study matched 15 \"network\" high schools in California\nand New York with 12 \"non-network\" comparison schools (13\u201315 pairs\u2026",
+      "quotes": [
+        "(Headline cognitive finding:) \"Students attending network schools scored",
+        "(Context for the magnitude:) \"The results are similar in magnitude to the",
+        "(Honest between-school variation:) \"The estimated effect of attending a"
+      ],
+      "threads": [
+        "augmentation-not-efficiency"
       ]
     },
     {
@@ -412,6 +498,81 @@
     },
     {
       "source": "thread:augmentation-not-efficiency",
+      "target": "source:Scardamalia-Bereiter-1994-csile-knowledge-building",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Scardamalia-Bereiter-1994-csile-knowledge-building",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Scardamalia-Bereiter-1994-csile-knowledge-building",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Scardamalia-Bereiter-1994-csile-knowledge-building",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Scardamalia-Bereiter-1994-csile-knowledge-building",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Scardamalia-Bereiter-1994-csile-knowledge-building",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Scardamalia-Bereiter-1994-csile-knowledge-building",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Zeiser-et-al-2014-deeper-learning-outcomes",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Zeiser-et-al-2014-deeper-learning-outcomes",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Zeiser-et-al-2014-deeper-learning-outcomes",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Zeiser-et-al-2014-deeper-learning-outcomes",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Zeiser-et-al-2014-deeper-learning-outcomes",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Zeiser-et-al-2014-deeper-learning-outcomes",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Zeiser-et-al-2014-deeper-learning-outcomes",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Zeiser-et-al-2014-deeper-learning-outcomes",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
       "target": "source:Watters-2018-machine-learning-history-of-future",
       "kind": "supports"
     },
@@ -483,6 +644,31 @@
     {
       "source": "thread:teacher-agency",
       "target": "source:Cuban-2025-some-teachers-use-of-ai",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Bryk-et-al-2010-organizing-schools-symposium",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Bryk-et-al-2010-organizing-schools-symposium",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Bryk-et-al-2010-organizing-schools-symposium",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Bryk-et-al-2010-organizing-schools-symposium",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Bryk-et-al-2010-organizing-schools-symposium",
       "kind": "counters"
     },
     {
@@ -596,5 +782,5 @@
       "kind": "relates-to"
     }
   ],
-  "generated_at": "2026-06-13T15:16:39Z"
+  "generated_at": "2026-06-20T15:21:05Z"
 }
