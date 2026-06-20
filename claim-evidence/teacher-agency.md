@@ -2,7 +2,7 @@
 
 Thesis-seed v1: *"Scripted curricula and tools-as-replacement are eroding the conditions for great teaching. Any AI-in-education vision that further reduces teacher judgment is a category error."*
 
-**Status (2026-06-06):** Per the 2026-05-27 steer this thread frames AI's
+**Status (2026-06-20):** Per the 2026-05-27 steer this thread frames AI's
 role through the **workload-constraint-on-the-system** lens: the system
 imposes conditions (teaching to the middle of 30, scripted curricula,
 administrative burden) that make great teaching impossible regardless of
@@ -10,29 +10,44 @@ the teacher's skill or intent. AI's role is to remove the workload
 constraints, not to route around the teacher. The teacher is not the
 bottleneck; the system is.
 
-This Saturday adds two things. (1) The Cuban 2025 datum — teachers'
-own descriptions of their AI use — clusters heavily on workload-relief
-and on tasks that *consumed teacher time without contributing to teaching
-judgment* (parent emails, recommendation letters, summer lesson
-planning, ESL/below-grade-level content adaptation). One teacher
-(Ballaret) explicitly names the workload-recovered: "Taking back my
-summer." This is the cleanest small contemporary practitioner evidence
-the thread has for the workload-constraint reframing. (2) The Illich
-Ch 6 reading complicates the thread in a different direction: Illich's
-positive programme is explicitly that the teacher-as-funnel role
-should be dissolved into peer-matching networks and skill exchanges.
-That is *not* the thesis's reframing; the steer is explicit that the
-thesis is teacher-with-AI, not learner-routes-around-teacher. Illich's
-Ch 6 thus belongs in this thread as an unresolved tension, not as
-support.
+This Saturday — six weeks after the alternate URL was first queued —
+**Bryk et al. 2010 finally arrived** (the symposium slide deck for
+*Organizing Schools for Improvement: Lessons from Chicago*; the full
+book is paywalled and not on the ledger). The deck is *partial* but
+empirically substantial: it presents the **five Essential Supports
+framework** (school leadership; parent community ties; professional
+capacity; student-centered learning climate; instructional guidance /
+curriculum alignment) with effect-size data showing that schools strong
+on the supports were roughly 4–5× as likely to substantially improve as
+schools weak on them. The thread now has its first peer-reviewed
+empirical anchor on the structural-conditions side of the diagnosis.
 
-The empirical counters that would balance the thread (Bryk et al. 2010
-on workload as the load-bearing variable; Lemov 2010 on the structured-
-teaching tradition; the Direct Instruction record; the "floor effect"
-of scripting on under-resourced classrooms) have *still* not been read.
-The Bryk URL in last week's wishlist failed in the fetcher; demotion
-and alternate URL are recorded in
-`leads/teacher-agency-leads.md`.
+The Bryk material **complicates the workload-only reframing**. The
+steer's framing ("workload constraint forces teaching-to-the-middle-of-30")
+treats workload as the master variable. Bryk's data shows five
+supports operating jointly, with collaboration ("collective
+responsibility"), program coherence, teacher-parent trust, and
+instructional leadership all carrying load alongside workload-relevant
+factors. The honest update is that the thread's reframing should treat
+*workload-relief* as one of several conditions for great teaching, not
+as a master variable. The Cuban 2025 teacher-voice data still maps
+onto constraint #3 of the steer cleanly — Ballaret's "Taking back my
+summer" is genuine workload-relief — but the at-scale empirical
+evidence is that workload-relief alone, without the other supports,
+does not produce school improvement. This refines the thread; it does
+not overturn it.
+
+Carried forward from prior weeks: the Cuban 2025 teacher-voice data
+clusters on workload-relief and content-adaptation uses (Ballaret,
+Wallace, Roberts); the Illich Ch 6 tension with the teacher-in-the-loop
+framing remains unresolved; the Roberts "I do not look at the feedback"
+admission remains the cleanest contemporary test case for what AI
+takes off the plate that *isn't* the relational core.
+
+The other empirical counters that would balance the thread — Lemov
+2010 on the structured-teaching tradition; the Direct Instruction
+record; the "floor effect" of scripting on under-resourced classrooms —
+remain unread. They are queued in `leads/teacher-agency-leads.md`.
 
 ---
 
@@ -168,13 +183,94 @@ the ledger.
   plate that *isn't* the relational core — has its first concrete test
   cases here.
 
+---
+
+## Claim (empirical, at-scale): Substantial school improvement requires multiple structural supports operating jointly, not workload-relief alone. The Bryk Essential Supports framework identifies five — school leadership, parent community ties, professional capacity, student-centered learning climate, instructional guidance — with collaboration and program coherence load-bearing alongside workload-relevant factors.
+
+The Bryk evidence is the first peer-reviewed empirical anchor on the
+structural-conditions side of the teacher-agency thread. Source: a 5-page
+symposium slide deck (the full book is paywalled). It reports headline
+findings from a 15-year longitudinal study of 100+ Chicago elementary
+schools. Empirically substantial within its scope; the underlying study
+specifications (sample sizes, model controls) are not in the slide deck and
+should be confirmed against the full book before any claim becomes
+load-bearing in the public essay.
+
+### Supporting evidence (for the structural-conditions reframing)
+- "Schools with strong teacher cooperative relationships focused on
+  curricular alignment were very likely to show substantial academic
+  improvements"
+  — [Bryk et al. 2010](../sources/Bryk-et-al-2010-organizing-schools-symposium.md), slide 5 (chart title) — layer: empirical
+- (On what predicts higher grades and pass rates:) "Attendance, grades and
+  pass rates are higher in schools with stronger: Instruction; Student-
+  centered climates (teacher-student relationships, safety); Teacher
+  collaboration (collective responsibility, instructional program
+  coherence)"
+  — [Bryk et al. 2010](../sources/Bryk-et-al-2010-organizing-schools-symposium.md), slide 9 — layer: empirical
+- (On what predicts teacher retention:) "Teachers remain in schools with
+  stronger: Student-centered climates (safety); Teacher collaboration
+  (collective responsibility, innovation); Parent involvement (teacher-
+  parent trust); Leadership (program coherence, teacher influence,
+  instructional leadership)"
+  — [Bryk et al. 2010](../sources/Bryk-et-al-2010-organizing-schools-symposium.md), slide 10 — layer: empirical
+- (Likelihood-of-substantial-improvement, reading, weak vs. strong on each
+  support: School Leadership 11% vs. 43%; Parent Involvement 10% vs. 40%;
+  Work Orientation 9% vs. 47%; Safety & Order 10% vs. 36%; Curriculum
+  Alignment 16% vs. 45%.)
+  — [Bryk et al. 2010](../sources/Bryk-et-al-2010-organizing-schools-symposium.md), slide 4 — layer: empirical
+
+### Counter-evidence (against treating Bryk as a single-variable mandate)
+- (Bryk's own data:) "Schools did not improve attendance if their learning
+  climate was unsafe/disorderly and instruction was weak"
+  — [Bryk et al. 2010](../sources/Bryk-et-al-2010-organizing-schools-symposium.md), slide 7 (chart title) — layer: empirical
+
+  *Why this counts as counter-evidence to a workload-only reading:* Bryk's
+  framework is explicitly multi-variable. The headline finding is *not*
+  "relieve teacher workload and schools improve"; it is "five supports
+  operating jointly distinguish improving from stagnating schools, and
+  schools missing climate-and-instruction do not improve regardless of
+  other supports." Any AI deployment story that solves one constraint
+  (e.g., workload) without engaging the others is not engaging the at-
+  scale empirical evidence on what actually drives improvement.
+
 ### Open questions
-- The thread's load-bearing variable is now **workload constraint**, not
-  agency-in-the-abstract. The empirical question is: how much of what
-  Cuban calls "the complexity of teaching" is intrinsic, and how much is
-  artefactual workload (class size, administrative tasks, prep time,
-  data-entry mandates) the system has imposed? Bryk et al. (2010) is the
-  most-cited source on this; the wishlist now points at it.
+- The Bryk slide deck is *partial*. The full book (*Organizing Schools for
+  Improvement: Lessons from Chicago*, U Chicago Press 2010) is paywalled
+  and not on the ledger. The deck reports effect sizes with asterisk
+  conventions but not the underlying models, control variables, or full
+  sample specifications. The supporting-evidence entries above should be
+  treated as "directionally accurate per the headline findings" rather
+  than "fully verified against the published methodology."
+- How does the steer's four-constraint frame map onto Bryk's five
+  Essential Supports? Constraint #3 (system-imposed workload) maps to
+  "professional capacity" (reflective dialogue, collective responsibility,
+  school commitment) — but only partially. Constraints #1 (cost of expert
+  attention), #2 (one-way content), and #4 (gap to expert practice) do
+  not have clean Bryk counterparts; they are at a different unit-of-
+  analysis (individual learner) than Bryk's school-level framework. The
+  thesis owes a translation between these two frames before leaning on
+  Bryk for the steer's claims.
+- Bryk's "professional capacity" support includes the teacher collaboration
+  factors (collective responsibility, innovation orientation) that the
+  Cuban 2025 teacher-voice data does *not* directly speak to. Cuban's
+  data is individual-teacher use; Bryk's data is school-level
+  organisation. The thread now has evidence at both levels, but the
+  bridge between them — *how does AI-mediated workload-relief for
+  individual teachers translate into collective responsibility at
+  school level?* — is unspecified and load-bearing for the public essay.
+
+---
+
+## Carry-forward open questions (still active)
+- The thread's load-bearing variable is now **workload constraint as one
+  of several supports**, not workload-as-master-variable. The empirical
+  question per Cuban: how much of what he calls "the complexity of
+  teaching" is intrinsic, and how much is artefactual workload (class
+  size, administrative tasks, prep time, data-entry mandates) the system
+  has imposed? Bryk's data answers part of this — the workload-relevant
+  supports (collective responsibility, program coherence) are real
+  predictors of school improvement, but they are not the *only*
+  predictors. The full book would sharpen this further.
 - "Teacher agency" is probably three constructs, not one — autonomy over
   *content*, over *method*, over *pacing*. The empirical literature on each
   may not behave the same. (Open in v1; restated.)
