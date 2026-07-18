@@ -183,6 +183,30 @@ the ledger.
   plate that *isn't* the relational core — has its first concrete test
   cases here.
 
+- "Its schools are technology-intensive — that means scripted lessons
+  for teachers to read via mobile device, the tracking of teacher and
+  student attendance via mobile device, the payment of tuition by
+  parents and the payment of teacher salaries via mobile device, for
+  example."
+  — [Watters 2019](../sources/Watters-2019-100-worst-edtech-debacles.md) on Bridge International Academies (item #18) — layer: critical / media-historical (blog)
+
+  *Why this is here:* Bridge International Academies is the sharpest
+  practitioner-scale instance in the Watters 2019 ledger of the
+  teacher-as-conduit pattern the steer's teacher-agency reframing
+  rejects. The whole workflow — lesson content, attendance, pay — is
+  mediated by the device, with the teacher's role reduced to reading
+  scripted material aloud. This is the *substitution* end of the
+  workload-relief spectrum, and it is deployed at scale (tens of
+  thousands of Global South students) with backing from the same
+  Silicon Valley funders Watters ranks at #2/#3 of the decade's
+  debacles. Two caveats to note before this is cited in the essay:
+  (i) Bridge is a Global South case; the modal US deployment differs;
+  (ii) Watters is not neutral, and the entry does not report Bridge's
+  outcomes on student learning, only its structural setup. The
+  entry's evidentiary weight is *pattern* (this is what full-
+  substitution looks like when it scales), not effect-size (there is
+  no effect-size on this entry).
+
 ---
 
 ## Claim (empirical, at-scale): Substantial school improvement requires multiple structural supports operating jointly, not workload-relief alone. The Bryk Essential Supports framework identifies five — school leadership, parent community ties, professional capacity, student-centered learning climate, instructional guidance — with collaboration and program coherence load-bearing alongside workload-relevant factors.
