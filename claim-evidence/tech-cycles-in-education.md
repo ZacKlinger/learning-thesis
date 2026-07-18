@@ -386,6 +386,109 @@ demonstration* of the pattern, not the framing argument.
 
 ---
 
+## Claim: Watters' 2019 decade-in-review does the historical-continuity move the steer's setup-not-foil reframing depends on, but puts it to a foil use — the 2010s are recorded as accumulated failure, and #2 and #3 on her list are venture philanthropy and venture capitalism, sharpening the political-economy backing for the 2018 warning.
+
+This is the Watters 2018 → 2019 test the queue scheduled. The 2019
+piece is genre-different from 2018 — chronicle rather than essay — but
+the structural continuities are the load-bearing point. The historical
+locator ("dating back at least to the launch of the Sputnik satellite
+in 1957") is exactly the move the steer's setup framing depends on
+(the medium of learning has been changing throughout history). Watters
+uses that move for the *opposite* rhetorical purpose: to demonstrate
+that a specific *pathology* — the myth of a coming crisis that
+technology must be brought in to solve — has been recycling for the
+entire post-war era. The setup-not-foil reframing needs to distinguish
+between two claims: (a) the technology-in-education pattern is one of
+continuous evolution; (b) the ed-tech-hype-cycle pattern is one of
+recurrent failure. Watters agrees with (a) as historical fact and
+disagrees with the steer's use of (a) to license optimism, because
+she also asserts (b) and holds (b) to be the more explanatory pattern.
+The augmentation thread's rhetorical-proximity warning from Watters
+2018 is still active; the 2019 piece hardens the political-economy
+backing for it (venture capital and venture philanthropy at #3 and
+#2) but does not restate the analytical "augment, not replace" frame.
+
+### Supporting evidence (for the cyclical-failure reading)
+- "I decided to do something similar: chronicle for you a decade of
+  ed-tech failures and fuck-ups and flawed ideas."
+  — [Watters 2019](../sources/Watters-2019-100-worst-edtech-debacles.md), intro — layer: critical / media-historical (blog)
+- (Item #4, MOOCs — hype-as-pathology.) "I chose 'The Year of the
+  MOOC' rather than 'The MOOC' as the big disaster because I wanted
+  to underscore how much of the problem here was the PR, the
+  over-promising and the universities and startups believing their
+  own hype."
+  — [Watters 2019](../sources/Watters-2019-100-worst-edtech-debacles.md), item #4 — layer: critical / media-historical (blog)
+- (Item #4, MOOCs — outcome sentence.) "The MOOC revolution simply
+  wasn't."
+  — [Watters 2019](../sources/Watters-2019-100-worst-edtech-debacles.md), item #4 — layer: critical / media-historical (blog)
+- (Item #6, historical continuity.) "But it's a powerful myth, and
+  one that isn't terribly new, dating back at least to the launch of
+  the Sputnik satellite in 1957 and subsequent hand-wringing over the
+  Soviets' technological capabilities and technical education as
+  compared to the US system."
+  — [Watters 2019](../sources/Watters-2019-100-worst-edtech-debacles.md), item #6 — layer: critical / media-historical (blog)
+- (Item #1, decade's summary judgment.) "Those are the choices
+  education technology now has for us apparently: surveillance or
+  surveillance."
+  — [Watters 2019](../sources/Watters-2019-100-worst-edtech-debacles.md), item #1 — layer: critical / media-historical (blog)
+- (Closing sentence of the piece.) "What an utter failure."
+  — [Watters 2019](../sources/Watters-2019-100-worst-edtech-debacles.md), item #1 close — layer: critical / media-historical (blog)
+
+### Counter-evidence (against absorbing the 2019 read whole)
+- The 2019 piece is genre-restricted. As a year-end top-100 list, it
+  is naturally selection-biased toward failure — it is *asked* to be
+  a debacle list. The absence of the Scardamalia & Bereiter tradition
+  (Knowledge Forum / CSILE), the CS-Unplugged tradition, the
+  Estonia/Finland integration cases, and other candidate positive
+  examples is *by construction*, not by argument. The 2019 piece
+  does not claim there is nothing that worked; it claims the 2010s
+  ed-tech industry produced ~100 things that did not.
+- The 2019 piece is a 2010s retrospective, published December 2019
+  and thus written *before* the ChatGPT-era generative AI wave. The
+  bottom-up teacher-led adoption pattern Cuban 2025 documents is not
+  in Watters' 2019 frame at all — she is describing top-down
+  district-purchase and venture-capital-scaled deployments. The
+  structural difference the steer wants to argue for (medium-change
+  as continuous evolution, AI as the next change) is not directly
+  addressed here.
+- The Bridge International Academies entry (#18) is a *practitioner-
+  scale* case (tens of thousands of Global South students) that
+  supports the tech-cycles thread's cyclical-failure reading, and it
+  supports the teacher-agency thread's teacher-as-conduit critique.
+  But: Bridge is not the modal ed-tech deployment in the US context
+  the thesis is written about. Watters 2019's mode is to draw on the
+  most-vivid-globally cases; the essay owes an account of how much
+  of that record generalises to the US K-12 context the thesis is
+  centered on.
+
+### Open questions
+- The 2018 → 2019 comparison sharpens rather than resolves the
+  Watters-vs-steer tension. The steer's setup-not-foil reframing has
+  a defensible answer to (a) (technology-in-education is continuously
+  evolving) but does not yet have a defensible answer to (b) (the
+  ed-tech-hype-cycle is a recurrent failure pattern). The thesis owes
+  a specification of what structurally distinguishes AI's change of
+  medium from the 100 cases in Watters 2019 — beyond the
+  bottom-up-adoption datum Cuban 2025 supplies, which is not itself
+  sufficient (bottom-up adoption is a difference in *pathway*, not
+  proof that the *destination* is different).
+- Watters' ranking of #2 and #3 (venture philanthropy and venture
+  capital) implies that the *funding structure* is the load-bearing
+  variable. The thesis's positive case (constraints removed by AI)
+  is partially independent of who funds the removal — the
+  cost-of-expert-attention constraint, for instance, is removed
+  whether OpenAI or a university library funds the tutor. But the
+  workload-constraint and expert-practice-constraint claims are
+  more entangled with who deploys the tools and to what end.
+  Watters' 2019 political-economy hardening is a specific challenge
+  to constraints #3 and #4, less to #1 and #2.
+- The Watters 2021 book (*Teaching Machines*) — still paywalled —
+  is the more thorough version of the 2019 historical-continuity
+  move. Adding it to the ledger would clarify what Watters 2019
+  compresses into single-sentence historical locators.
+
+---
+
 ## Carry-forward open questions (unchanged from v1)
 
 The first set of questions opened with the thread last week, restated to
