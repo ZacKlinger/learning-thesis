@@ -14,7 +14,7 @@
       "label": "Augmentation, not efficiency",
       "type": "thread",
       "layer": "thread",
-      "claims": 8,
+      "claims": 9,
       "path": "claim-evidence/augmentation-not-efficiency.md",
       "seed_framing": "The framing battle. \"Efficiency\" in education usually means doing the existing thing faster, which entrenches it. \"Augmentation\" means enabling kinds of learning that couldn't happen without the tool. Most edtech sits on the wrong side of this line.\n\n**Steer (2026-05-27):** An interactive session surfaced an apparent synthesis \u2014 KSC's expertise-reversal concession plus Illich's skill-drill concession plus Papert's transitional-object case all seemed to support a two-phase framing: \"AI builds the prior-knowledge floor (efficiency win) \u2192 ambitious inquiry becomes available later (augmentation).\" **The thesis rejects this synthesis.** Reading Dewey \u00b68 (\"education is a process of living and not a preparation for future living\") as instrumental \u2014 early years are floor-building for later\u2026"
     },
@@ -23,7 +23,7 @@
       "label": "Teacher agency",
       "type": "thread",
       "layer": "thread",
-      "claims": 2,
+      "claims": 3,
       "path": "claim-evidence/teacher-agency.md",
       "seed_framing": "Scripted curricula and tools-as-replacement are eroding the conditions for great teaching. Any AI-in-education vision that further reduces teacher judgment is a category error."
     },
@@ -32,7 +32,7 @@
       "label": "Tech cycles in education",
       "type": "thread",
       "layer": "thread",
-      "claims": 6,
+      "claims": 8,
       "path": "claim-evidence/tech-cycles-in-education.md",
       "seed_framing": "Every prior wave of technology in education (cinema, radio, television, programmed-instruction machines, classroom computers, MOOCs) was introduced with very similar optimistic rhetoric, and most failed to change what actually happens in schools. Cuban's historical record is the steelman the optimistic case has to clear: if the pattern is \"hype, modest adoption, absorption into the existing grammar of schooling, disappointment,\" then the burden is on showing what is structurally different this time. Not whether AI is different in capability \u2014 *every* prior wave was different in capability \u2014 but whether the *adoption pathway* into ambitious learning is different. This thread holds the others honest."
     },
@@ -56,6 +56,52 @@
       ],
       "threads": [
         "teacher-agency"
+      ]
+    },
+    {
+      "id": "source:Cuban-2021-acot-apple-classroom",
+      "label": "Larry Cuban 2021",
+      "title": "Whatever Happened to Apple Classroom of Tomorrow?",
+      "type": "source",
+      "layer": "historical / practitioner-historian",
+      "year": "2021",
+      "read_status": "read",
+      "url": "https://larrycuban.wordpress.com/2021/09/18/whatever-happened-to-apple-classroom-of-tomorrow/",
+      "access_date": "2026-07-25",
+      "path": "sources/Cuban-2021-acot-apple-classroom.md",
+      "raw_path": "sources-raw/Cuban-2021-acot-apple-classroom.html",
+      "thesis_excerpt": "A short retrospective on Apple Classroom of Tomorrow (ACOT), the\nApple-funded 1985\u20131995 experiment that put 1:1 desktop computers in\nselected classrooms across three states, roughly a decade before 1:1\ncomputing became common. The post is structurally three moves in\nsequence: (1) origin and scale (Apple's stated question was \"how\nroutine use of technology by teachers and students would affect\nteaching and learning\"); (2) a long excerpt from Jane David's May 1986\nobservational visit to the Blue Earth, Minnesota fifth-grade ACOT\nclassroom, culminating in David's own list of\u2026",
+      "quotes": [
+        "(Origin and scale.) \"Apple Classroom of Tomorrow (ACOT) began in",
+        "(Apple's stated research question.) \"we set out to investigate how",
+        "(Jane David's 1986 headline observation \u2014 the structural-conditions"
+      ],
+      "threads": [
+        "teacher-agency",
+        "tech-cycles-in-education"
+      ]
+    },
+    {
+      "id": "source:Cuban-2022-programmed-learning",
+      "label": "Larry Cuban 2022",
+      "title": "Whatever Happened to Programmed Learning?",
+      "type": "source",
+      "layer": "historical / practitioner-historian",
+      "year": "2022",
+      "read_status": "read",
+      "url": "https://larrycuban.wordpress.com/2022/12/05/whatever-happened-to-programmed-learning/",
+      "access_date": "2026-07-25",
+      "path": "sources/Cuban-2022-programmed-learning.md",
+      "raw_path": "sources-raw/Cuban-2022-programmed-learning.html",
+      "thesis_excerpt": "A compact history-of-a-concept post. Cuban traces \"programmed\nlearning\" \u2014 the Skinner-tradition programme of pre-test, step-by-step\ncontent presentation, and immediate feedback on right/wrong \u2014 from\nPressey's 1928 teaching machine, through its 1950s\u201360s \"huge splash,\"\nto its disappearance from reform rhetoric by the 1970s, to its\nresurrection under the \"computer-assisted instruction\" (CAI) label in\nthe 1990s, to its present-day survival in two forms: (a) drill-and-\npractice software, and (b) the ubiquitous classroom worksheet \u2014 though\nCuban notes that the worksheet version has lost the\u2026",
+      "quotes": [
+        "(Opening summary of the cycle.) \"'programmed learning' (or",
+        "(The tradition-persists claim.) \"Although programmed learning goes",
+        "(Definition of the core mechanism.) \"The learning program is"
+      ],
+      "threads": [
+        "augmentation-not-efficiency",
+        "tech-cycles-in-education"
       ]
     },
     {
@@ -378,20 +424,6 @@
       "path": "leads/tech-cycles-in-education-leads.md"
     },
     {
-      "id": "raw:Cuban-2021-acot-apple-classroom",
-      "label": "Cuban 2021 acot apple classroom (raw)",
-      "type": "raw",
-      "layer": "raw",
-      "path": "sources-raw/Cuban-2021-acot-apple-classroom.html"
-    },
-    {
-      "id": "raw:Cuban-2022-programmed-learning",
-      "label": "Cuban 2022 programmed learning (raw)",
-      "type": "raw",
-      "layer": "raw",
-      "path": "sources-raw/Cuban-2022-programmed-learning.html"
-    },
-    {
       "id": "raw:Watters-2014-personalization-teaching-machines",
       "label": "Watters 2014 personalization teaching machines (raw)",
       "type": "raw",
@@ -594,6 +626,21 @@
     },
     {
       "source": "thread:augmentation-not-efficiency",
+      "target": "source:Cuban-2022-programmed-learning",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Cuban-2022-programmed-learning",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Cuban-2022-programmed-learning",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
       "target": "source:Cuban-2025-some-teachers-use-of-ai",
       "kind": "supports"
     },
@@ -691,6 +738,21 @@
       "source": "thread:teacher-agency",
       "target": "source:Bryk-et-al-2010-organizing-schools-symposium",
       "kind": "counters"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Cuban-2021-acot-apple-classroom",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Cuban-2021-acot-apple-classroom",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Cuban-2021-acot-apple-classroom",
+      "kind": "supports"
     },
     {
       "source": "thread:tech-cycles-in-education",
@@ -803,6 +865,66 @@
       "kind": "supports"
     },
     {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2021-acot-apple-classroom",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2021-acot-apple-classroom",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2021-acot-apple-classroom",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2021-acot-apple-classroom",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2021-acot-apple-classroom",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2021-acot-apple-classroom",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2022-programmed-learning",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2022-programmed-learning",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2022-programmed-learning",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2022-programmed-learning",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2022-programmed-learning",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Cuban-2022-programmed-learning",
+      "kind": "supports"
+    },
+    {
       "source": "thread:augmentation-not-efficiency",
       "target": "lead:augmentation-not-efficiency-leads",
       "kind": "tracked-in"
@@ -833,5 +955,5 @@
       "kind": "relates-to"
     }
   ],
-  "generated_at": "2026-07-18T15:14:09Z"
+  "generated_at": "2026-07-25T15:18:34Z"
 }
