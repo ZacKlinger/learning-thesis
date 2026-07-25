@@ -30,7 +30,7 @@ thread (Cuban 1986, 2001; Watters 2021; Postman 1992) remain paywalled
 and unread; the blog corpus is the primary substitute.
 
 **Status update (2026-07-25):** Cuban 2021 (Apple Classroom of Tomorrow
-retrospective) added. The ACOT case is the first *specific historical
+retrospective) and Cuban 2022 (Programmed Learning retrospective) added. The ACOT case is the first *specific historical
 case* on the ledger — Watters 2019 catalogues the 2010s at aggregate,
 Cuban 2024/2025 handle the contemporary AI moment; Cuban 2021 is the
 single best-documented ambitious 1985–1995 deployment. Two implications
@@ -48,6 +48,28 @@ what part of AI's change of medium addresses those structural
 conditions — the thread has been asking this question in the abstract
 since 2026-05-27, and Cuban 2021 gives it a specific case to answer
 against.
+
+Cuban 2022 adds an instructional-model-scale companion to Cuban 2021's
+hardware-scale case. The Pressey-Skinner "programmed learning"
+tradition (1928 onward) is documented as persisting across seven
+decades of renaming (programmed learning → CAI → competency-based
+education → personalization → present-day drill software and
+worksheets) with the immediate-feedback element that was the
+theoretical core partially lost in the worksheet form. This is a
+milder version of the Watters 2019 recurrence claim — Cuban's tone
+is diagnostic ("absorption with degradation") rather than
+condemnatory ("utter failure") — but it lands on the same
+historical pattern. The sharper question both readings open is what
+would it mean for a technology-in-schools tradition to *actually
+break the pattern* rather than change its vocabulary while
+preserving the practice. Cuban 2022 gives the augmentation thread's
+"AI enables new kinds of learning" claim a specific historical
+comparator: the closest short-form description of what a modal
+LLM-tutor deployment looks like is "programmed learning finally
+with feedback again," and the augmentation thread's positive case
+has to specify what distinguishes an augmentation-aim AI-tutor from
+a programmed-learning-at-fidelity AI-tutor. That distinction is
+recorded as a new claim on the augmentation thread this Saturday.
 
 **Watters 2018 — a complication of the steer's reframing.** The steer
 recast this thread from "every prior wave failed, so this one must prove
@@ -615,6 +637,105 @@ around it.
   attempting a more discontinuous change; (c) the successful cases
   scaled bottom-up over decades, while ACOT was a top-down 10-year
   program. None of these are on the ledger as argued claims.
+
+---
+
+## Claim: The Pressey/Skinner "programmed learning" tradition (1928–1960s) did not fail; it was absorbed, renamed, and preserved across seven decades — first as "computer-assisted instruction" in the 1990s, then as the "individualized/personalized" instruction rhetoric of the 1970s onward, and today as ubiquitous drill-and-practice software and teacher-authored worksheets — with the immediate-feedback element that was the theoretical core partially lost in the worksheet form.
+
+This is the mild-recurrence claim Cuban 2022 documents. It is
+compatible with Watters' 2019 sharper recurrence claim (the
+Pressey–Skinner lineage is on both accounts a case of "the tradition
+keeps coming back"), but the two accounts diverge on the evaluation:
+Watters reads the recurrence as failure recycling, Cuban reads it as
+metabolisation. For the thread the more interesting question is the
+one both accounts open — what would it mean for a technology-in-
+schools tradition to *actually break the pattern* and produce a
+sustained change in the shape of learning rather than a sustained
+change in the vocabulary describing an unchanged practice.
+
+### Supporting evidence (for the tradition-persists reading)
+- "'programmed learning' (or 'programmed instruction') made a huge
+  splash in media during the 1950s and 1960s. It was an innovation
+  that grabbed the attention of policymakers and tech-driven school
+  reformers. Yet by the 1970s, it had largely disappeared from the
+  rhetoric of school reformers. Then in the 1990s with the
+  installation of computer labs and widespread student access to
+  these devices, policymakers and tech-enthused school reformers
+  resurrected 'programmed learning.'"
+  — [Cuban 2022](../sources/Cuban-2022-programmed-learning.md), line 256 — layer: practitioner-historian (blog)
+- "Although programmed learning goes by different names, the theories
+  that drove it decades earlier remain alive and well in the software
+  that many schools and individual teachers use for lessons. Here,
+  then, is a curricular and instructional innovation that has zig-
+  zagged through schools for over 70 years."
+  — [Cuban 2022](../sources/Cuban-2022-programmed-learning.md), line 260 — layer: practitioner-historian (blog)
+- "By the 1970s and 1980s, programmed learning had become part of
+  the kit bag of techniques that teachers could use in other highly
+  hyped school reforms aimed at individualizing (or 'personalizing')
+  instruction. For example, within the hype surrounding 'competency
+  based education' (CBE) and 'computer-assisted instruction' (CAI)
+  rested the guided drill and practice worksheets that earlier
+  generations of teachers had students complete."
+  — [Cuban 2022](../sources/Cuban-2022-programmed-learning.md), line 308 — layer: practitioner-historian (blog)
+- "In 1928, psychologist Sidney Pressey created the first teaching
+  machine using programmed learning. By the 1960s, the dream of
+  'teaching machines' had morphed into computer-assisted instruction."
+  — [Cuban 2022](../sources/Cuban-2022-programmed-learning.md), line 324 — layer: practitioner-historian (blog)
+
+### Supporting evidence (for the degradation-in-transmission reading)
+- "Teacher-made versions of programmed learning have become ubiquitous
+  in the worksheets that elementary and secondary classroom teachers
+  use weekly across academic subjects."
+  — [Cuban 2022](../sources/Cuban-2022-programmed-learning.md), line 280 — layer: practitioner-historian (blog)
+- "Most worksheets, however, lack the immediate feedback to students
+  that programmed learning promised. ... That separation in time
+  between students answering questions and finding out which answers
+  were incorrect undermines the immediate feedback promised in the
+  theory and practice of programmed learning."
+  — [Cuban 2022](../sources/Cuban-2022-programmed-learning.md), line 284 — layer: practitioner-historian (blog)
+
+### Counter-evidence (against reading the Cuban recurrence as universal)
+- *Cuban's tone is diagnostic, not condemnatory.* The post reads
+  the recurrence as absorption-with-degradation, not as failure. This
+  is a *milder* recurrence claim than Watters 2019's "utter failure"
+  ledger for the same lineage. Watters and Cuban agree on the
+  historical facts of the recurrence and differ on the evaluation.
+  The thesis should not cite both as supporting the same claim; they
+  support compatible descriptions but incompatible judgments.
+- *The worksheet-as-degradation claim is a specific empirical
+  assertion that would benefit from empirical verification.* Cuban
+  claims that most worksheets lack the immediate-feedback element
+  that was the theoretical core of programmed learning. This is
+  plausible and matches classroom experience, but Cuban does not
+  cite a specific study; the claim is a practitioner-historian's
+  observation, not an evidenced generalisation. Lemov 2010 or the
+  Direct Instruction record might complicate it — some scripted-
+  curriculum implementations do preserve rapid feedback.
+
+### Open questions
+- What does "the tradition finally breaks the pattern" look like?
+  Cuban 2022 opens the question by documenting a case where the
+  vocabulary changed multiple times but the underlying practice
+  survived. The setup-not-foil framing owes an account of what
+  specifically has to change in the AI wave for it to not just be
+  "programmed learning finally with feedback again" — the closest
+  short-form description of what an LLM-tutor is, on a Cuban-2022
+  reading. Two candidate answers not yet on the ledger as argued
+  claims: (a) the *generality* of the LLM interface (a general-
+  purpose conversational partner is not a drill-and-practice
+  workflow, even when used for drill-and-practice); (b) the
+  possibility of the LLM asking *the student* questions the student
+  had not thought to ask, which is a structurally different move
+  from the pre-test-then-drill-then-post-test workflow.
+- The bottom-up-adoption caveat sharpened. The worksheet-adoption
+  case Cuban 2022 documents is a specific historical precedent for
+  the bottom-up-adoption pattern Cuban 2025 documents. In the
+  worksheet case, bottom-up adoption preserved a low-fidelity form
+  of the original theory across decades — bottom-up adoption did
+  not produce ambitious learning, it produced a stable low-fidelity
+  practice. The Cuban 2025 pattern needs a specific argument for
+  why the AI-adoption case would not repeat the worksheet-adoption
+  pattern, not just an observation that both are bottom-up.
 
 ---
 
