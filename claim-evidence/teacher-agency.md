@@ -49,6 +49,26 @@ The other empirical counters that would balance the thread — Lemov
 record; the "floor effect" of scripting on under-resourced classrooms —
 remain unread. They are queued in `leads/teacher-agency-leads.md`.
 
+**Status update (2026-07-25):** Cuban 2021 (ACOT retrospective) added.
+The Jane David 1986 list of five "ingrained characteristics of the
+existing system" that constrained ACOT is the cleanest single
+articulation in the ledger of what "structural conditions on teaching"
+looks like when named concretely. It sharpens the workload-only
+reframing in a specific way: David's list is a *coordination-and-
+evaluation* constraint list (teacher-centered instruction; district
+curricular objectives; misaligned standardised tests; grade-level
+coordination pressure; next-grade preparation constraint), not a
+workload-in-hours list. The steer's constraint #3 (system-imposed
+workload) and David's list are only partially the same phenomenon.
+This does not overturn the steer's reframing but it further specifies
+what the "system" imposes: hours *and* coordination *and* misaligned
+assessment. AI removal of workload-hours does not directly remove the
+coordination constraints David identifies. Whether the Cuban 2025
+teacher-voice pattern is a "first wedge" that would eventually loosen
+the coordination constraints, or a workload-relief that leaves the
+coordination regime intact, is the sharper question the paired
+Cuban 2021 / Cuban 2025 reading opens.
+
 ---
 
 ## Claim: In a tradition descended from Dewey, the teacher's role is not to impose ideas or content but to select and shape the social influences that act on the child — a description that is incompatible with both the scripted-curriculum tradition and the AI-as-substitute-teacher frame.
@@ -282,6 +302,107 @@ load-bearing in the public essay.
   bridge between them — *how does AI-mediated workload-relief for
   individual teachers translate into collective responsibility at
   school level?* — is unspecified and load-bearing for the public essay.
+
+---
+
+## Claim: The concrete specification of "structural conditions that constrain what teachers can do" — as observed in a specific ambitious ed-tech deployment (ACOT, 1985–1995) — is a five-item list of coordination, evaluation, and preparation constraints that closely maps the negative-space image of Bryk 2010's Essential Supports framework.
+
+Cuban 2021 (Apple Classroom of Tomorrow retrospective) excerpts Jane
+David's 1986 field report on the Blue Earth ACOT classroom. The
+analytical load in the excerpt is not the observational description of
+the classroom itself — it is David's five-item list of *what worked
+against* the innovation. That list is the cleanest single articulation
+in the ledger of what "system-imposed workload" and adjacent structural
+constraints look like when named concretely. It also maps onto Bryk's
+Essential Supports as a negative-space image: where Bryk names five
+things that let schools improve, David names five things that stopped
+one specific innovation from taking hold.
+
+### Supporting evidence (David's structural-conditions list)
+- "A number of ingrained characteristics of the existing system seem
+  to run counter to a vision of students using computers as vehicles
+  for exploration, independent learning, and individual pursuits."
+  — Jane David 1986, in [Cuban 2021](../sources/Cuban-2021-acot-apple-classroom.md), line 306 — layer: practitioner-historian (blog quoting a 1986 field report)
+- (The five constraints, in David's order:) "teacher-centered
+  classrooms"; "curricular objectives required by the district or
+  school"; "individual and school evaluations based on traditional
+  standardized tests not sensitive to new kinds of learning"; "the
+  need to 'stay with' the other classes in the school at the same
+  grade level (pressure from teachers and parents)"; "the need to
+  prepare students in the way that the next grade's teachers expect
+  (and ultimately graduation requirements."
+  — Jane David 1986, in [Cuban 2021](../sources/Cuban-2021-acot-apple-classroom.md), lines 310–326 — layer: practitioner-historian (bulleted list in source; each item on its own line; formatting normalised here)
+- (Cuban's reprise judgment on the David list.) "the imperatives of
+  the Blue Earth age-graded elementary school nested in a district
+  and state in 1986 are, in my opinion, not only a glimpse into the
+  past but also a pointed reminder that efforts to integrate computers
+  into daily lessons must reckon with these questions and imperatives
+  in 2021."
+  — [Cuban 2021](../sources/Cuban-2021-acot-apple-classroom.md), line 330 — layer: practitioner-historian (blog)
+
+### Cross-reference to Bryk 2010 (the mapping)
+The mapping is not one-to-one but the overlap is substantial:
+- David's #1 ("teacher-centered classrooms") pushes against Bryk's
+  student-centered climate support (specifically the teacher-student
+  relationships factor).
+- David's #2 ("curricular objectives required by the district or
+  school") interacts with Bryk's instructional guidance support in a
+  complicated way — Bryk's data shows that curriculum alignment is
+  itself a *support* for improvement, but David is describing a case
+  where alignment to the wrong curriculum was a constraint. The
+  variable is not alignment per se but *what is being aligned to*.
+- David's #3 (standardised tests not sensitive to new kinds of
+  learning) is an assessment-misalignment claim that Bryk does not
+  address in the slide deck but that his instructional-guidance
+  support implicitly assumes; a misaligned assessment layer would
+  degrade the support's effect. This is a strong claim from David
+  that goes beyond Bryk's data.
+- David's #4 (grade-level coordination pressure) is not named in
+  Bryk's five supports directly but is an aspect of what Bryk calls
+  professional capacity — specifically the coordination side of
+  "collective responsibility" cutting against individual teacher
+  innovation.
+- David's #5 (next-grade preparation constraint) is essentially the
+  same phenomenon as #4 at the vertical rather than horizontal
+  scale; both are coordination pressures on a specific teacher to
+  match the rest of the system.
+
+### Counter-evidence / open questions
+- David's list is *not* a workload-in-hours list. It is a
+  coordination-and-evaluation constraint list. The steer's
+  constraint #3 (system-imposed workload) is only partially the same
+  thing as David's list. The teacher-agency thread should
+  distinguish between "workload the system imposes on teachers"
+  (hours) and "coordination the system imposes on teachers" (what
+  they are allowed to teach and how, given their peers and the
+  next-grade teachers and the tests). AI's removal of workload-hours
+  (Cuban 2025 Ballaret case) does not directly remove the
+  coordination constraints David identifies.
+- The mapping to Bryk is *directional* (both frameworks name
+  structural conditions as load-bearing) but *not tight* on
+  content. Bryk's data is at school-organisational unit; David's
+  observation is at classroom unit. The two are compatible but
+  operate at different scales, and the thread should not treat them
+  as interchangeable evidence.
+- David's list applies to the 1986 Blue Earth ACOT classroom
+  specifically. Whether the same five constraints operate at the
+  same relative weight in the 2020s US K-12 context is not
+  established — the "reckon with in 2021" claim is Cuban's, not
+  David's, and it is asserted rather than argued. The claim's
+  weight in this thread is *specification* (this is what
+  structural-conditions look like when named concretely by an
+  observer of a specific case) not *empirical generalisation*.
+- The strongest counter to the David/Cuban framing is the
+  Ballaret / Wallace / Roberts teacher-voice data in Cuban 2025:
+  contemporary teachers are reporting genuine relief from
+  system-imposed tasks in a way that does not require the
+  structural-conditions changes David lists. Either the two are
+  compatible (workload-relief within a mostly-unchanged
+  coordination regime) or the Cuban 2025 pattern is a *first
+  wedge* of the coordination-regime change (teachers with time
+  and tools begin to renegotiate the coordination constraints).
+  The pair of Cuban 2021 and Cuban 2025 lets the thesis ask
+  this question specifically.
 
 ---
 
