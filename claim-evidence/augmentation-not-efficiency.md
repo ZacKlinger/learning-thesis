@@ -675,6 +675,97 @@ early 20th century.
 
 ---
 
+## Claim (design-theoretical): The closest short-form historical description of a modal LLM-tutor deployment ("pre-test → step-by-step content → question → immediate feedback") is programmed learning at higher fidelity — the Pressey/Skinner tradition finally with the immediate-feedback element that the paper-worksheet version had lost. The augmentation-aim thesis owes a specific account of what distinguishes an augmentation-aim AI-tutor from a programmed-learning-at-fidelity AI-tutor; otherwise the thesis is describing an improved version of the efficiency side of the binary rather than the augmentation side.
+
+This is the specification challenge Cuban 2022 puts to the thread. It
+is not a refutation of the augmentation aim — the aim can be defended
+against this challenge — but the challenge is real and the thesis
+must engage it directly rather than assuming that "AI" and
+"augmentation" are coextensive. The Scardamalia & Bereiter 1994
+entry above is the closest existing answer on the ledger: the
+augmentation aim's positive case is not "atomised content + immediate
+feedback via machine" (which is programmed learning at fidelity) but
+"student-authored community knowledge base with peer-review
+affordances" (which is a structurally different design). The essay's
+distinction has to be at that structural level, not at the "AI helps
+learners" level.
+
+### Supporting evidence (for the specification-challenge reading)
+- "Although programmed learning goes by different names, the theories
+  that drove it decades earlier remain alive and well in the software
+  that many schools and individual teachers use for lessons. Here,
+  then, is a curricular and instructional innovation that has zig-
+  zagged through schools for over 70 years."
+  — [Cuban 2022](../sources/Cuban-2022-programmed-learning.md), line 260 — layer: practitioner-historian (blog)
+- "By the 1970s and 1980s, programmed learning had become part of
+  the kit bag of techniques that teachers could use in other highly
+  hyped school reforms aimed at individualizing (or 'personalizing')
+  instruction."
+  — [Cuban 2022](../sources/Cuban-2022-programmed-learning.md), line 308 — layer: practitioner-historian (blog)
+- "The learning program is broken down into slivers of knowledge or
+  steps. After users complete each step, they are given questions to
+  test their comprehension. After entering answers, students are then
+  immediately given the correct answer on the screen."
+  — [Cuban 2022](../sources/Cuban-2022-programmed-learning.md), line 268 — layer: practitioner-historian (blog)
+
+### Counter-evidence (against reading the Cuban challenge as fatal)
+- *The Scardamalia & Bereiter 1994 design theory is already on the
+  ledger as an alternative.* Knowledge-building communities are
+  explicitly not the atomised-steps-with-feedback pattern; they are
+  student-authored community knowledge bases. If AI is designed on
+  the S&B pattern (LLM as a knowledge-base collaborator, not as a
+  drill-and-practice partner), the Cuban 2022 lineage does not
+  bind. The question is not whether the augmentation aim is
+  defensible in principle but which specific AI deployments realise
+  it — and that is a design-choice question, not a technology-
+  capability question.
+- *The LLM interface is structurally different from the programmed-
+  learning workflow in at least two ways.* (a) The interface is
+  general-purpose conversational rather than pre-scripted step-by-
+  step, which allows uses the pre-test-then-drill workflow cannot
+  support (e.g., a student asks a follow-up question the designer
+  did not anticipate). (b) The learner can direct the interaction
+  as much as the machine can, which inverts the Pressey/Skinner
+  authority relation. Neither of these is by itself proof that AI
+  will not be deployed as programmed learning at fidelity — the
+  worksheet case Cuban 2022 documents is exactly a case where a
+  general-purpose technology (paper) was deployed for a narrow
+  pattern (drill practice). But they are structural affordances the
+  augmentation-aim design can lean on that the programmed-learning
+  tradition did not have.
+- *Cuban 2022 is a practitioner-historian's observation, not an
+  empirical study.* His claim that "most worksheets" lack the
+  immediate-feedback element that "programmed learning promised" is
+  plausible but not evidenced by a specific citation in the post.
+  The strength of the specification challenge depends on the modal-
+  deployment claim being true; if the modal deployment of AI-tutors
+  in 2026 is *not* the atomised-steps-with-feedback pattern, the
+  challenge weakens. This is a testable question, not a
+  philosophical one; the Deeper Learning Network schools' AI
+  deployment patterns and the Khan Academy Khanmigo deployment
+  data would both be worth reading.
+
+### Open questions
+- What is the *positive* specification of the augmentation-aim AI
+  deployment? The ledger has S&B's Knowledge Building as one
+  historical anchor and Papert's Mindstorms as another (both
+  visionary), plus the Zeiser Deeper Learning Network evidence at
+  scale (empirical). The gap in the thread is a *design
+  specification* for AI-tutoring that is not the pre-test-then-
+  drill-then-post-test pattern. The Ballaret / Wallace / Roberts
+  Cuban 2025 cases have some elements of this (the content-
+  adaptation cases in particular) but not the full design.
+- The Cuban 2021 ACOT case adds another comparison point. ACOT was
+  hardware-first / instructional-model-agnostic and produced
+  methodologically inconclusive results. Cuban 2022's programmed-
+  learning lineage is instructional-model-first / hardware-agnostic
+  and produced a preserved-but-degraded tradition. The augmentation
+  aim is trying to be design-first — what specifically distinguishes
+  it from both of the failure modes Cuban 2021 and 2022 document is
+  the essay's design-position question.
+
+---
+
 ## Claim (small, contemporary, practitioner): Teachers experimenting with AI in 2024–25 are concentrating their bottom-up adoption on workload-relief and content-adaptation uses — precisely two of the four constraints the steer names.
 
 The Cuban 2025 datum. One curated blog post; no sampling frame; see the
