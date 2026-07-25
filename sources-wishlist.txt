@@ -141,6 +141,16 @@ Bryk-et-al-2010-organizing-schools-symposium.pdf https://consortium.uchicago.edu
 # Sweller-Kirschner-Clark-2007-surrejoinder.pdf https://education.arts.unsw.edu.au/media/EDUCFile/Sweller_Kirschner_Clark_2007.pdf
 Sweller-Kirschner-Clark-2007-surrejoinder.pdf https://andymatuschak.org/files/papers/Sweller%20et%20al%20-%202007%20-%20Why%20Minimally%20Guided%20Teaching%20Techniques%20Do%20Not%20Work.pdf
 
+# Baker et al. 1993 — the UCLA formative evaluation of ACOT (CSE
+# Technical Report 353). Primary empirical source Cuban 2021
+# summarises but does not link. UCLA CRESST has archived old technical
+# reports intermittently; the specific report may be at
+# `cresst.org/products/reports_set.htm` or similar. The URL below is a
+# best-guess CRESST archive path; if it fails the source demotes to
+# leads and the ACOT entry continues to cite through Cuban.
+# Added 2026-07-25 per Cuban 2021 read.
+Baker-et-al-1993-ACOT-UCLA-evaluation.pdf https://cresst.org/wp-content/uploads/TECH353.pdf
+
 # --- COMMENTED OUT (returned HTML landing page, not the PDF; demoted to leads) ---
 # Reiser-2001-history-of-instructional-media.pdf https://link.springer.com/content/pdf/10.1007/BF02504506.pdf
 #   ^ Springer "content/pdf" URL serves a JS-rendered article page, not raw PDF bytes.
