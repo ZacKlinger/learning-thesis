@@ -29,6 +29,26 @@ this thread (see the Status note below). All four canonical books for the
 thread (Cuban 1986, 2001; Watters 2021; Postman 1992) remain paywalled
 and unread; the blog corpus is the primary substitute.
 
+**Status update (2026-07-25):** Cuban 2021 (Apple Classroom of Tomorrow
+retrospective) added. The ACOT case is the first *specific historical
+case* on the ledger — Watters 2019 catalogues the 2010s at aggregate,
+Cuban 2024/2025 handle the contemporary AI moment; Cuban 2021 is the
+single best-documented ambitious 1985–1995 deployment. Two implications
+for the thread. First, it narrows what Watters 2019 can be cited for:
+ACOT is a well-funded, well-designed, ambitious ed-tech deployment that
+produced *methodologically inconclusive* results rather than the "utter
+failure" Watters uses as her decade's summary judgment; the honest read
+of the historical record admits both patterns. Second, it constrains
+the steer's setup-not-foil reframing: changing the medium (1:1 computers
+in 1985, a decade before that was common) was not sufficient without
+changing the structural conditions in the surrounding schools. David's
+1986 list of "ingrained characteristics of the existing system" is the
+diagnostic that makes this concrete. The setup framing has to specify
+what part of AI's change of medium addresses those structural
+conditions — the thread has been asking this question in the abstract
+since 2026-05-27, and Cuban 2021 gives it a specific case to answer
+against.
+
 **Watters 2018 — a complication of the steer's reframing.** The steer
 recast this thread from "every prior wave failed, so this one must prove
 itself" (foil) to "the medium has been changing all along, AI is the next
@@ -486,6 +506,115 @@ backing for it (venture capital and venture philanthropy at #3 and
   is the more thorough version of the 2019 historical-continuity
   move. Adding it to the ledger would clarify what Watters 2019
   compresses into single-sentence historical locators.
+
+---
+
+## Claim: The clearest ambitious 1:1-computing case of the pre-internet era (Apple Classroom of Tomorrow, 1985–1995) did not fail so much as produce methodologically inconclusive results — and the constraint on it was not the technology or the funding but a specific catalogue of structural conditions in the surrounding schools.
+
+The ACOT case is important for two threads at once. For this thread, it is a
+narrow-but-specific historical counter to the Watters 2019 "utter failure"
+reading: a well-funded, well-designed, hardware-first ambitious ed-tech
+deployment produced not failure but a null/open result, and the analyst
+in the practitioner-historian voice (Cuban) attributes the outcome to
+structural conditions in the schools rather than to the hype-cycle
+dynamic. This narrows what Watters 2019 can be cited for and complicates
+the steer's setup-not-foil reframing at the same time — changing the
+medium is not sufficient without changing the structural conditions
+around it.
+
+### Supporting evidence (for the "medium-change alone is insufficient" reading)
+- "This 1:1 ratio in a classroom at this time when most schools had 125
+  students per computer was not only innovative but rare."
+  — [Cuban 2021](../sources/Cuban-2021-acot-apple-classroom.md), line 252 — layer: practitioner-historian (blog)
+- "A number of ingrained characteristics of the existing system seem to
+  run counter to a vision of students using computers as vehicles for
+  exploration, independent learning, and individual pursuits."
+  — Jane David 1986, in [Cuban 2021](../sources/Cuban-2021-acot-apple-classroom.md), line 306 — layer: practitioner-historian (blog, quoting a 1986 field report)
+- (David's five constraints, in order:) "teacher-centered classrooms";
+  "curricular objectives required by the district or school";
+  "individual and school evaluations based on traditional standardized
+  tests not sensitive to new kinds of learning"; "the need to 'stay
+  with' the other classes in the school at the same grade level
+  (pressure from teachers and parents)"; "the need to prepare students
+  in the way that the next grade's teachers expect (and ultimately
+  graduation requirements."
+  — Jane David 1986, in [Cuban 2021](../sources/Cuban-2021-acot-apple-classroom.md), lines 310–326 — layer: practitioner-historian (bulleted list in source; formatting normalised here)
+- "the imperatives of the Blue Earth age-graded elementary school
+  nested in a district and state in 1986 are, in my opinion, not only
+  a glimpse into the past but also a pointed reminder that efforts to
+  integrate computers into daily lessons must reckon with these
+  questions and imperatives in 2021."
+  — [Cuban 2021](../sources/Cuban-2021-acot-apple-classroom.md), line 330 — layer: practitioner-historian (blog)
+
+### Supporting evidence (for the "outcome was inconclusive, not failure" reading)
+- "the 1:1 computers for students and teachers in ACOT classrooms did
+  not erode or much enhance the status quo insofar as academic test
+  results, student writing, and attitudes along with classroom teaching
+  practices."
+  — [Cuban 2021](../sources/Cuban-2021-acot-apple-classroom.md), line 354 (Cuban summarising Baker et al. 1993, CSE Technical Report 353, UCLA) — layer: practitioner-historian (blog, summarising an empirical evaluation)
+- "So the hope of Apple innovators in the mid-1980s—'we set out to
+  investigate how routine use of technology by teachers and students
+  would affect teaching and learning.'—remained an open question a
+  decade later."
+  — [Cuban 2021](../sources/Cuban-2021-acot-apple-classroom.md), line 354 — layer: practitioner-historian (blog)
+
+### Counter-evidence (against reading ACOT as a straightforward vindication of the steer's setup framing)
+- *ACOT was 1:1 computing without a specific instructional theory of
+  what the computers were for.* Contrast Scardamalia & Bereiter's
+  CSILE / Knowledge Forum, contemporaneous with ACOT, which reported
+  evidence of a new kind of learning — because the deployment was
+  pedagogy-first / hardware-secondary rather than the reverse. The
+  paired reading is that the design theory matters more than the
+  hardware, which is a specific challenge to any "just get devices
+  into classrooms" version of the optimistic case. See the augmentation
+  thread's S&B 1994 entry.
+- *The Baker et al. 1993 finding is inconclusive by methodology, not
+  by construction.* Cuban notes explicitly that the UCLA researchers
+  "could not make firm statements about the impact on students and
+  teachers" "because of the difficulties of doing such an evaluation
+  amid frequent school and teacher-made classroom changes." That is
+  a methodological limitation, not a null result. Reading the case as
+  "well-funded ambitious ed-tech produced open outcomes rather than
+  clear failure" is defensible; reading the case as "ACOT worked" is
+  not.
+- *The steer's setup framing does not automatically inherit the
+  Cuban/David diagnostic move.* Cuban's analytical position is that
+  the *institutional imperatives* were load-bearing, not the technology.
+  The steer's four constraints (cost of expert attention, one-way
+  fixed content, system-imposed workload, gap to expert practice) are
+  a *technology*-side account of what is now removable. Cuban 2021
+  is compatible with the steer's constraint #3 (system-imposed
+  workload) but silent on #1, #2, #4 — and Cuban would likely say
+  the constraints that were load-bearing at ACOT (grade-level
+  coordination pressure, standardised test misalignment, next-grade
+  preparation requirements) are not addressed by removing #1–#4. The
+  thesis owes an account of how it engages Cuban's diagnostic list,
+  not just how it addresses its own constraint list.
+
+### Open questions
+- The Baker et al. 1993 UCLA evaluation (CSE Technical Report 353) is
+  cited by Cuban but not linked. Reading the actual evaluation would
+  let this thread quote the finding directly rather than through Cuban's
+  summary — and would let the "inconclusive by methodology" caveat be
+  verified in the source. Wishlist addition this Saturday.
+- The David 1986 report is quoted extensively by Cuban but is a private
+  document (Jane David is a "long-time friend, co-author, and colleague"
+  who "provided me with a copy of her 1986 report to Apple"). The full
+  report is not available; the excerpts Cuban selects are the operative
+  ledger material.
+- How does the ACOT case bear on the "textbook, blackboard, calculator"
+  counter-examples question the thread has been carrying? Those cases
+  are technologies that *did* reshape schooling. ACOT is a technology
+  that did not — despite being resourced comparably to the successful
+  cases. The distinguishing variable is not resource level or design
+  ambition; it is not obvious what it is. Candidate answers to research:
+  (a) the successful cases were medium-general in the way the internet
+  and printing press were, while ACOT was medium-specific; (b) the
+  successful cases were absorbed into the existing grammar of schooling
+  in ways that changed schooling *at the margin*, while ACOT was
+  attempting a more discontinuous change; (c) the successful cases
+  scaled bottom-up over decades, while ACOT was a top-down 10-year
+  program. None of these are on the ledger as argued claims.
 
 ---
 
