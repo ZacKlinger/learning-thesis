@@ -406,6 +406,89 @@ The mapping is not one-to-one but the overlap is substantial:
 
 ---
 
+## Claim (empirical, ACOT primary): Whether an ambitious technology deployment produces ambitious pedagogy depends on the teachers' subject-matter and pedagogical expertise, not on their technology skills or the technology endowment alone. This is a direct empirical support — from the primary evaluation of the same case David 1986 was reporting — for the workload-as-condition (not teacher-as-bottleneck) reframing the 2026-05-27 steer requires.
+
+The Baker et al. 1993 primary evaluation of ACOT (now on the ledger
+as of 2026-08-01, previously carried only through Cuban 2021's
+paraphrase) is explicit about the mediating variable: technology skills
+alone did not produce technology-supported instructional innovation.
+What produced innovation was teachers who had technology skills *plus*
+subject-matter knowledge *plus* curriculum knowledge *plus* competence
+with non-traditional pedagogy. This is the specific mechanism the
+2026-05-27 steer's "AI's value is not that it routes around teachers;
+it is that it removes the workload constraints that have made what
+they want to do impossible" formulation depends on. Baker et al. is
+also the ledger's first empirical source on this specific claim (the
+Bryk 2010 evidence is at school-organisational scale; the Cuban 2025
+data is teacher-self-report at individual scale; Baker 1993 is
+observation + survey at classroom scale over three years across five
+sites, which fills the intermediate scale).
+
+### Supporting evidence (from the primary ACOT evaluation)
+- "technology-supported innovation and experimentation appeared more
+  likely among teachers who had not only technology skills but
+  also—and quite critically—subject matter knowledge, curriculum
+  knowledge (understandings of new methods of teaching a particular
+  subject area), and competence with nontraditional pedagogy (e.g.,
+  cooperative grouping, student collaboration, long-term projects).
+  Sound educational practice requires well-informed, solidly grounded
+  rationale."
+  — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 12 (PDF page 15) — layer: empirical
+
+- (The same primary also reports on the sceptical case:) "ACOT
+  teachers were less likely than comparison teachers to believe that
+  computer use helps students grasp concepts easily or encourages
+  students to think more."
+  — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 10 (PDF page 13) — layer: empirical
+
+  *Why this is on the supporting side, not the counter-side, for
+  this claim:* The finding is direct evidence that teacher judgment
+  (rather than uninformed enthusiasm) is the load-bearing variable.
+  ACOT teachers had more computer exposure than the comparison
+  teachers; their scepticism reflects sustained observation. The
+  workload-as-condition framing is compatible with — indeed
+  requires — teacher judgment that some technology deployments are
+  worse than the alternatives they replace.
+
+### Counter-evidence / complications
+- *The finding could equally be read as "teachers who already
+  knew how to teach ambitious content produced ambitious
+  technology-supported lessons; teachers who did not, did not."*
+  On this reading the technology is neutral; the teacher's prior
+  competence is doing all the work. The workload-relief mechanism
+  the 2026-05-27 steer names would then be less like "AI enables
+  ambitious learning" and more like "AI enables ambitious learning
+  *for teachers who already knew how to teach it*." This is a
+  narrower version of the claim, but a more defensible one against
+  the Baker 1993 finding.
+- *The comparison-teacher scepticism finding is at one site with
+  small samples.* Baker et al.'s methodological caveats apply
+  here too; the finding should not be over-generalised.
+- *The Baker et al. finding is at the specific historical moment
+  (1989–1990) when software was drill-oriented or problem-solving-
+  oriented — both more method-carrying than a general-purpose
+  LLM.* Whether the same teacher-expertise mediation obtains for
+  a less method-carrying tool is not settled by this primary.
+
+### Open questions
+- How does the "teacher expertise mediates" finding interact with
+  the KSC/HSDC scaffolding debate on the augmentation thread? If
+  the empirical mechanism is teacher-expertise-mediated (Baker),
+  and if novice-scaffolding needs are what KSC's data shows (Sweller
+  et al. 2007), then the two are compatible: the teacher-expertise
+  variable operates through teachers' capacity to make appropriate
+  scaffolding decisions for novices. The bridge claim between the
+  threads should be articulated.
+- The Bryk workload-relief claim, the Baker teacher-expertise
+  claim, and the Cuban 2025 teacher-voice claim are three
+  different empirical anchors at three different scales for the
+  workload-as-condition reframing. The essay should say
+  explicitly whether these are converging evidence for one
+  claim or three different claims that happen to point in
+  compatible directions.
+
+---
+
 ## Carry-forward open questions (still active)
 - The thread's load-bearing variable is now **workload constraint as one
   of several supports**, not workload-as-master-variable. The empirical
