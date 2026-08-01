@@ -56,17 +56,35 @@ the PDF).
 - "Schools did not improve attendance if their learning climate was
   unsafe/disorderly and instruction was weak"
   — slide 7 (chart title)
-- (On what predicts higher grades and pass rates:) "Attendance, grades and
-  pass rates are higher in schools with stronger: Instruction; Student-
-  centered climates (teacher-student relationships, safety); Teacher
-  collaboration (collective responsibility, instructional program coherence)"
-  — slide 9 ("Recent CCSR Research")
-- (On what predicts teacher retention:) "Teachers remain in schools with
-  stronger: Student-centered climates (safety); Teacher collaboration
-  (collective responsibility, innovation); Parent involvement (teacher-
-  parent trust); Leadership (program coherence, teacher influence,
-  instructional leadership)"
-  — slide 10 ("Recent CCSR Research")
+- (On what predicts higher grades and pass rates, restoring the slide's
+  nested-bullet structure:)
+  "Recent CCSR Research
+  Attendance, grades and pass rates are higher in schools with
+  stronger:
+  • Instruction
+  • Student-centered climates
+    – Teacher-student relationships
+    – Safety
+  • Teacher collaboration
+    – Collective responsibility
+    – Instructional program coherence"
+  — slide 9 (PDF page 7 of `sources-raw/Bryk-et-al-2010-organizing-schools-symposium.pdf`)
+- (On what predicts teacher retention, restoring the slide's nested-bullet
+  structure:)
+  "Recent CCSR Research
+  Teachers remain in schools with stronger:
+  • Student-centered climates
+    – Safety
+  • Teacher collaboration
+    – Collective responsibility
+    – Innovation
+  • Parent involvement
+    – Teacher-parent trust
+  • Leadership
+    – Program coherence
+    – Teacher influence
+    – Instructional leadership"
+  — slide 10 (PDF page 8 of `sources-raw/Bryk-et-al-2010-organizing-schools-symposium.pdf`)
 - (Reported effect sizes of essential supports on value-added 1997–2005,
   selected:) Parent involvement in the school: .34*** (base year), .14***
   (improvement); School commitment: .29*** (.15***); Safety: .43*** (.17***);
