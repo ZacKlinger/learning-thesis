@@ -23,7 +23,7 @@
       "label": "Teacher agency",
       "type": "thread",
       "layer": "thread",
-      "claims": 3,
+      "claims": 4,
       "path": "claim-evidence/teacher-agency.md",
       "seed_framing": "Scripted curricula and tools-as-replacement are eroding the conditions for great teaching. Any AI-in-education vision that further reduces teacher judgment is a category error."
     },
@@ -35,6 +35,30 @@
       "claims": 8,
       "path": "claim-evidence/tech-cycles-in-education.md",
       "seed_framing": "Every prior wave of technology in education (cinema, radio, television, programmed-instruction machines, classroom computers, MOOCs) was introduced with very similar optimistic rhetoric, and most failed to change what actually happens in schools. Cuban's historical record is the steelman the optimistic case has to clear: if the pattern is \"hype, modest adoption, absorption into the existing grammar of schooling, disappointment,\" then the burden is on showing what is structurally different this time. Not whether AI is different in capability \u2014 *every* prior wave was different in capability \u2014 but whether the *adoption pathway* into ambitious learning is different. This thread holds the others honest."
+    },
+    {
+      "id": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
+      "label": "Eva L. Baker 1993",
+      "title": "The Apple Classrooms of Tomorrow \u2014 The UCLA Evaluation Studies",
+      "type": "source",
+      "layer": "empirical",
+      "year": "1993",
+      "read_status": "read",
+      "url": "https://cresst.org/wp-content/uploads/TECH353.pdf",
+      "access_date": "2026-08-01",
+      "path": "sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md",
+      "raw_path": "",
+      "thesis_excerpt": "Baker, Gearhart, and Herman (CSE Technical Report 353, January 1993) is\nthe primary UCLA evaluation of the Apple Classrooms of Tomorrow (ACOT)\nprogram \u2014 the 1985 Apple-funded initiative that put an Apple computer at\nboth school and home for students and teachers at five sites (four\nelementary, one secondary), for study of what happens \"when tomorrow's\nresources are routinely available in classrooms.\" The report summarises\n1987\u20131990 findings.\n\nThe authors' evaluative posture is triangulation-based: standard\nnorm-referenced measures (Iowa Tests, published writing rubrics, normed\nattitude\u2026",
+      "quotes": [
+        "\"The Apple Classrooms of Tomorrowsm (ACOTsm) project was initiated",
+        "\"ACOT has encouraged instructional innovation, emphasizing to",
+        "\"Firm conclusions about the effects of ACOT on student and other"
+      ],
+      "threads": [
+        "augmentation-not-efficiency",
+        "teacher-agency",
+        "tech-cycles-in-education"
+      ]
     },
     {
       "id": "source:Bryk-et-al-2010-organizing-schools-symposium",
@@ -52,7 +76,7 @@
       "quotes": [
         "\"Schools with strong teacher cooperative relationships focused on curricular",
         "\"Schools did not improve attendance if their learning climate was",
-        "(On what predicts higher grades and pass rates:) \"Attendance, grades and"
+        "(On what predicts higher grades and pass rates, restoring the slide's"
       ],
       "threads": [
         "teacher-agency"
@@ -424,6 +448,13 @@
       "path": "leads/tech-cycles-in-education-leads.md"
     },
     {
+      "id": "raw:Baker-et-al-1993-ACOT-UCLA-evaluation",
+      "label": "Baker et al 1993 ACOT UCLA evaluation (raw)",
+      "type": "raw",
+      "layer": "raw",
+      "path": "sources-raw/Baker-et-al-1993-ACOT-UCLA-evaluation.pdf"
+    },
+    {
       "id": "raw:Watters-2014-personalization-teaching-machines",
       "label": "Watters 2014 personalization teaching machines (raw)",
       "type": "raw",
@@ -641,6 +672,16 @@
     },
     {
       "source": "thread:augmentation-not-efficiency",
+      "target": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
+      "target": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
       "target": "source:Cuban-2025-some-teachers-use-of-ai",
       "kind": "supports"
     },
@@ -752,6 +793,16 @@
     {
       "source": "thread:teacher-agency",
       "target": "source:Cuban-2021-acot-apple-classroom",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
       "kind": "supports"
     },
     {
@@ -896,6 +947,36 @@
     },
     {
       "source": "thread:tech-cycles-in-education",
+      "target": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
+      "kind": "counters"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
       "target": "source:Cuban-2022-programmed-learning",
       "kind": "supports"
     },
@@ -955,5 +1036,5 @@
       "kind": "relates-to"
     }
   ],
-  "generated_at": "2026-07-25T15:18:34Z"
+  "generated_at": "2026-08-01T15:17:42Z"
 }
