@@ -580,6 +580,39 @@ around it.
   decade later."
   — [Cuban 2021](../sources/Cuban-2021-acot-apple-classroom.md), line 354 — layer: practitioner-historian (blog)
 
+**Primary-source upgrade (2026-08-01):** The Baker et al. 1993
+primary is now on the ledger. It is more textured than Cuban's
+compression: it (a) explicitly *positively values* the "maintenance
+of the status quo" finding rather than reading it as neutral or
+disappointing, and (b) reports a domain-specific writing gain at
+three of five sites which Cuban's compression drops. Direct
+primary-source quotes:
+
+- "In general, the results suggested that ACOT students had at least
+  maintained their performance levels on standard measures of
+  educational achievement in basic skills and had sustained positive
+  attitudes."
+  — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 7 (PDF page 10) — layer: empirical
+- "Generally, the ACOT program appeared as effective in promoting
+  commonly measured student outcomes as the more typical
+  instructional programs provided by the comparison sites."
+  — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 7 (PDF page 10) — layer: empirical
+- "There were indications that ACOT enhanced students' writing
+  abilities at one site in 1988-89, and three in 1989-90 (for a
+  total of three sites across the two years). Impact in other
+  domains of student achievement was negligible or nonexistent."
+  — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 7 (PDF page 10) — layer: empirical
+- "We viewed the overall maintenance of the status quo positively."
+  — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 7 (PDF page 10) — layer: empirical
+
+The evaluator-positive framing complicates the setup framing
+symmetrically to how Cuban 2021 complicated the Watters 2019 "utter
+failure" reading. Both prior secondary characterisations
+(Watters 2019: failure; Cuban 2021: neutral) run past the primary
+authors' own read (Baker et al.: the ambition-shift succeeded in
+not costing basic-skills performance, and produced a domain-specific
+writing gain).
+
 ### Counter-evidence (against reading ACOT as a straightforward vindication of the steer's setup framing)
 - *ACOT was 1:1 computing without a specific instructional theory of
   what the computers were for.* Contrast Scardamalia & Bereiter's
@@ -599,6 +632,28 @@ around it.
   "well-funded ambitious ed-tech produced open outcomes rather than
   clear failure" is defensible; reading the case as "ACOT worked" is
   not.
+
+  **Direct-primary version of the methodological caveat
+  (2026-08-01):** "Firm conclusions about the effects of ACOT on
+  student and other outcomes are constrained by a number of factors:
+  ACOT was implemented in a relatively small number of classrooms,
+  often only one at a particular grade level, dispersed over an
+  intentionally diverse set of school sites; thus ACOT effects were
+  confounded by district requirements, teachers' influences,
+  curriculum selection, school ambiance, and the characteristics of
+  students, among other factors." — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), pp. 6–7 (PDF pages 9–10) — layer: empirical.
+
+- *ACOT teachers were more sceptical of computer benefits than
+  comparison teachers* (2026-08-01 addition, from the Baker 1993
+  primary that Cuban 2021 did not surface). "ACOT teachers were less
+  likely than comparison teachers to believe that computer use helps
+  students grasp concepts easily or encourages students to think
+  more." — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 10 (PDF page 13) — layer: empirical. This is a striking piece of evidence that the ambitious-
+  deployment cohort was, on some dimensions, more sceptical than
+  the comparison cohort — either because their more extensive
+  exposure produced better-informed scepticism, or because the
+  experience soured them. Either reading complicates the tech-
+  optimist framing. Not resolvable from Baker 1993 alone.
 - *The steer's setup framing does not automatically inherit the
   Cuban/David diagnostic move.* Cuban's analytical position is that
   the *institutional imperatives* were load-bearing, not the technology.
@@ -614,11 +669,19 @@ around it.
   not just how it addresses its own constraint list.
 
 ### Open questions
-- The Baker et al. 1993 UCLA evaluation (CSE Technical Report 353) is
+- ~~The Baker et al. 1993 UCLA evaluation (CSE Technical Report 353) is
   cited by Cuban but not linked. Reading the actual evaluation would
   let this thread quote the finding directly rather than through Cuban's
   summary — and would let the "inconclusive by methodology" caveat be
-  verified in the source. Wishlist addition this Saturday.
+  verified in the source. Wishlist addition this Saturday.~~
+  **Resolved 2026-08-01:** the Friday 2026-07-31 workflow fetched
+  the report; primary quotes now on the ledger under Supporting
+  evidence. Two Baker-only findings surfaced that Cuban's
+  compression dropped (evaluator-positive framing; domain-specific
+  writing gain at 3/5 sites), and one previously-invisible tension
+  (ACOT teacher scepticism relative to comparison teachers). The
+  claim-level statement above is unchanged; the primary strengthens
+  the argument without moving the conclusion.
 - The David 1986 report is quoted extensively by Cuban but is a private
   document (Jane David is a "long-time friend, co-author, and colleague"
   who "provided me with a copy of her 1986 report to Apple"). The full
