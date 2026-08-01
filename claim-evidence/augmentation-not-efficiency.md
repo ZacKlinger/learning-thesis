@@ -745,6 +745,50 @@ learners" level.
   deployment patterns and the Khan Academy Khanmigo deployment
   data would both be worth reading.
 
+- *The ACOT primary evaluation supplies the mechanism by which the
+  aim shapes the tool.* (2026-08-01, from Baker et al. 1993 on the
+  ledger this Saturday.) At ACOT, "A focus on improving basic skills
+  led to use of computer-based instructional software; an interest
+  in enrichment resulted in 'problem-solving' software or student
+  choice of software; a focus on use of computer resources for
+  authentic engagement in productive work required applications
+  such as word processors, graphics programs, databases, and
+  spreadsheets." — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), pp. 12–13 (PDF pages 15–16) — layer: empirical.
+
+  *Why this bears on the specification challenge:* The aim → tool
+  choice → pedagogy chain is a live empirical mechanism, not just
+  a rhetorical device of the 2026-05-27 steer. At ACOT, the same
+  1:1 hardware endowment produced drill-style pedagogy in
+  basic-skills-oriented classrooms, problem-solving-style pedagogy
+  in enrichment-oriented classrooms, and applications-based
+  authentic work in engagement-oriented classrooms. This is direct
+  primary empirical support for the "method-agnostic aim → design
+  choice → method" pattern the augmentation thesis relies on. It
+  is *also* a specific complication: the software available in
+  1990 was more method-carrying than the LLM interface is in 2026
+  (drill software imposed drill; problem-solving software imposed
+  problem-solving), so the aim → tool choice → pedagogy chain
+  operated through the tool selection *and* the tool's built-in
+  pattern. LLMs are less method-carrying by construction, which
+  cuts both ways: the same LLM can host drill or knowledge
+  building depending on the design wrapping around it, but the
+  default LLM deployment inherits whatever design wrapping
+  ambient providers put around it.
+
+- *Baker et al. 1993 also supplies the mediating variable:
+  teacher expertise.* "technology-supported innovation and
+  experimentation appeared more likely among teachers who had not
+  only technology skills but also—and quite critically—subject
+  matter knowledge, curriculum knowledge (understandings of new
+  methods of teaching a particular subject area), and competence
+  with nontraditional pedagogy" — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 12 (PDF page 15) — layer: empirical. The teacher-expertise-mediates finding is
+  cross-linked from the teacher-agency thread; it appears here
+  because it constrains the "AI as method-agnostic tool" claim in
+  a specific way — the tool is method-agnostic in principle, but
+  the aim → design choice mapping is realised through teacher
+  judgment, which requires the kind of expertise ambitious
+  ambient designs assume.
+
 ### Open questions
 - What is the *positive* specification of the augmentation-aim AI
   deployment? The ledger has S&B's Knowledge Building as one
