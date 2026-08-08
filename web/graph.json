@@ -23,7 +23,7 @@
       "label": "Teacher agency",
       "type": "thread",
       "layer": "thread",
-      "claims": 4,
+      "claims": 5,
       "path": "claim-evidence/teacher-agency.md",
       "seed_framing": "Scripted curricula and tools-as-replacement are eroding the conditions for great teaching. Any AI-in-education vision that further reduces teacher judgment is a category error."
     },
@@ -32,7 +32,7 @@
       "label": "Tech cycles in education",
       "type": "thread",
       "layer": "thread",
-      "claims": 8,
+      "claims": 9,
       "path": "claim-evidence/tech-cycles-in-education.md",
       "seed_framing": "Every prior wave of technology in education (cinema, radio, television, programmed-instruction machines, classroom computers, MOOCs) was introduced with very similar optimistic rhetoric, and most failed to change what actually happens in schools. Cuban's historical record is the steelman the optimistic case has to clear: if the pattern is \"hype, modest adoption, absorption into the existing grammar of schooling, disappointment,\" then the burden is on showing what is structurally different this time. Not whether AI is different in capability \u2014 *every* prior wave was different in capability \u2014 but whether the *adoption pathway* into ambitious learning is different. This thread holds the others honest."
     },
@@ -352,6 +352,30 @@
       "threads": []
     },
     {
+      "id": "source:Watters-2015-teaching-machines-and-turing-machines",
+      "label": "Audrey Watters 2015",
+      "title": "Teaching Machines and Turing Machines \u2014 The History of the Future of Labor and Learning",
+      "type": "source",
+      "layer": "critical / historical (public talk / blog)",
+      "year": "2015",
+      "read_status": "read",
+      "url": "http://hackeducation.com/2015/08/10/digpedlab",
+      "access_date": "2026-08-08",
+      "path": "sources/Watters-2015-teaching-machines-and-turing-machines.md",
+      "raw_path": "sources-raw/Watters-2015-teaching-machines-and-turing-machines.html",
+      "thesis_excerpt": "Watters' 10 August 2015 keynote at the Digital Pedagogy Lab Summer\nInstitute (UW Madison) makes a compact argument: the twentieth-century\nhistory of \"teaching machines\" is a history of ideological pressure to\nrender teaching and learning more *efficient* \u2014 and the \"efficiency\"\nframe is the language of business, not of pedagogy. Thorndike's 1912\nprogrammed-book description, Edison's 1913/1922 predictions about\nmotion pictures replacing textbooks, Pressey's 1933 call for an\n\"industrial revolution in education,\" and Skinner's 1950s teaching-\nmachines writings all sit on the same century-long\u2026",
+      "quotes": [
+        "(On the century-old lineage of teaching-machines rhetoric.)",
+        "(Watters quoting Thorndike, 1912 \u2014 the original programmed-book",
+        "(Watters quoting Edison, ca. 1922, on motion pictures \u2014 the most-"
+      ],
+      "threads": [
+        "augmentation-not-efficiency",
+        "teacher-agency",
+        "tech-cycles-in-education"
+      ]
+    },
+    {
       "id": "source:Watters-2018-machine-learning-history-of-future",
       "label": "Audrey Watters 2018",
       "title": "Machine Teaching, Machine Learning, and the History of the Future of Public Education",
@@ -460,13 +484,6 @@
       "type": "raw",
       "layer": "raw",
       "path": "sources-raw/Watters-2014-personalization-teaching-machines.html"
-    },
-    {
-      "id": "raw:Watters-2015-teaching-machines-and-turing-machines",
-      "label": "Watters 2015 teaching machines and turing machines (raw)",
-      "type": "raw",
-      "layer": "raw",
-      "path": "sources-raw/Watters-2015-teaching-machines-and-turing-machines.html"
     }
   ],
   "edges": [
@@ -657,6 +674,11 @@
     },
     {
       "source": "thread:augmentation-not-efficiency",
+      "target": "source:Watters-2015-teaching-machines-and-turing-machines",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:augmentation-not-efficiency",
       "target": "source:Cuban-2022-programmed-learning",
       "kind": "supports"
     },
@@ -803,6 +825,11 @@
     {
       "source": "thread:teacher-agency",
       "target": "source:Baker-Gearhart-Herman-1993-acot-ucla-evaluation",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:teacher-agency",
+      "target": "source:Watters-2015-teaching-machines-and-turing-machines",
       "kind": "supports"
     },
     {
@@ -997,12 +1024,32 @@
     },
     {
       "source": "thread:tech-cycles-in-education",
+      "target": "source:Watters-2015-teaching-machines-and-turing-machines",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Watters-2015-teaching-machines-and-turing-machines",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
       "target": "source:Cuban-2022-programmed-learning",
       "kind": "supports"
     },
     {
       "source": "thread:tech-cycles-in-education",
       "target": "source:Cuban-2022-programmed-learning",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Watters-2015-teaching-machines-and-turing-machines",
+      "kind": "supports"
+    },
+    {
+      "source": "thread:tech-cycles-in-education",
+      "target": "source:Watters-2015-teaching-machines-and-turing-machines",
       "kind": "supports"
     },
     {
@@ -1036,5 +1083,5 @@
       "kind": "relates-to"
     }
   ],
-  "generated_at": "2026-08-01T15:17:42Z"
+  "generated_at": "2026-08-08T15:23:33Z"
 }
