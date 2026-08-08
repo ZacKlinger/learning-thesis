@@ -489,6 +489,91 @@ sites, which fills the intermediate scale).
 
 ---
 
+## Claim (added 2026-08-08 from Watters 2015): The load-bearing burden in a substantial part of teaching labour is *affective*, not intellectual or menial. Any account of AI's role in teacher work that treats "menial" and "burdensome" as coextensive misdescribes what teachers do — and a productivity gain that removes only the mechanisable component may leave the emotionally and intellectually exhausting core untouched, or (worse) may amplify it by raising the throughput expectation on the affective work that remains.
+
+Watters 2015 makes this argument compactly, in the context of a
+critique of the century-long "labour-saving ed-tech" tradition.
+The specific instance she uses is essay-grading: it is
+exhausting not because it is repetitive, but because it is
+emotionally and intellectually costly to do it well. Cuban 2024's
+"complexity of teaching" claim (already on this thread as an
+empirical anchor for the AI-as-substitute-teacher rejection) is
+compatible with — and sharpened by — Watters' more specific
+affective-labour framing. Cuban 2025's Roberts case (the "I do
+not look at the feedback" admission) is the concrete test case
+where the affective component was explicitly *not* preserved
+when the mechanisable component was automated. This is the
+sharpening the 2026-05-27 steer's teacher-agency reframing
+needs: the workload-as-condition frame has to distinguish between
+menial workload (safe to offload) and affective workload (whose
+offloading is the substitution the steer explicitly warns
+against).
+
+### Supporting evidence (for the affective-labour framing)
+- "Grading essays isn't necessarily burdensome because it's
+  menial, for example; grading essays is burdensome because it
+  is affective labor; it is emotionally and intellectually
+  exhausting."
+  — [Watters 2015](../sources/Watters-2015-teaching-machines-and-turing-machines.md), text ¶49 — layer: critical / historical (talk)
+- (Cross-reference: the Cuban 2024 "complexity of teaching" quote
+  above under the Dewey claim is compatible with Watters'
+  affective-labour framing, but Cuban's account is
+  phenomenological — teaching is a "complex act" — where
+  Watters' is analytical — the load is *specifically* affective,
+  and any labour-saving argument that does not account for the
+  affective component is misdescribing what it saves.)
+
+### Counter-evidence / complications
+- *The affective-labour claim is stronger in some subjects and
+  contexts than others.* Grading essays is a compelling instance;
+  grading multiple-choice tests is not. The claim is that the
+  affective component is *load-bearing where present*, not that
+  every teaching task carries it. Whether the modal AI-in-schools
+  use case (per Cuban 2025: workload-relief on parent
+  communication, summer planning, administrative email) is on
+  the affective side or the menial side of Watters' distinction
+  is a genuinely open question. The Ballaret case (reclaiming
+  summer time) looks menial-side; the Roberts case (offloading
+  per-student feedback) looks affective-side; the anonymous-
+  teacher parent-communication cases sit ambiguously.
+- *Watters and Cuban 2025 are in tension on the modal AI
+  deployment.* Watters would read most bottom-up AI use as a
+  performance of care that hides the extraction of affective
+  attachment (her ELIZA argument). Cuban 2025 reads the same
+  data as teachers reclaiming judgement over their own tools.
+  Both readings are compatible with the individual cases; they
+  are incompatible as summary characterisations. The essay
+  needs to pick a position on which one is right for the
+  bulk of the pattern, or specify a mechanism by which they
+  are both partially right.
+- *The affective-labour reading is not a refutation of the
+  workload-as-condition reframing — it is a specification of
+  it.* Watters and the 2026-05-27 steer agree that "labour"
+  is not fungible; they disagree on which components are
+  fungible and which are not. The steer's Roberts open question
+  ("what AI is taking off the teacher's plate that isn't the
+  relational core") maps directly onto Watters' menial vs.
+  affective distinction, and the essay should carry the
+  distinction explicitly.
+
+### Open questions
+- Does the affective-labour argument imply a policy position on
+  what tasks AI *should* do in the classroom, or only a
+  descriptive claim about what teachers do? The essay needs to
+  answer this — Watters' own position is closer to (i) than
+  (ii), but the thesis's positive case is closer to (ii) than
+  (i). Recorded as a substantive disagreement.
+- Where does the Bryk 2010 "professional capacity" support map
+  onto the menial-vs-affective distinction? Bryk's data does
+  not disaggregate; his framework is at school-organisational
+  scale. The teacher-agency thread now has three sources at
+  three scales (Bryk school, Baker classroom, Cuban 2025
+  individual) plus Watters 2015 at the *labour-category*
+  scale. Whether "labour category" is an integratable
+  dimension in the thread's unit-of-analysis question is open.
+
+---
+
 ## Carry-forward open questions (still active)
 - The thread's load-bearing variable is now **workload constraint as one
   of several supports**, not workload-as-master-variable. The empirical
