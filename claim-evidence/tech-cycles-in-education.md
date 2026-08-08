@@ -745,6 +745,38 @@ change in the vocabulary describing an unchanged practice.
   'teaching machines' had morphed into computer-assisted instruction."
   — [Cuban 2022](../sources/Cuban-2022-programmed-learning.md), line 324 — layer: practitioner-historian (blog)
 
+### Supporting evidence (primary attestation of the lineage, via Watters 2015 — 2026-08-08 addition)
+- (Pressey 1933, the founding statement of the programmed-learning
+  tradition, quoted first-hand in Watters 2015 rather than through
+  Cuban 2022. Note the specific "labor-saving devices, not for
+  mechanising education but for freeing teacher and pupil from
+  drudgery" formulation — the direct historical ancestor of the
+  contemporary "AI frees teachers from drudgery" argument.)  "There
+  must be an 'industrial revolution' in education, in which
+  educational science and the ingenuity of educational technology
+  combine to modernize the grossly inefficient and clumsy procedures
+  of conventional education... There will be many labor-saving
+  schemes and devices, and even machines – not at all for the
+  mechanizing of education, but for the freeing of teacher and pupil
+  from educational drudgery and incompetence."
+  — Pressey 1933, quoted in [Watters 2015](../sources/Watters-2015-teaching-machines-and-turing-machines.md), text ¶24 — layer: primary quoted in critical / historical
+
+- (Skinner 1950s, the direct primary the ledger previously
+  carried only through Cuban 2022's "different names, same theories"
+  compression. The full formulation makes explicit the two-part
+  bargain — "not replacement" *and* "larger classes / greater
+  productivity" — which the compression drops.)  "Will machines
+  replace teachers? On the contrary, they are capital equipment to
+  be used by teachers to save time and labor. In assigning certain
+  mechanizable functions to machines, the teacher emerges in his
+  proper role as an indispensable human being. He may teach more
+  students than heretofore – that is probably inevitable if the
+  worldwide demand for education is to be satisfied – but he will
+  do so in fewer hours and with fewer burdensome chores. In return
+  for his greater productivity he can ask society to improve his
+  economic condition."
+  — Skinner 1950s, quoted in [Watters 2015](../sources/Watters-2015-teaching-machines-and-turing-machines.md), text ¶27 — layer: primary quoted in critical / historical
+
 ### Supporting evidence (for the degradation-in-transmission reading)
 - "Teacher-made versions of programmed learning have become ubiquitous
   in the worksheets that elementary and secondary classroom teachers
@@ -799,6 +831,92 @@ change in the vocabulary describing an unchanged practice.
   practice. The Cuban 2025 pattern needs a specific argument for
   why the AI-adoption case would not repeat the worksheet-adoption
   pattern, not just an observation that both are bottom-up.
+
+---
+
+## Claim (added 2026-08-08 from Watters 2015): The historical form of the "labour-saving ed-tech" bargain has been "not replacement, but larger classes / higher throughput per teacher" — i.e., the productivity gain has been captured by expanding the throughput expectation rather than by freeing the teacher's time. The 2026-05-27 steer's "AI removes constraint #3 (system-imposed workload)" formulation owes a specific account of what is structurally different about the current bargain.
+
+Watters 2015 puts on the ledger the Skinner primary quote in which
+the "not replacement" formulation comes explicitly paired with
+"he may teach more students than heretofore – that is probably
+inevitable if the worldwide demand for education is to be
+satisfied." That is the specific bargain the last century of
+"teachers not replaced by machines" rhetoric has actually
+delivered. Baker 1993's ACOT teachers reported "fairly typical"
+practice with "occasional experimentation" after three years of
+extensive computer exposure — a datum compatible with the
+Skinner-form bargain having operated inside ACOT (the technology
+was available; the coordination-and-throughput regime absorbed the
+productivity gain). This is *not* a refutation of the 2026-05-27
+steer's constraint #3 — it is a specification of what the steer's
+claim has to defeat.
+
+### Supporting evidence (for the Skinner-form-bargain reading)
+- (The primary Skinner quote itself, cross-referenced from the
+  Pressey/Skinner claim above; recorded here for the specific
+  bargain claim.)  "He may teach more students than heretofore –
+  that is probably inevitable if the worldwide demand for
+  education is to be satisfied – but he will do so in fewer hours
+  and with fewer burdensome chores."
+  — Skinner 1950s, quoted in [Watters 2015](../sources/Watters-2015-teaching-machines-and-turing-machines.md), text ¶27 — layer: primary quoted in critical / historical
+- (Watters' diagnostic gloss — the pattern is not incidental to
+  the Skinner formulation, it *is* the formulation.)  "Greater
+  productivity. Larger classes. Global demand met through
+  mechanization. Sound familiar?"
+  — [Watters 2015](../sources/Watters-2015-teaching-machines-and-turing-machines.md), text ¶28 — layer: critical / historical
+
+### Counter-evidence (against reading the Skinner-form bargain as universal)
+- *Cuban 2025's teacher-voice data is a specific bottom-up
+  counter-example.* The Ballaret / Wallace / anonymous-teacher
+  cases in Cuban 2025 are teachers reclaiming *personal* time
+  (summer, evening, weekends) from tasks the system had imposed
+  on them. That is workload-relief *outside* the throughput
+  variable Skinner named. Whether that pattern will hold when
+  system-level actors (districts, states, product vendors)
+  respond to it by raising the per-teacher throughput
+  expectation is an open empirical question. On the tech-cycles
+  thread, the honest reading of the Cuban 2025 data is *not yet*
+  a refutation of the Skinner bargain — it is at best a *first
+  wedge* against it, and a first wedge that has not had time to
+  encounter the system-level response.
+- *The Baker 1993 aim-shapes-tool finding cuts both ways.* At
+  ACOT, an ambitious aim (enrichment, authentic engagement)
+  shaped tool selection toward problem-solving and productivity
+  applications; a basic-skills aim shaped tool selection toward
+  drill software. That mechanism supports the possibility that a
+  system-level aim change — away from
+  coverage-and-standardised-assessment — could redirect the
+  productivity gain toward something other than throughput
+  expansion. But the ACOT case is also consistent with the
+  Skinner bargain: the aim was set locally at ACOT, and the
+  post-ACOT institutional absorption pattern (Cuban 2021's
+  reflection that the David 1986 list still applies "in 2021")
+  suggests that locally-set aims are hard to sustain against a
+  system-level throughput pressure that Watters 2015 names.
+
+### Open questions
+- Is there a case on the ledger where a "labour-saving" ed-tech
+  primary produced net teacher-time reduction (as
+  Pressey/Skinner promised) rather than throughput expansion? If
+  not, what would that case look like, and does its absence
+  weaken the 2026-05-27 steer's constraint #3 claim, or only the
+  *automatic* version of it?
+- Is Cuban 2025's bottom-up-adoption pattern strong enough to
+  count as an ongoing test of the Skinner bargain? The reads
+  compatible with the data — that teachers' individual workload
+  gains will be metabolised by system-level throughput pressure,
+  vs. that bottom-up individual adoption will accumulate into a
+  system-level renegotiation — are both live. The synthesis
+  Zack has been considering for seven weeks (see the
+  augmentation-vs-efficiency thread) owes a position on which
+  reading the essay commits to.
+- Watters 2015's affective-labour argument (grading essays is
+  burdensome because it is emotionally exhausting, not because
+  it is menial) belongs in the teacher-agency thread; it is
+  cross-referenced here as a further specification of what
+  "labour-saving" in teaching means in practice, and what a
+  labour-saving tool that removed only the *menial* component
+  would leave the teacher with.
 
 ---
 
