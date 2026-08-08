@@ -640,6 +640,26 @@ early 20th century.
   not replace, of course. Their products will make teachers' work easier,
   faster, companies have always promised."
   — [Watters 2018](../sources/Watters-2018-machine-learning-history-of-future.md), ¶4 — layer: critical / media-historical (blog)
+- (Skinner 1950s primary — added 2026-08-08 via Watters 2015. Puts
+  a specific primary-source instance under Watters 2018's aggregate
+  claim: the "augment not replace" formulation, in its specific
+  "capital equipment to be used by teachers" form, is Skinner's own
+  words, seven decades old.)  "Will machines replace teachers? On
+  the contrary, they are capital equipment to be used by teachers
+  to save time and labor. In assigning certain mechanizable
+  functions to machines, the teacher emerges in his proper role as
+  an indispensable human being."
+  — Skinner 1950s, quoted in [Watters 2015](../sources/Watters-2015-teaching-machines-and-turing-machines.md), text ¶27 — layer: primary quoted in critical / historical
+
+  *What this adds to the thread:* Watters 2018 argued the pattern
+  in aggregate (a century of "augment not replace" marketing).
+  Watters 2015 puts the founding primary on the ledger. The
+  vocabulary the thread carries in its own name is not
+  incidentally similar to Skinner's — it *is* Skinner's, and the
+  thread should not pretend the resemblance is coincidental. The
+  positive case has to specify what makes the thesis's
+  "augmentation" different in substance from what Skinner meant,
+  not only different in intent.
 
 ### Counter-evidence (against treating Watters as a refutation of the thread)
 - *Watters is making a historical observation about rhetoric, not a
