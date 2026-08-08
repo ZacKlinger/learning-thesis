@@ -603,7 +603,7 @@ primary-source quotes:
   domains of student achievement was negligible or nonexistent."
   — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 7 (PDF page 10) — layer: empirical
 - "We viewed the overall maintenance of the status quo positively."
-  — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 7 (PDF page 10) — layer: empirical
+  — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 8 (PDF page 11) — layer: empirical
 
 The evaluator-positive framing complicates the setup framing
 symmetrically to how Cuban 2021 complicated the Watters 2019 "utter

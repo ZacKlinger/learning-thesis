@@ -433,7 +433,7 @@ sites, which fills the intermediate scale).
   cooperative grouping, student collaboration, long-term projects).
   Sound educational practice requires well-informed, solidly grounded
   rationale."
-  — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 12 (PDF page 15) — layer: empirical
+  — [Baker, Gearhart & Herman 1993](../sources/Baker-Gearhart-Herman-1993-acot-ucla-evaluation.md), p. 13 (PDF page 16) — layer: empirical
 
 - (The same primary also reports on the sceptical case:) "ACOT
   teachers were less likely than comparison teachers to believe that

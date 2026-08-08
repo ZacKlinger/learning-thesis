@@ -92,13 +92,13 @@ in the Cuban compression, and each bears on a live thread claim.
   p. 7 (PDF page 10). *The domain-specific effect Cuban 2021's
   compression drops.*
 - "We viewed the overall maintenance of the status quo positively." —
-  p. 7 (PDF page 10). *Baker et al. positively evaluate the very
+  p. 8 (PDF page 11). *Baker et al. positively evaluate the very
   finding Cuban's compression leaves neutral.*
 - "ACOT teachers' reports of their classroom practices indicated
   fairly typical subject matter emphases and pedagogical methods,
   along with occasional experimentation with the use of technology
   to support innovative practices such as cooperative group work or
-  long-term student projects." — p. 8 (PDF page 11). *The finding
+  long-term student projects." — p. 9 (PDF page 12). *The finding
   most inconvenient for a "give teachers computers → ambitious
   learning" story.*
 - "ACOT teachers were less likely than comparison teachers to
@@ -112,7 +112,7 @@ in the Cuban compression, and each bears on a live thread claim.
   subject area), and competence with nontraditional pedagogy (e.g.,
   cooperative grouping, student collaboration, long-term projects).
   Sound educational practice requires well-informed, solidly grounded
-  rationale." — pp. 12 (PDF page 15). *Direct primary-source
+  rationale." — p. 13 (PDF page 16). *Direct primary-source
   support for a teacher-agency-thread claim: teacher expertise is
   the mediating variable, not the tool.*
 - "A focus on improving basic skills led to use of computer-based
